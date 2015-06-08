@@ -10,5 +10,4 @@ github_username:  muvucagames
 
 # Build settings
 markdown: kramdown
-highlighter: null
 paginate: 20
