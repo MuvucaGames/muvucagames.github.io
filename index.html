@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="content">
+    <div class="container home-page">
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                
+                <p class="post-date">{{ post.date | date: " %d/%m/%Y" }}</p>
+                
+                <span class="post-excerpt">{{ post.excerpt }}</span>
+                
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

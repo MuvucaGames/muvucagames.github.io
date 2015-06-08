@@ -1,0 +1,33 @@
+<div class="navbar" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="{{ "/assets/logo.jpg" | prepend: site.baseurl }}" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Novidades</a></li>
+                <li><a href="{{ "/como-participar" | prepend: site.baseurl }}">Como participar?</a></li>
+                <li class="dropdown community-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Comunidade <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://www.youtube.com/user/TheindieDi">Youtube</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.trello.com/muvucagames">Trello</a></li>
+                        <li><a href="http://muvucagames.slack.com">Slack</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://github.com/muvucagames">GitHub</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+                <li><a href="{{ "/sobre" | prepend: site.baseurl }}">Sobre</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>

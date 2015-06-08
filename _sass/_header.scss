@@ -1,0 +1,49 @@
+.navbar {
+    background-color: $white;
+	border-color: $white;
+	padding: 10px 0;
+	min-height: 90px;
+	border-bottom: 1px solid lighten($grey, 25%);
+	border-top: 10px solid $blue;
+	margin-bottom: 0px;
+	
+	.navbar-brand {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	
+	.navbar-toggle {
+		background-color: #b4b3b3;
+		border-color: #9b9a9a;
+	}
+	
+	.nav > li > a {
+		padding-right:0;
+		padding-left:0;
+		margin:0 15px;
+	}
+
+	.navbar-nav {
+		padding-top: 5px;
+	}
+
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus{
+		color: $blue;
+		background-color: $white;
+	}
+	
+	.navbar-nav > .active > a {
+		background-color: $white;
+		border-bottom: 1px solid $blue;
+	}
+
+	.navbar-nav > .active,
+	.navbar-nav > .active > a,
+	.navbar-nav > .active > a:hover,
+	.navbar-nav > .active > a:focus {
+		background-color: transparent;
+		color:$blue;
+	}
+	
+}

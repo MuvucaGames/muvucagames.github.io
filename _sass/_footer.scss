@@ -1,0 +1,20 @@
+.footer {
+	background-color: $light-grey;
+	padding-top: $spacing-unit;
+	padding-bottom: $spacing-unit;
+	text-align: center;
+	
+	ul {
+	    list-style: outside none none;
+	    margin: 25px auto 35px;
+	}
+	
+	ul > li {
+	    display: inline-block;
+	    margin: 0px 18px;
+	}
+
+	p {
+		color: $grey;	
+	}
+}
