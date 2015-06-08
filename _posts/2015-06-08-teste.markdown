@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Teste"
-date:   2015-06-08 15:25:00
-categories: atualizacoes
-author: Vinícius Soares
----
-Apenas um teste de criação de posts via github.
