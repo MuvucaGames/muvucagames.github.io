@@ -1,48 +1,49 @@
 .home-page {
 	padding-top: 30px;
-	
+
 	.post-list {
 		list-style: none;
-		
+
 		li {
 			padding-bottom: 5px;
 			padding-top: 10px;
 		}
-		
+
 		.post-link {
 			font: bold 25px $font-strong;
 			color: $blue;
 		}
-		
+
 		.post-date {
 			margin-top: 5px;
 			margin-bottom: 5px;
 			font: bold 12px $font-strong;
 		}
-		
+
 		.post-excerpt {
 			font-size: 13px;
 			color: $grey;
 		}
 	}
-	
+
 	ul li {
 		border-top: 1px solid lighten($grey, 25%);
 	}
-	
+
 	ul li:first-child {
 		border-top: none !important;
 	}
-	
+
 }
 
 .post-header {
 	text-align: center;
-	
+
 	.post-title {
-		font: bold 45px $font-strong;
+		font: 45px $font-strong;
+		text-transform: uppercase;
 	}
-	
+
 	.post-author {
 		font: italic 16px $font;
 	    text-decoration: none;
@@ -51,11 +52,11 @@
 		color: $grey;
 		margin-bottom: 30px !important;
 	}
-	
+
 	.post-date {
 		margin-bottom: 5px;
 		border-top: 1px solid lighten($grey, 25%);
-		
+
 		span {
 		    background: #FFF none repeat scroll 0% 0%;
 		    color: $blue;
@@ -67,22 +68,22 @@
 		    top: -22px;
 		}
 	}
-	
+
 }
 
 .post-content {
 	color: $dark-grey;
 	font: 15px $font;
 	word-spacing: 0.08px;
-	
+
 	h1, h2, h3, h4 {
 		color: $blue;
 		font-family: $font-strong;
 	}
-	
+
 	img {
 		margin: 0 auto;
     display: block;
 	}
-	
+
 }

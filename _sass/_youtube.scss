@@ -1,0 +1,8 @@
+$youtube-embed-width: 420px;
+$youtube-embed-height: 315px;
+
+.youtube-wrapper {
+    width: $youtube-embed-width;
+    height: $youtube-embed-height;
+    margin: 0 auto;
+}

@@ -32,11 +32,10 @@ $on-laptop:        800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "fonts",
-        "base",
-        "header",
-        "footer",
-        "content",
-        "syntax-highlighting"
-;
+@import "fonts";
+@import "base";
+@import "header";
+@import "footer";
+@import "content";
+@import "syntax-highlighting";
+@import "youtube";
