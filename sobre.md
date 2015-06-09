@@ -6,7 +6,7 @@ permalink: /sobre/
 
 E aí, belezinha? Somos a Muvuca Games, muito provavelmente a primeira firma de jogos feitas por uma galera amadora, não sei dizer se despreparada, com um sonho que é: fazer jogos. Em galera. Para a galera.
 
-Uma ideia dessas só poderia vir da mente de ninguém menos que [Diogo Braga](https://twitter.com/diogomrg), o idealizador desta bagaça! Se quiser ver o vídeo estopin disso tudo, clica aí!
+Uma ideia dessas só poderia vir da mente de ninguém menos que [Diogo Braga](https://twitter.com/diogomrg), o idealizador desta bagaça! Se quiser ver o vídeo estopim disso tudo, clica aí!
 
 <div class="youtube-wrapper">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/X-tSJpcoHlE" frameborder="0" allowfullscreen></iframe>
