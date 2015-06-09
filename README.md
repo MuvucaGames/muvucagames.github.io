@@ -1,6 +1,6 @@
 #Muvuca Games Blog
 
-Você pode acessar o blog pelo link http://mucuvagames.github.io.
+Você pode acessar o blog pelo link mucuvagames.github.io.
 
 ## Dependências
 
