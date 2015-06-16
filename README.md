@@ -2,23 +2,30 @@
 
 Você pode acessar o blog pelo link [muvucagames.github.io](http://muvucagames.github.io/).
 
-## Dependências
+## Pré-Requisitos
 
-Para rodar o projeto no seu computador você vai precisar:
+Para rodar este projeto na sua máquina, você vai precisar ter instalado o seguinte:
 
-* Ruby - You can use [RVM](http://rvm.io);
+* [Ruby](https://www.ruby-lang.org/pt/downloads/) ou [RVM](http://rvm.io);
 * [Bundler](http://bundler.io/);
-* Jekyll
 
 ## Desenvolvendo
 
-Fazer o clone/fork do projeto e baixar em sua máquina e para instalar as dependencias (Jekyll) executar:
+Fazer o clone/fork do projeto e baixar em sua máquina, então, na raiz do projeto, executar o comando:
+
 ```
 bundle install
 ```
 
-Para executar o site local e acessar no seu [localhost](http://localhost:4000)
+Este comando baixa todas as dependências necessárias para o projeto, o que na hoje seria apenas a versão do jekyll. Além disso ele garante que todos que estiverem trabalhando no projeto possuirão a mesma versão do jekyll, para evitar divergências.
+
+
+## Testando localmente
+
+Após fazer suas mudanças no site, executar o seguinte comando para compilar o projeto e testar localmente as mudanças antes de subir o projeto no github:
 
 ```
 bundle exec jekyll serve
 ```
+
+E então acesse este endereço para ver as alterações: (http://localhost:4000)
