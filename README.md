@@ -28,4 +28,4 @@ Após fazer suas mudanças no site, executar o seguinte comando para compilar o 
 bundle exec jekyll serve
 ```
 
-E então acesse este endereço para ver as alterações: (http://localhost:4000)
+E então acesse este endereço para ver as alterações: [localhost:4000](http://localhost:4000)
