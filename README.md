@@ -20,5 +20,5 @@ bundle install
 Para executar o site local e acessar no seu [localhost](http://localhost:4000)
 
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
