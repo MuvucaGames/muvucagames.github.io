@@ -8,7 +8,7 @@ author: Stefan W
 
 A live foi realizada no canal do [Indiedi](https://www.youtube.com/user/TheindieDi) no dia 05/06 e tinha como objetivo discutir os pontos descritos [nesse Card](https://trello.com/c/m4GtWkLE/1-live-001-hj-as-19h)
 
-**LINK:** https://www.youtube.com/watch?v=DrvTJaODi4Q
+[**LINK da live**](https://www.youtube.com/watch?v=DrvTJaODi4Q)
 
 Os principais assuntos da live foram:
 
@@ -26,7 +26,7 @@ Os resultados foram:
 
 ##Metodologia de organização##
 
-Foi escolhido utilizar uma metodologia adaptada no **SCRUM**, porem cada setor deve melhor adapta-lo às necessidades. Aconselhado a todos à lerem: http://pt.wikipedia.org/wiki/Scrum
+Foi escolhido utilizar uma metodologia adaptada no **SCRUM**, porem cada setor deve melhor adapta-lo às necessidades. Aconselhado a todos à lerem: [wiki do SCRUM](http://pt.wikipedia.org/wiki/Scrum)
 
 ##Público alvo##
 
@@ -47,7 +47,7 @@ A engine utilizada será [**UNITY**](https://unity3d.com/)
 ##Site / Blog##
 
 Foi decidido criar um site, blog, para que as pessoas de fora do projeto possam acomponhar o desenvolvimento desse e de projetos futuros.
-(acompanhe em: https://trello.com/c/gKQA53QX/10-site-blog) 
+([acompanhe nesse CARD](https://trello.com/c/gKQA53QX/10-site-blog)) 
 
 ##Logo##
 
@@ -55,4 +55,4 @@ Por falhas técnicas a votação da logo não pode ser concluída. Aguardando in
 
 ##Chat##
 
-Foi definido de não usar o Trello como chat. As mensagens postadas aqui devem ser mais concisas e ter um conteúdo. Não deve ser postado mensagens que não tragam informações importantes e só dificultem à leitura dos cards. Para discussões gerais e troca de ideias rápidas foi criado o grupo do Facebook : https://www.facebook.com/groups/1591708917751343/ e o chat no Slack(ver post no grupo facebook para ser adicionado)
+Foi definido de não usar o Trello como chat. As mensagens postadas aqui devem ser mais concisas e ter um conteúdo. Não deve ser postado mensagens que não tragam informações importantes e só dificultem à leitura dos cards. Para discussões gerais e troca de ideias rápidas foi criado o [grupo do Facebook](https://www.facebook.com/groups/1591708917751343/) e o chat no Slack(ver post no grupo facebook para ser adicionado)
