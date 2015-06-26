@@ -1,8 +1,15 @@
-$youtube-embed-width: 420px;
-$youtube-embed-height: 315px;
+$youtube-embed-width: 500px;
+$youtube-embed-height: 300px;
 
 .youtube-wrapper {
-    width: $youtube-embed-width;
-    height: $youtube-embed-height;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    iframe {
+        margin: 0 auto;
+        width: 100%;
+        max-width: $youtube-embed-width;
+        height: $youtube-embed-height;
+    }
 }
