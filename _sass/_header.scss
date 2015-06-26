@@ -14,16 +14,17 @@
 
     .links {
 
+        li {
+            display:inline-block;
+        }
+
         li > a {
             padding: 5px;
         }
 
-        .navbar-default .navbar-nav > .active,
-        .navbar-default .navbar-nav > .active > a,
-        .navbar-default .navbar-nav > .active > a:hover,
-        .navbar-default .navbar-nav > .active > a:focus {
-              background: transparent;
-         }
+        .nav a:hover {
+            background: transparent;
+        }
 
         a {
             img {
@@ -49,6 +50,7 @@
 
 }
 
+
 .mini-header {
     height: 120px;
     background: $white;
@@ -58,10 +60,6 @@
         width: 100%;
         height: 60px;
         background-color: $blue;
-    }
-
-    .container {
-        max-width: $post-max-width;
     }
 
     .logo {

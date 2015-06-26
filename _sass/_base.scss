@@ -6,13 +6,7 @@ $grey:       #AEAEAE;
 $dark-grey:  #525252;
 $light-grey: #FAFAFA;
 $blue:       #4f7bbe;
-
-
-
-/**
- *
- */
-$base-font-size:   16px;
+$red:        #991B1E;
 
 
 
@@ -25,11 +19,19 @@ $content-max-width: 900px;
 
 
 /**
+ * *
+ */
+* {
+    font-family: $font;
+}
+
+
+
+/**
  * Body
  */
 body {
     background-color: #221F1F;
-	font-family: $font;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 }
