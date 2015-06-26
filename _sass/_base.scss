@@ -1,19 +1,19 @@
 /**
  * Colors
  */
-$white:      #fff;
+$white:      #FFFFFF;
 $dark-grey:  #525252;
 $grey:       #AEAEAE;
 $light-grey: #FAFAFA;
-$blue:       #2196F3;
+$blue:       #4f7bbe;
 
 
 
 /**
  * Other vars
  */
-$max-width: 900px;
 $spacing-unit: 30px;
+$post-max-width: 900px;
 
 
 
@@ -21,15 +21,10 @@ $spacing-unit: 30px;
  * Body
  */
 body {
-    background-color: $light-grey;
+    background-color: #221F1F;
 	font-family: $font;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
-}
-
-
-.container {
-    max-width: $max-width;
 }
 
 
@@ -59,12 +54,12 @@ ul, ol, dl, figure,
  * Links
  */
 a {
-    color: $dark-grey;
+    color: $blue;
     text-decoration: none;
 
     &:hover {
-        color: $blue;
-        text-decoration: none;
+        color: darken($blue, 25%);
+        text-decoration: underline;
     }
 }
 
@@ -113,5 +108,3 @@ pre {
         padding-left: 0;
     }
 }
-
-
