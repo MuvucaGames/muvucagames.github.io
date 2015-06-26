@@ -2,10 +2,17 @@
  * Colors
  */
 $white:      #FFFFFF;
-$dark-grey:  #525252;
 $grey:       #AEAEAE;
+$dark-grey:  #525252;
 $light-grey: #FAFAFA;
 $blue:       #4f7bbe;
+
+
+
+/**
+ *
+ */
+$base-font-size:   16px;
 
 
 
@@ -13,7 +20,7 @@ $blue:       #4f7bbe;
  * Other vars
  */
 $spacing-unit: 30px;
-$post-max-width: 900px;
+$content-max-width: 900px;
 
 
 
@@ -26,6 +33,16 @@ body {
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 }
+
+
+
+/**
+ *
+ */
+.container {
+    max-width: $content-max-width;
+}
+
 
 
 /**
