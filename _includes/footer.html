@@ -1,22 +1,8 @@
 <footer class="footer">
     <div class="container">
-        <ul class="hidden-xs">
-            <li><a href="/">Novidades</a></li>
-            <li><a href="{{ "/como-participar" | prepend: site.baseurl }}">Como participar?</a></li>
-            <li class="dropdown dropup community-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Comunidade <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="http://www.youtube.com/user/TheindieDi">Youtube</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://www.trello.com/muvucagames">Trello</a></li>
-                    <li><a href="http://muvucagames.slack.com">Slack</a></li>
-                    <li class="divider"></li>
-                    <li><a href="https://github.com/muvucagames">GitHub</a></li>
-                </ul>
-            </li>
-            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
-            <li><a href="{{ "/sobre" | prepend: site.baseurl }}">Sobre</a></li>
-        </ul>
-        <p>Muvuca Games</p>
+        <div class="col-xs-12 col-md-6 col-md-offset-3">
+            <a class="twitter-timeline"  href="https://twitter.com/hashtag/muvucagames" data-widget-id="614491429205868544">muvucagames Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
     </div>
 </footer>
