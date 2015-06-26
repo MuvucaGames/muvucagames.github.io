@@ -1,20 +1,86 @@
 ---
-layout: default
+layout: home
 ---
+<div class="home">
 
-<div class="content">
-    <div class="container home-page">
-        <ul class="post-list">
-            {% for post in site.posts %}
-            <li>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                
-                <p class="post-date">{{ post.date | date: " %d/%m/%Y" }}</p>
-                
-                <span class="post-excerpt">{{ post.excerpt }}</span>
-                
-            </li>
-            {% endfor %}
-        </ul>
+    <!-- GET STARTED -->
+    <div class="get-started">
+        <div class="container">
+            <hr/>
+            <h3>OLÁ E SEJA BEM-VINDO, NÓS SOMOS A MUVUCA GAMES.</h3>
+            <p>Uma comunidade de desenvolvimento de jogos.</p>
+
+            <a class="btn btn-get-started" href="{{ "/como-participar" | prepend: site.baseurl }}">PARTICIPE</a>
+        </div>
     </div>
+
+    <!-- HOW TO HELP -->
+    <div class="how-to-help">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h3>ARTES</h3>
+                    <div class="circle">
+                        <img src="{{ "/assets/layout/how-to-help-arte.png" | prepend: site.baseurl }}" />
+                    </div>
+                    <p>Breve resumo da área, com alguns exemplos e bla bla bla bla bla bla</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>PROGRAMAÇÃO</h3>
+                    <div class="circle">
+                        <img src="{{ "/assets/layout/how-to-help-dev.png" | prepend: site.baseurl }}" />
+                    </div>
+                    <p>Breve resumo da área, com alguns exemplos e bla bla bla bla bla bla</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>GAME DESIGN</h3>
+                    <div class="circle">
+                        <img src="{{ "/assets/layout/how-to-help-game-design.png" | prepend: site.baseurl }}" />
+                    </div>
+                    <p>Breve resumo da área, com alguns exemplos e bla bla bla bla bla bla</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>ROTEIRO</h3>
+                    <div class="circle">
+                        <img src="{{ "/assets/layout/how-to-help-roteiro.png" | prepend: site.baseurl }}" />
+                    </div>
+                    <p>Breve resumo da área, com alguns exemplos e bla bla bla bla bla bla</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="content">
+
+        <div class="container news">
+
+            <h3 class="title">Publicações Recentes</h3>
+
+            <div class="row">
+                {% for post in site.posts %}
+
+                    <div class="col-md-12 post">
+                        <p>
+                            <span>
+                                {% assign m = post.date | date: "%-m" %}
+                                {{ post.date | date: "%d" }}/{{ post.date | date: "%m" }}/{{ post.date | date: "%Y" }}
+                            </span>
+                            &nbsp;-&nbsp;
+                            <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+                        </p>
+                        <hr/>
+                    </div>
+
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+
 </div>

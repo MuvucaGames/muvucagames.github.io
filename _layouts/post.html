@@ -2,48 +2,54 @@
 layout: default
 ---
 <div class="content">
-    <div class="container">
+    <div class="container post">
         <header class="post-header">
-            
+
             <h1 class="post-title">{{ page.title }}</h1>
             <!--<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>-->
-            
-            <span class="post-author">Por {% if page.author %} {{ page.author }} {% else %} Sem autor {% endif %}</span>
-            
-            <h2 class="post-date"><span>
-                
-                {% assign m = page.date | date: "%-m" %}
-                {{ page.date | date: "%-d" }}
-                de
-                {% case m %}
-                  {% when '1' %}janeiro
-                  {% when '2' %}fevereiro
-                  {% when '3' %}março
-                  {% when '4' %}abril
-                  {% when '5' %}maio
-                  {% when '6' %}junho
-                  {% when '7' %}julho
-                  {% when '8' %}agosto
-                  {% when '9' %}setembro
-                  {% when '10' %}outubro
-                  {% when '11' %}novembro
-                  {% when '12' %}dezembro
-                {% endcase %}
-                -
-                {{ page.date | date: "%Y" }}
-                
-            </span></h2>
+
+            <p class="post-info">
+
+                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+
+                <span>
+                    {% assign m = page.date | date: "%-m" %}
+                    {{ page.date | date: "%-d" }}
+                    de
+                    {% case m %}
+                      {% when '1' %}janeiro
+                      {% when '2' %}fevereiro
+                      {% when '3' %}março
+                      {% when '4' %}abril
+                      {% when '5' %}maio
+                      {% when '6' %}junho
+                      {% when '7' %}julho
+                      {% when '8' %}agosto
+                      {% when '9' %}setembro
+                      {% when '10' %}outubro
+                      {% when '11' %}novembro
+                      {% when '12' %}dezembro
+                    {% endcase %}
+                    -
+                    {{ page.date | date: "%Y" }}
+                </span>
+
+                &nbsp;&nbsp;
+
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                {% if page.author %} {{ page.author }} {% else %} Sem autor {% endif %}
+
+                <a class="twitter-share-button pull-right" data-hashtags="muvucagames" data-count="none">Tweet</a>
+            </p>
         </header>
+
         <article class="post-content">
             {{ content }}
         </article>
-        
+
         <!-- DISQUS -->
-        
-        <br/>
-        <hr/>
-        <br/>
-        
+
+        <!--
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             var disqus_shortname = 'muvucagames';
@@ -54,6 +60,6 @@ layout: default
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-        
+        -->
     </div>
 </div>

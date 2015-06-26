@@ -1,19 +1,29 @@
 /**
  * Colors
  */
-$white:      #fff;
-$dark-grey:  #525252;
+$white:      #FFFFFF;
 $grey:       #AEAEAE;
+$dark-grey:  #525252;
 $light-grey: #FAFAFA;
-$blue:       #2196F3;
+$blue:       #4f7bbe;
+$red:        #991B1E;
 
 
 
 /**
  * Other vars
  */
-$max-width: 900px;
 $spacing-unit: 30px;
+$content-max-width: 900px;
+
+
+
+/**
+ * *
+ */
+* {
+    font-family: $font;
+}
 
 
 
@@ -21,16 +31,20 @@ $spacing-unit: 30px;
  * Body
  */
 body {
-    background-color: $light-grey;
-	font-family: $font;
+    background-color: #221F1F;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 }
 
 
+
+/**
+ *
+ */
 .container {
-    max-width: $max-width;
+    max-width: $content-max-width;
 }
+
 
 
 /**
@@ -59,12 +73,12 @@ ul, ol, dl, figure,
  * Links
  */
 a {
-    color: $dark-grey;
+    color: $blue;
     text-decoration: none;
 
     &:hover {
-        color: $blue;
-        text-decoration: none;
+        color: darken($blue, 25%);
+        text-decoration: underline;
     }
 }
 
@@ -113,5 +127,3 @@ pre {
         padding-left: 0;
     }
 }
-
-
