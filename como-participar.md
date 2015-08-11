@@ -4,11 +4,11 @@ title: Como participar?
 permalink: /como-participar/
 ---
 
-Bem vindo à MuvucaGames. Nós somos uma comunidade de desenvolvimento de games, e estamos aberto a participação de novos colaboradores.
+Bem vindo à MuvucaGames. Nós somos uma comunidade de desenvolvimento de games, e estamos abertos a participação de novos colaboradores.
 
-Para participar é simples, veja o vídeo de orientação, e siga as etapas, e em pouco tempo você estará ajudando na criação dos games.
+Para participar é simples, veja o vídeo de orientação e siga as etapas. Em pouco tempo você estará ajudando na criação dos games.
 
-Nos usamos A ferramenta Trello para a organização interna, Slack para Chat, e GitHub para o versionamento do jogo.
+Nós usamos a ferramenta Trello para a organização interna, Slack para Chat, e GitHub para o versionamento do jogo.
 
 Se você ainda não tem Trello, [clique aqui para criar uma conta]( https://trello.com/dibraga/recommend).
 
@@ -23,7 +23,7 @@ Como usar o Trello da Muvuca Games:
 Uma vez que você já tenha uma conta Trello, conecte e preencha o formulário:
 
 <button id="loggedout">
-    <a id="connectLink">Connect To Trello</a>
+    <a id="connectLink">Conectar ao Trello</a>
 </button>
 
 <div>
