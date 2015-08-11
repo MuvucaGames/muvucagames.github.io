@@ -7,12 +7,22 @@ var nsListId  = "55c932dfb2962c9f4af425c0";
 var variasListId = "55c932dfb2962c9f4af425c0";
 
 
+var progCardId = "XjuMEYyq";
+var gdCardId = "qhcYnz1t";
+var arteCardId = "8tRCHRms";
+var roteiroCardId = "zj1ZQy8A";
+var nsCardId  = "ITCtOSIF";
+var variasCardId = "ITCtOSIF";
+
+
+
+
 function submitEntryFormX(){
-  var idLsit = [arteListId, gdListId, roteiroListId, progListId, nsListId, variasListId];
+  var idList = [arteCardId, gdCardId, roteiroCardId, progCardId, nsCardId, variasCardId];
 
   Trello.members.get("me", function(member){
-
-    Trello.post("/lists/" + idLsit[$('input[name=area]:checked').val()] +"/cards",
+    /*
+    Trello.post("/lists/" + idList[$('input[name=area]:checked').val()] +"/cards",
       {name: "Pedido de Entrada: " + member.username,
        desc: $("textarea[name='comment']").val(),
        due : null}, function(card){
@@ -20,7 +30,17 @@ function submitEntryFormX(){
          $("#entryform").toggle(false);
          $("#success").toggle(true);
        }
+    );*/
+
+    Trello.post("/cards/" + idList[$('input[name=area]:checked').val()] + "/actions/comments",
+      {text: "Pedido de Entrada \n\n" + "usario: " +  member.username + "\n\n\n" + "Comentario:\n\n" + $("textarea[name='comment']").val()},
+      function(resp){
+        console.log(resp);
+        $("#entryform").toggle(false);
+        $("#success").toggle(true);
+      }
     );
+
   });
 }
 
