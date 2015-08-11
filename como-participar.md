@@ -40,7 +40,7 @@ Uma vez que você já tenha uma conta Trello, conecte e preencha o formulário:
   <br>
   <input type="radio" name="area" value="4">Não sei
   <br>
-  <input type="radio" name="area" value="5">Varias áreas
+  <input type="radio" name="area" value="5">Varias áreas (especificar no comentário)
   <br>
   <br>
   Comentário:
