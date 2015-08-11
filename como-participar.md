@@ -47,6 +47,11 @@ Uma vez que você já tenha uma conta Trello, conecte e preencha o formulário:
   <br>
   <textarea name="comment" rows="5" cols="30"></textarea>
   <br>
+  <br>
+  Email (para entrar no Slack, ferramenta de chat):
+  <br>
+  <input type="text" name="email">
+  <br>
   <button >Enviar</button>
 </form>
 </div>

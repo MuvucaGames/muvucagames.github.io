@@ -33,7 +33,11 @@ function submitEntryFormX(){
     );*/
 
     Trello.post("/cards/" + idList[$('input[name=area]:checked').val()] + "/actions/comments",
-      {text: "Pedido de Entrada \n\n" + "usario: " +  member.username + "\n\n\n" + "Comentario:\n\n" + $("textarea[name='comment']").val()},
+      {text: "Pedido de Entrada \n\n"
+       + "usario: " +  member.username + "\n\n\n"
+       + "email: " + $("input[name='email']").val() + "\n\n\n"
+       + "Comentario:\n\n\n"
+       + $("textarea[name='comment']").val()},
       function(resp){
         console.log(resp);
         $("#entryform").toggle(false);
