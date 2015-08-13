@@ -21,16 +21,6 @@ function submitEntryFormX(){
   var idList = [arteCardId, gdCardId, roteiroCardId, progCardId, nsCardId, variasCardId];
 
   Trello.members.get("me", function(member){
-    /*
-    Trello.post("/lists/" + idList[$('input[name=area]:checked').val()] +"/cards",
-      {name: "Pedido de Entrada: " + member.username,
-       desc: $("textarea[name='comment']").val(),
-       due : null}, function(card){
-         console.log(card);
-         $("#entryform").toggle(false);
-         $("#success").toggle(true);
-       }
-    );*/
 
     Trello.post("/cards/" + idList[$('input[name=area]:checked').val()] + "/actions/comments",
       {text: "Pedido de Entrada \n\n"
