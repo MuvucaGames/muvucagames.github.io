@@ -10,7 +10,7 @@ Para participar é simples, veja o vídeo de orientação e siga as etapas. Em p
 
 Nós usamos a ferramenta Trello para a organização interna, Slack para Chat, e GitHub para o versionamento do jogo.
 
-Se você ainda não tem Trello, [clique aqui para criar uma conta]( https://trello.com/molotovsky/recommend).
+Se você ainda não tem Trello, [clique aqui para criar uma conta]( https://trello.com/pablosaraiva/recommend).
 
 
 Como usar o Trello da Muvuca Games:
