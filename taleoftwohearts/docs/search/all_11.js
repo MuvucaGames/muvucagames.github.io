@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['readlevelsfile',['ReadLevelsFile',['../class_game_levels.html#a4112760b37d6019763ade02f240904a0',1,'GameLevels']]],
+  ['registercheckpoint',['RegisterCheckpoint',['../class_checkpoint_manager.html#a0c17e9c7360397f51987d94f8871662d',1,'CheckpointManager']]],
+  ['releaseobject',['ReleaseObject',['../class_hero.html#a83084e2436f03a465e9223f1e6f75dac',1,'Hero']]],
+  ['reloadlevel',['ReloadLevel',['../class_game.html#a79f43c24f99ff629a57e9a2f5f3e80da',1,'Game']]],
+  ['removeactionableelement',['RemoveActionableElement',['../class_activator.html#a6f97e5eaa32e5178e7f22619bb051aea',1,'Activator']]],
+  ['rend',['rend',['../class_light_render.html#a0824c11e2768d77f572434eb1e0889ac',1,'LightRender']]],
+  ['requiresbothheroes',['requiresBothHeroes',['../class_checkpoint.html#ac99511eb28df437e1deb8c12a19db081',1,'Checkpoint']]],
+  ['resetcheckpoins',['ResetCheckpoins',['../class_checkpoint_manager.html#afe68721488c3213dd38dbce42c4713f0',1,'CheckpointManager']]],
+  ['resetlevel',['ResetLevel',['../class_design_tools.html#ab455d2031bda1373b8dc8bbd92b4a155',1,'DesignTools']]],
+  ['resettimer',['resetTimer',['../class_timer.html#ad259abee6632b9c2467ff7b0d7f2440c',1,'Timer']]],
+  ['restartpuzzle',['restartPuzzle',['../class_colors_puzzle.html#a7257faa395062fcf4f4903b67f11107b',1,'ColorsPuzzle']]],
+  ['restorebutton',['RestoreButton',['../class_options.html#a48c2b7997b65cadf5c0c90f56ec9f70a',1,'Options']]],
+  ['rigidbody',['rigidBody',['../class_rolling_ball.html#a459465a1d2bc353bc333e425943b028c',1,'RollingBall']]],
+  ['rigidbody2d',['rigidBody2D',['../class_movable_horizontal_platform.html#ae294d1a71d7e2314df387950ccecd15b',1,'MovableHorizontalPlatform.rigidBody2D()'],['../class_two_states_actionable_platform.html#acf30b727ddb915de94ad43445327c7d1',1,'TwoStatesActionablePlatform.rigidBody2D()'],['../class_hero.html#a20ff8c6901f0610e195874e8cf54c6d1',1,'Hero.rigidBody2D()']]],
+  ['rigidbodyherofast',['rigidBodyHeroFast',['../class_warp_zone_door.html#afc1086fefd219cafbd81e1831c447119',1,'WarpZoneDoor']]],
+  ['rigidbodyherostrong',['rigidBodyHeroStrong',['../class_warp_zone_door.html#affe095154d9116e0643afe89e891a039',1,'WarpZoneDoor']]],
+  ['roldanad',['RoldanaD',['../class_esteira.html#aad5f2105d555768e39b427d070559cb1',1,'Esteira']]],
+  ['roldanae',['RoldanaE',['../class_esteira.html#ac68d0a5356fca2d0ca3a5c9557b2aa95',1,'Esteira']]],
+  ['rollingball',['RollingBall',['../class_rolling_ball.html',1,'']]],
+  ['rollingball_2ecs',['RollingBall.cs',['../_rolling_ball_8cs.html',1,'']]],
+  ['rollspeed',['rollSpeed',['../class_credits.html#a9ad4facb4bae45494e78974a73ffdb69',1,'Credits']]],
+  ['runningtimebasedeffect',['runningTimeBasedEffect',['../class_warp_zone_door.html#abe5b10a99f4ba60e67193a88c6d29440',1,'WarpZoneDoor']]]
+];

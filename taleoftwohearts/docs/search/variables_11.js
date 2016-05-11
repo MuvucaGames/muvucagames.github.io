@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['saved_5fgames_5fcount',['SAVED_GAMES_COUNT',['../class_game.html#acea75ddf6170942bbff33aa3d0a883a0',1,'Game']]],
+  ['savedgames_5f',['savedGames_',['../class_game.html#a1487c74ed87d7debe148a642aabf71f7',1,'Game']]],
+  ['scalefactor',['scaleFactor',['../class_select_character.html#a7d21a23e0e3a6f2d42187e682fc38b23',1,'SelectCharacter']]],
+  ['screenheight',['screenHeight',['../class_credits.html#a047a67c3f36599b6dc55351bcde691da',1,'Credits']]],
+  ['selectionbox1',['SelectionBox1',['../class_puzzle_controller.html#a10ffde88ddbf2e55ff253de3c10d1039',1,'PuzzleController']]],
+  ['selectionbox2',['SelectionBox2',['../class_puzzle_controller.html#a123841d1eaa9cf30ec81c863a038deb4',1,'PuzzleController']]],
+  ['selectionboxcurrent',['SelectionBoxCurrent',['../class_puzzle_controller.html#ab4aafaad04e0e12ae4353a17f0d075ee',1,'PuzzleController']]],
+  ['selfweight',['selfWeight',['../class_weigth_button_with_physics.html#aaf061caedf4bd49f5021075085e53548',1,'WeigthButtonWithPhysics']]],
+  ['senteces',['senteces',['../class_dialog.html#a1f157d87ae443c5cc7c0fb90992b46f6',1,'Dialog']]],
+  ['sentence',['sentence',['../class_sentence_1_1_info.html#ae153343e2f3126f0a3eb87ba051fe6fd',1,'Sentence::Info']]],
+  ['sentencecounter',['sentenceCounter',['../class_dialog.html#a75d9e20c06b0382762feb6355968a949',1,'Dialog']]],
+  ['sentenceinfo',['sentenceInfo',['../class_balloon.html#add58388905ca252b0a258cee37a2a711',1,'Balloon']]],
+  ['sfxbounceball',['sfxBounceBall',['../class_sound_manager.html#acaafb8045eeb8cf8c4252f796c72331f',1,'SoundManager']]],
+  ['sfxclosegate',['sfxCloseGate',['../class_sound_manager.html#ad6ddc9b72567d634b3c90718b8f231bf',1,'SoundManager']]],
+  ['sfxjump',['sfxJump',['../class_sound_manager.html#ad757904aeff0e5cc925ed950c1460c2d',1,'SoundManager']]],
+  ['sfxopengate',['sfxOpenGate',['../class_sound_manager.html#a176021cf0542b221a43f4bcb3f2d0885',1,'SoundManager']]],
+  ['sfxreset',['sfxReset',['../class_sound_manager.html#a2d7bcf70a9e882b882e2ec1ef8ba2460',1,'SoundManager']]],
+  ['sfxswap',['sfxSwap',['../class_sound_manager.html#acb69259d340f4f9186198c76e1ee9e23',1,'SoundManager']]],
+  ['sfxvolume',['sfxVolume',['../class_sound_manager.html#ab5b88bf1b030a1a57f3d425c59c4bead',1,'SoundManager']]],
+  ['sfxwater',['sfxWater',['../class_sound_manager.html#a9267850070206dc293b3c6bfb8fa82e1',1,'SoundManager']]],
+  ['slot',['Slot',['../class_game_data.html#a345f4e07c394154967eabd5e9ea9eae3',1,'GameData']]],
+  ['soundpanel',['soundPanel',['../class_options.html#a7fb2d87732eb3505dffdb607b50ac634',1,'Options']]],
+  ['source',['source',['../class_sound_manager.html#ad3779983dcb3c35428064dde3cbc944a',1,'SoundManager']]],
+  ['speed',['speed',['../class_flies_control.html#a7bb2e33b34f4d3a02a609272b181ec0d',1,'FliesControl.speed()'],['../class_movable_horizontal_platform.html#aec1a4d1912871dc0e09e66d6c905a32d',1,'MovableHorizontalPlatform.speed()'],['../class_move_ato_b.html#adf57b9d7f2b124ba6f13b1300efdbaac',1,'MoveAtoB.speed()'],['../class_two_states_actionable_platform.html#a8b2ed2460b0bf0e8cc11c03bc5308010',1,'TwoStatesActionablePlatform.speed()']]],
+  ['springjoint2d',['springJoint2D',['../class_weigth_button_with_physics.html#a8c06fd5791ebc02a82aed4b6c63561bb',1,'WeigthButtonWithPhysics']]]
+];

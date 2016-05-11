@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['placeheroes',['PlaceHeroes',['../class_checkpoint_manager.html#adb526b235c8e9f9d3b539581ce7732cf',1,'CheckpointManager']]],
+  ['playerchangedlevel',['PlayerChangedLevel',['../class_checkpoint_manager.html#a0d15575306cdb6a01ed1fc7f1da92020',1,'CheckpointManager']]],
+  ['playmusic',['PlayMusic',['../class_sound_manager.html#a8bdd7f9164449a27dfc8a19612d5203d',1,'SoundManager']]],
+  ['playsfxbounceball',['PlaySFXBounceBall',['../class_sound_manager.html#acd9e8d88b4fdd0a0b04682315611696a',1,'SoundManager']]],
+  ['playsfxclosegate',['PlaySFXCloseGate',['../class_sound_manager.html#aaa27a3ea4cb22155ca24ecf1a95bd979',1,'SoundManager']]],
+  ['playsfxjump',['PlaySFXJump',['../class_sound_manager.html#a69c1e71586a216302caa70dba395c832',1,'SoundManager']]],
+  ['playsfxopengate',['PlaySFXOpenGate',['../class_sound_manager.html#ace8b9f3d8d1ab01d6f351ce3a7af361a',1,'SoundManager']]],
+  ['playsfxreset',['PlaySFXReset',['../class_sound_manager.html#a8d14f08b613c39f1354ab319a6f95f06',1,'SoundManager']]],
+  ['playsfxswap',['PlaySFXSwap',['../class_sound_manager.html#ad7c3e436d7a765304fd97ed073c90c73',1,'SoundManager']]],
+  ['playsfxwater',['PlaySFXWater',['../class_sound_manager.html#a87cb75a758e476c8c6f5b1d9b5baa7ee',1,'SoundManager']]],
+  ['pointa',['pointA',['../class_movable_horizontal_platform.html#a2fea23646ded8281849925d173de6733',1,'MovableHorizontalPlatform.pointA()'],['../class_move_ato_b.html#acc4eef98d36307ebf6a4eec46430c206',1,'MoveAtoB.pointA()'],['../class_two_states_actionable_platform.html#ab3fae21a538de4c00e357dc4fe5726ad',1,'TwoStatesActionablePlatform.pointA()']]],
+  ['pointb',['pointB',['../class_movable_horizontal_platform.html#a747ea82d5fda336a1dbf8ac4b9a85591',1,'MovableHorizontalPlatform.pointB()'],['../class_move_ato_b.html#ac870c053904595c3af60ea57292eda22',1,'MoveAtoB.pointB()'],['../class_two_states_actionable_platform.html#a3fce2279462d3b605dbb0316d91ce35a',1,'TwoStatesActionablePlatform.pointB()']]],
+  ['pontoa',['PontoA',['../class_flies_control.html#a344e8795eb1dccb75aafb9a3bc715ee0',1,'FliesControl']]],
+  ['pontoa2',['PontoA2',['../class_flies_control.html#aa3807efea0ab16d2020557e6a011d5b5',1,'FliesControl']]],
+  ['pontob',['PontoB',['../class_flies_control.html#af37474cc8eae4029c39da1d6a8236f62',1,'FliesControl']]],
+  ['pontob2',['PontoB2',['../class_flies_control.html#a92264e1938f974a8e16473d8947386d6',1,'FliesControl']]],
+  ['prototypescene',['PrototypeScene',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948a9657732e60bde813df340e7d9f618265',1,'Game.cs']]],
+  ['prototypescenev2',['PrototypeScenev2',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948ab5da85c7156aaca1171d0316c4708fc9',1,'Game.cs']]],
+  ['purple',['Purple',['../class_colors_puzzle.html#a823ea7563f9b34348f5cc39bf67a03a3',1,'ColorsPuzzle']]],
+  ['push',['Push',['../class_hero.html#a1cd65fdf5c2d0facd4f250c0e958ff27',1,'Hero']]],
+  ['puzzlecontroller',['PuzzleController',['../class_puzzle_controller.html',1,'PuzzleController'],['../class_colors_puzzle.html#af0a656fc390fb32ad1a24b0b8a112340',1,'ColorsPuzzle.puzzleController()']]],
+  ['puzzlecontroller_2ecs',['PuzzleController.cs',['../_puzzle_controller_8cs.html',1,'']]],
+  ['puzzlesolutioncolor',['puzzleSolutionColor',['../class_colors_puzzle.html#a84706afe5afbd162fdae5d05f58b0032',1,'ColorsPuzzle']]],
+  ['puzzlesolved',['puzzleSolved',['../class_colors_puzzle.html#a6257698f75c209cf0e30da9402148eea',1,'ColorsPuzzle']]],
+  ['puzzlevelocity',['puzzleVelocity',['../class_puzzle_controller.html#a8b8b52c751e36b2c94c0663bb5b2797f',1,'PuzzleController']]]
+];

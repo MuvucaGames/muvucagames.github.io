@@ -1,0 +1,25 @@
+var class_puzzle_controller =
+[
+    [ "Awake", "class_puzzle_controller.html#acd705760b70a12c620ee94be500a3b59", null ],
+    [ "deactivateControl", "class_puzzle_controller.html#a2eccaf4ac0a4eb059cc6806c53c27afd", null ],
+    [ "DeactivateTriggerButtons", "class_puzzle_controller.html#a65f1256c9040bc1b771da2694a05fb0e", null ],
+    [ "FixedUpdate", "class_puzzle_controller.html#ac613ce6b94a9f07812b54d929304cea1", null ],
+    [ "getDefaultColor", "class_puzzle_controller.html#a64305c4596dc3bdfdf1a5f2ce773d47c", null ],
+    [ "getRotationPosition", "class_puzzle_controller.html#ae914966f4c78a31e79372e26a89f462b", null ],
+    [ "setControlActive", "class_puzzle_controller.html#af5a97d8b0fe58427bd4b2209cf96cd89", null ],
+    [ "setCurrentBox", "class_puzzle_controller.html#afbf2dd86a4356b4aef77db02aeb05d73", null ],
+    [ "Update", "class_puzzle_controller.html#a753a50f26aaaf2af2f767c1a12bdb98f", null ],
+    [ "_colorSelected", "class_puzzle_controller.html#a9deeeb80c028c90dd49229cea2a8cf36", null ],
+    [ "_horizontalButtonPressed", "class_puzzle_controller.html#aa3525660a0165bdbade3b2d9cacd8e75", null ],
+    [ "_spinningPosition", "class_puzzle_controller.html#a5503ac8a767add0e188b5d8d6ebc1684", null ],
+    [ "colorsPuzzle", "class_puzzle_controller.html#af7e1237bd93243d4557106e0a30eab29", null ],
+    [ "controlActive", "class_puzzle_controller.html#abae824773a5c13f9c750106ae1e9e6df", null ],
+    [ "cursor", "class_puzzle_controller.html#a9f5894a0e48131b38706162ce8d1679f", null ],
+    [ "defaultColor", "class_puzzle_controller.html#a1315492d6d0809ccb312b50f08571246", null ],
+    [ "heroFast", "class_puzzle_controller.html#aa400df3c7ab26fb012b03c1d251caf73", null ],
+    [ "heroStrong", "class_puzzle_controller.html#a174677de3be5792bc41c5fd0b0601ae3", null ],
+    [ "puzzleVelocity", "class_puzzle_controller.html#a8b8b52c751e36b2c94c0663bb5b2797f", null ],
+    [ "SelectionBox1", "class_puzzle_controller.html#a10ffde88ddbf2e55ff253de3c10d1039", null ],
+    [ "SelectionBox2", "class_puzzle_controller.html#a123841d1eaa9cf30ec81c863a038deb4", null ],
+    [ "SelectionBoxCurrent", "class_puzzle_controller.html#ab4aafaad04e0e12ae4353a17f0d075ee", null ]
+];
