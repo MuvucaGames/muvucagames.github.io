@@ -29,6 +29,7 @@ var annotated_dup =
     [ "Hero", "class_hero.html", "class_hero" ],
     [ "HeroControl", "class_hero_control.html", "class_hero_control" ],
     [ "HeroFast", "class_hero_fast.html", "class_hero_fast" ],
+    [ "HeroInteractor", "class_hero_interactor.html", "class_hero_interactor" ],
     [ "HeroParamsTool", "class_hero_params_tool.html", "class_hero_params_tool" ],
     [ "HeroStrong", "class_hero_strong.html", "class_hero_strong" ],
     [ "IHeroActionable", "interface_i_hero_actionable.html", "interface_i_hero_actionable" ],

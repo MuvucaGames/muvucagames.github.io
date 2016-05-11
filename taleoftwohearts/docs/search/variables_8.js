@@ -5,6 +5,7 @@ var searchData=
   ['heroesinside',['heroesInside',['../class_invisible_area_trigger.html#a1e021e0783a48ac8f77e72418bb3581e',1,'InvisibleAreaTrigger']]],
   ['herofast',['heroFast',['../class_camera_controller.html#a8b4a0930459a62de20cd2851c7328d73',1,'CameraController.heroFast()'],['../class_checkpoint_manager.html#ae7e60d48ec597fb41a413be575b8f5c9',1,'CheckpointManager.heroFast()'],['../class_colors_puzzle.html#ad963599e9c52430f67361f57809203ca',1,'ColorsPuzzle.heroFast()'],['../class_puzzle_controller.html#aa400df3c7ab26fb012b03c1d251caf73',1,'PuzzleController.heroFast()'],['../class_warp_zone_door.html#a61b828421f799ae979eb6f248809cd0d',1,'WarpZoneDoor.heroFast()']]],
   ['herofasttransform',['heroFastTransform',['../class_checkpoint.html#a61603337300b6872bb4fe4c70da94172',1,'Checkpoint']]],
+  ['herointerac',['heroInterac',['../class_hero.html#a5f1b1f03e005626b3383c25ebb6c6a2d',1,'Hero']]],
   ['heromask',['heroMask',['../class_movable_horizontal_platform.html#ae649a540424dde51cb3fadb9878c8020',1,'MovableHorizontalPlatform']]],
   ['heroplatform',['heroPlatform',['../class_hero.html#ac3cd30ed3896c6832bae51bad59c1f5a',1,'Hero']]],
   ['heroplatformmask',['heroPlatformMask',['../class_rolling_ball.html#aa973b0aa7253ebaf27afe7523bc2732f',1,'RollingBall.heroPlatformMask()'],['../class_hero.html#ad4c86da7782e8efc17dcf3e466983ee5',1,'Hero.heroPlatformMask()']]],

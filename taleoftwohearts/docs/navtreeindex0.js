@@ -68,10 +68,12 @@ var NAVTREEINDEX0 =
 "_hero_control_8cs_source.html":[1,0,0,0,0,2,1],
 "_hero_fast_8cs.html":[1,0,0,0,0,2,2],
 "_hero_fast_8cs_source.html":[1,0,0,0,0,2,2],
+"_hero_interactor_8cs.html":[1,0,0,0,0,2,3],
+"_hero_interactor_8cs_source.html":[1,0,0,0,0,2,3],
 "_hero_params_tool_8cs.html":[1,0,0,0,0,4,2],
 "_hero_params_tool_8cs_source.html":[1,0,0,0,0,4,2],
-"_hero_strong_8cs.html":[1,0,0,0,0,2,3],
-"_hero_strong_8cs_source.html":[1,0,0,0,0,2,3],
+"_hero_strong_8cs.html":[1,0,0,0,0,2,4],
+"_hero_strong_8cs_source.html":[1,0,0,0,0,2,4],
 "_i_hero_actionable_8cs.html":[1,0,0,0,0,1,13],
 "_i_hero_actionable_8cs_source.html":[1,0,0,0,0,1,13],
 "_i_ladder_8cs.html":[1,0,0,0,0,1,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "class_credits.html#a67994a8292443ed381c65e2456613b1b":[0,0,14,8],
 "class_credits.html#a99a1eb5f51c7e03afd80d2280d51baaf":[0,0,14,1],
 "class_credits.html#a9ad4facb4bae45494e78974a73ffdb69":[0,0,14,6],
-"class_credits.html#aaaeea0959b9d7a6a0701f84707cd0ebf":[0,0,14,9],
-"class_credits.html#ab02ebfa20632064816701189c88c0ccc":[0,0,14,4],
-"class_credits.html#adf5a3ad0fa93a9a06d70185593979f95":[0,0,14,3]
+"class_credits.html#aaaeea0959b9d7a6a0701f84707cd0ebf":[0,0,14,9]
 };

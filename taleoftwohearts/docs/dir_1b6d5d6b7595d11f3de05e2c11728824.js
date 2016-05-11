@@ -9,6 +9,9 @@ var dir_1b6d5d6b7595d11f3de05e2c11728824 =
     [ "HeroFast.cs", "_hero_fast_8cs.html", [
       [ "HeroFast", "class_hero_fast.html", "class_hero_fast" ]
     ] ],
+    [ "HeroInteractor.cs", "_hero_interactor_8cs.html", [
+      [ "HeroInteractor", "class_hero_interactor.html", "class_hero_interactor" ]
+    ] ],
     [ "HeroStrong.cs", "_hero_strong_8cs.html", [
       [ "HeroStrong", "class_hero_strong.html", "class_hero_strong" ]
     ] ]

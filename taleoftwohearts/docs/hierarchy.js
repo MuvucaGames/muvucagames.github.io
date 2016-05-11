@@ -53,6 +53,7 @@ var hierarchy =
         [ "HeroStrong", "class_hero_strong.html", null ]
       ] ],
       [ "HeroControl", "class_hero_control.html", null ],
+      [ "HeroInteractor", "class_hero_interactor.html", null ],
       [ "HeroParamsTool", "class_hero_params_tool.html", null ],
       [ "Intro", "class_intro.html", null ],
       [ "Ladder", "class_ladder.html", null ],
