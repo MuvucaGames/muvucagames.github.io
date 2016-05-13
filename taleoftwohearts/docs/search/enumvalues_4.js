@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normal',['Normal',['../class_balloon.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a960b44c579bc2f6818d2daaf9e4c16f0',1,'Balloon']]]
+  ['options',['Options',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948adae8ace18bdcbcc6ae5aece263e14fe8',1,'Game.cs']]]
 ];

@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['_5fabove',['_Above',['../class_hero.html#a473328a7810bcfbcc69e8e61f780b290afb6035e37aaa71590797d6b0ebafd04a',1,'Hero']]],
   ['_5factionbuttonpressed',['_actionButtonPressed',['../class_hero_control.html#a5f94b16f4d0e866deb53deea9ed4ef99',1,'HeroControl']]],
-  ['_5fbehind',['_Behind',['../class_hero.html#a473328a7810bcfbcc69e8e61f780b290a7cfa6de3b00eec2041476c34d171655f',1,'Hero']]],
-  ['_5fbellow',['_Bellow',['../class_hero.html#a473328a7810bcfbcc69e8e61f780b290ab2e3b07d2b93cc4463cba91e57c1de65',1,'Hero']]],
   ['_5fcarrybuttonpressed',['_carryButtonPressed',['../class_hero_control.html#ab85b4f22edaf667e2ee48af3828cd1cb',1,'HeroControl']]],
   ['_5fchangeherobuttonpressed',['_changeHeroButtonPressed',['../class_hero_control.html#a63e4e768e3ba3d174c29fd0c46552cdc',1,'HeroControl']]],
   ['_5fcolorselected',['_colorSelected',['../class_puzzle_controller.html#a9deeeb80c028c90dd49229cea2a8cf36',1,'PuzzleController']]],
@@ -14,8 +11,6 @@ var searchData=
   ['_5fflielist',['_flieList',['../class_flies_control.html#ac32f59a1e0d8476a9636e25904472fee',1,'FliesControl']]],
   ['_5fhasupdatedlevelsfile',['_hasUpdatedLevelsFile',['../class_game_levels.html#a02163062fdbf27c032cec5a651cb6b3f',1,'GameLevels']]],
   ['_5fhorizontalbuttonpressed',['_horizontalButtonPressed',['../class_puzzle_controller.html#aa3525660a0165bdbade3b2d9cacd8e75',1,'PuzzleController']]],
-  ['_5finfront',['_inFront',['../class_hero.html#a473328a7810bcfbcc69e8e61f780b290adce38c6da76ed91a14018c184908a934',1,'Hero']]],
-  ['_5finside',['_Inside',['../class_hero.html#a473328a7810bcfbcc69e8e61f780b290ab461a5abeda3c6d56c428defef2c3268',1,'Hero']]],
   ['_5fisactivated',['_isActivated',['../class_actionable_element_base.html#a13b69707ac2c534355dd9726b7d2f91b',1,'ActionableElementBase._isActivated()'],['../class_actionable_ladder.html#a98daee07546a7aa1b61a9f658384cc29',1,'ActionableLadder._isActivated()']]],
   ['_5fjumpbuttonpressed',['_jumpButtonPressed',['../class_hero_control.html#aef215fc24fb5733aa73a600528aed458',1,'HeroControl']]],
   ['_5flevels',['_levels',['../class_game_levels.html#aea0cbfe8173ee3e4ee7fe178837afcbf',1,'GameLevels']]],

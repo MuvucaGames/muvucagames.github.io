@@ -1,12 +1,5 @@
 var class_hero =
 [
-    [ "ObjPositionRelHero", "class_hero.html#a473328a7810bcfbcc69e8e61f780b290", [
-      [ "_Above", "class_hero.html#a473328a7810bcfbcc69e8e61f780b290afb6035e37aaa71590797d6b0ebafd04a", null ],
-      [ "_inFront", "class_hero.html#a473328a7810bcfbcc69e8e61f780b290adce38c6da76ed91a14018c184908a934", null ],
-      [ "_Bellow", "class_hero.html#a473328a7810bcfbcc69e8e61f780b290ab2e3b07d2b93cc4463cba91e57c1de65", null ],
-      [ "_Behind", "class_hero.html#a473328a7810bcfbcc69e8e61f780b290a7cfa6de3b00eec2041476c34d171655f", null ],
-      [ "_Inside", "class_hero.html#a473328a7810bcfbcc69e8e61f780b290ab461a5abeda3c6d56c428defef2c3268", null ]
-    ] ],
     [ "Action", "class_hero.html#a1daa34885bc1933f8a3873a2283118d3", null ],
     [ "Awake", "class_hero.html#adc56ac4b90702703965afa61aac3b7bd", null ],
     [ "CalculateJumpForce", "class_hero.html#a7958bb9f21d17bc95310d4822d7bbf11", null ],

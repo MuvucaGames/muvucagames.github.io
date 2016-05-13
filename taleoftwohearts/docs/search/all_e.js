@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['objpositionrelhero',['ObjPositionRelHero',['../class_hero.html#a473328a7810bcfbcc69e8e61f780b290',1,'Hero']]],
   ['offsetcarryobjhero',['offsetCarryObjHero',['../class_hero.html#a8bc94698540504262b23186f66bc1190',1,'Hero']]],
   ['onair',['OnAir',['../class_hero.html#ae23edfd350b58c3840d8816ee311100a',1,'Hero']]],
   ['oncollisionenter2d',['OnCollisionEnter2D',['../class_force_field.html#a92093b1b76db8fb34b09f509c985a899',1,'ForceField']]],
