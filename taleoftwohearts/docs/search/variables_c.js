@@ -41,6 +41,7 @@ var searchData=
   ['maxwalkingspeedslider',['maxWalkingSpeedSlider',['../class_hero_params_tool.html#aefd3872eaf03421b2b1effddc7bed490',1,'HeroParamsTool']]],
   ['maxwalkingspeedtext',['maxWalkingSpeedText',['../class_hero_params_tool.html#a0542fca628025f89107506d88e28f839',1,'HeroParamsTool']]],
   ['meanweight',['meanWeight',['../class_weigth_button_with_physics.html#a33ce2e67b8435ec7e0549050384d5b2a',1,'WeigthButtonWithPhysics']]],
+  ['menuscene',['MenuScene',['../class_level_holder.html#a66a0fd3d1e0c91f7a0a229c5dc848567',1,'LevelHolder']]],
   ['motormaxangularspeed',['motorMaxAngularSpeed',['../class_hero.html#ab4406afc53753f0a5f7ab48b5683d97e',1,'Hero']]],
   ['movablepart',['movablePart',['../class_door.html#a726e614c2956c205cd5c60f051fe0f73',1,'Door']]],
   ['move_5fthreshold',['MOVE_THRESHOLD',['../class_hero_control.html#aaf0d35c66ff1e6403e20c85444a4dc7d',1,'HeroControl']]],

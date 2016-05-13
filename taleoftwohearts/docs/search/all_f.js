@@ -16,8 +16,6 @@ var searchData=
   ['pontoa2',['PontoA2',['../class_flies_control.html#aa3807efea0ab16d2020557e6a011d5b5',1,'FliesControl']]],
   ['pontob',['PontoB',['../class_flies_control.html#af37474cc8eae4029c39da1d6a8236f62',1,'FliesControl']]],
   ['pontob2',['PontoB2',['../class_flies_control.html#a92264e1938f974a8e16473d8947386d6',1,'FliesControl']]],
-  ['prototypescene',['PrototypeScene',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948a9657732e60bde813df340e7d9f618265',1,'Game.cs']]],
-  ['prototypescenev2',['PrototypeScenev2',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948ab5da85c7156aaca1171d0316c4708fc9',1,'Game.cs']]],
   ['purple',['Purple',['../class_colors_puzzle.html#a823ea7563f9b34348f5cc39bf67a03a3',1,'ColorsPuzzle']]],
   ['push',['Push',['../class_hero.html#a1cd65fdf5c2d0facd4f250c0e958ff27',1,'Hero']]],
   ['puzzlecontroller',['PuzzleController',['../class_puzzle_controller.html',1,'PuzzleController'],['../class_colors_puzzle.html#af0a656fc390fb32ad1a24b0b8a112340',1,'ColorsPuzzle.puzzleController()']]],

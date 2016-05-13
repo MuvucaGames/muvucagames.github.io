@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['savedgames',['savedGames',['../class_game.html#a0c0e76f7a5cbf2aee5af44c1c85b244f',1,'Game']]]
+  ['walkmotortorque',['WalkMotorTorque',['../class_hero.html#a9992951b6ed218db019747f1edbc2662',1,'Hero']]]
 ];

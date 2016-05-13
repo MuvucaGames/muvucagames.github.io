@@ -12,6 +12,5 @@ var searchData=
   ['force',['force',['../class_rolling_ball.html#a952b3368c0ad074c1d6014c305523dd6',1,'RollingBall']]],
   ['forcefield',['ForceField',['../class_force_field.html',1,'']]],
   ['forcefield_2ecs',['ForceField.cs',['../_force_field_8cs.html',1,'']]],
-  ['free',['Free',['../class_game_data.html#aead2ec7fa34b805f468c8e104a3ea035',1,'GameData']]],
   ['from',['from',['../class_movable_horizontal_platform.html#ad64b4e1bb2c4611610e162c0b57ce255',1,'MovableHorizontalPlatform']]]
 ];

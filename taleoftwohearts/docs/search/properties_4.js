@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['instance',['Instance',['../class_sound_manager.html#a4ceb176bb67059b35136a96fd9221824',1,'SoundManager']]],
+  ['instance',['Instance',['../class_sound_manager.html#a4ceb176bb67059b35136a96fd9221824',1,'SoundManager.Instance()'],['../class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e',1,'GameManager.Instance()']]],
   ['isactivated',['isActivated',['../class_actionable_element_base.html#a5c7209d6aa104d87cb5feaa00cd59f79',1,'ActionableElementBase.isActivated()'],['../class_actionable_ladder.html#a1938eceda4f0667534e4c7f394527f77',1,'ActionableLadder.isActivated()']]],
   ['isactive',['IsActive',['../class_lever.html#ae86b8c8439fccdc71c761583a7e655d0',1,'Lever.IsActive()'],['../class_hero.html#acaf513859d928ef70aa9714c93ad7d88',1,'Hero.IsActive()']]],
   ['ismusicenabled',['IsMusicEnabled',['../class_sound_manager.html#ad1b2befd25471047c65501bff4174394',1,'SoundManager']]],

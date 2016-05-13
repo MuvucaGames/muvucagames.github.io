@@ -8,14 +8,9 @@ var dir_9ace04818a2f764b3fa19a0522bb3e87 =
     [ "CameraController.cs", "_camera_controller_8cs.html", [
       [ "CameraController", "class_camera_controller.html", "class_camera_controller" ]
     ] ],
-    [ "Game.cs", "_game_8cs.html", "_game_8cs" ],
-    [ "GameBootstrap.cs", "_game_bootstrap_8cs.html", [
-      [ "GameBootstrap", "class_game_bootstrap.html", "class_game_bootstrap" ]
+    [ "GameManager.cs", "_game_manager_8cs.html", [
+      [ "GameManager", "class_game_manager.html", "class_game_manager" ]
     ] ],
-    [ "GameData.cs", "_game_data_8cs.html", [
-      [ "GameData", "class_game_data.html", "class_game_data" ]
-    ] ],
-    [ "GameLevels.cs", "_game_levels_8cs.html", "_game_levels_8cs" ],
     [ "LightRender.cs", "_light_render_8cs.html", [
       [ "LightRender", "class_light_render.html", "class_light_render" ]
     ] ],

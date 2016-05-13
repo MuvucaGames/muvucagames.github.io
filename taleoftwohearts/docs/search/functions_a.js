@@ -1,6 +1,6 @@
 var searchData=
 [
+  ['load',['Load',['../class_game_manager.html#af9341f0e88639e8b86546e9daf107f57',1,'GameManager']]],
   ['loadgamebutton',['LoadGameButton',['../class_main_menu.html#a2e4e0d56bc1b6af29a41504907ffb986',1,'MainMenu']]],
-  ['loadlevel',['LoadLevel',['../class_game.html#ab2eb0fd996cafea0edd29e4c22cb0e46',1,'Game']]],
-  ['loadslot',['LoadSlot',['../class_game.html#ac61c3e9851805ec416dc930f8ea65a28',1,'Game']]]
+  ['loadnext',['LoadNext',['../class_game_manager.html#ab945ababb90033f9551858d8a108d84d',1,'GameManager']]]
 ];

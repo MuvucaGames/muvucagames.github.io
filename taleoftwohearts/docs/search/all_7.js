@@ -1,14 +1,7 @@
 var searchData=
 [
-  ['game',['Game',['../class_game.html',1,'Game'],['../class_game.html#afbed950ca04729fe175a76117a0da809',1,'Game.Game()']]],
-  ['game_2ecs',['Game.cs',['../_game_8cs.html',1,'']]],
-  ['gamebootstrap',['GameBootstrap',['../class_game_bootstrap.html',1,'']]],
-  ['gamebootstrap_2ecs',['GameBootstrap.cs',['../_game_bootstrap_8cs.html',1,'']]],
-  ['gamedata',['GameData',['../class_game_data.html',1,'']]],
-  ['gamedata_2ecs',['GameData.cs',['../_game_data_8cs.html',1,'']]],
-  ['gamelevel',['GameLevel',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948',1,'Game.cs']]],
-  ['gamelevels',['GameLevels',['../class_game_levels.html',1,'GameLevels'],['../class_game_levels.html#a036e5a51dd8b7b2070329cb4f2541c3b',1,'GameLevels.GameLevels()']]],
-  ['gamelevels_2ecs',['GameLevels.cs',['../_game_levels_8cs.html',1,'']]],
+  ['gamemanager',['GameManager',['../class_game_manager.html',1,'']]],
+  ['gamemanager_2ecs',['GameManager.cs',['../_game_manager_8cs.html',1,'']]],
   ['getactiveimage',['GetActiveImage',['../class_select_character.html#aa029a08a4bd9f7666c705f4027872eb2',1,'SelectCharacter']]],
   ['getcamera',['getCamera',['../class_camera_controller.html#a7641c9645f866308f953eecb1f308cc1',1,'CameraController']]],
   ['getdefaultcolor',['getDefaultColor',['../class_puzzle_controller.html#a64305c4596dc3bdfdf1a5f2ce773d47c',1,'PuzzleController']]],

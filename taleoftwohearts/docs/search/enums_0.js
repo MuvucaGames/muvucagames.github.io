@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gamelevel',['GameLevel',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948',1,'Game.cs']]]
+  ['level',['Level',['../class_game_manager.html#ac9ce43d3fb74b141d3e1642c9d2a5f52',1,'GameManager']]]
 ];

@@ -19,6 +19,5 @@ var searchData=
   ['corpo',['Corpo',['../class_esteira.html#af6f561222d20be2d0734ba851a70fbdd',1,'Esteira']]],
   ['creditstransform',['creditsTransform',['../class_credits.html#adf5a3ad0fa93a9a06d70185593979f95',1,'Credits']]],
   ['crouched',['Crouched',['../class_hero.html#a869c8519e985f5f2a9f7fc048888ddf9',1,'Hero']]],
-  ['currentlevel_5f',['currentLevel_',['../class_game.html#a0d1c3a30137d0e74b272c4228b1f39f1',1,'Game']]],
   ['cursor',['cursor',['../class_puzzle_controller.html#a9f5894a0e48131b38706162ce8d1679f',1,'PuzzleController']]]
 ];

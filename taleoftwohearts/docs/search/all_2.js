@@ -7,8 +7,6 @@ var searchData=
   ['balloonprefab',['balloonPrefab',['../class_dialog.html#a12e0574248035b58acd4c9cc4dae0e5d',1,'Dialog']]],
   ['blink',['Blink',['../class_light_render.html#a454b8d575730b3da43acd422707d0f71',1,'LightRender']]],
   ['bodycollider',['bodyCollider',['../class_hero.html#aebbf3d38f45c0daf0274063f9d7b7b8d',1,'Hero']]],
-  ['bootgame',['BootGame',['../class_game.html#a11a56efaf0a572f865cf7d5d999c62cb',1,'Game']]],
-  ['bootstrap',['Bootstrap',['../_game_8cs.html#a9d2c8df557e927eceec042cd07a5a948a6699fc2680f2601917ba69358414fa51',1,'Game.cs']]],
   ['bothcheckedrenderer',['bothCheckedRenderer',['../class_checkpoint.html#ad927b65ca2ed563e38cf02b62d9dc518',1,'Checkpoint']]],
   ['bothheroesneeded',['bothHeroesNeeded',['../class_warp_zone_door.html#ac28c3ef617ed079ef2cf1c7b1f3a0188',1,'WarpZoneDoor']]],
   ['btnfast',['btnFast',['../class_select_character.html#a4dd3c02d6c3e9c47e8afe4cf425d8ff9',1,'SelectCharacter']]],
@@ -20,6 +18,5 @@ var searchData=
   ['btnmatemalesign',['btnMateMaleSign',['../class_select_character.html#aeff3ca3edef9d80e7fa2fe1aa0c10bce',1,'SelectCharacter']]],
   ['btnmatesprite1',['btnMateSprite1',['../class_select_character.html#ac99cae23b0a6a97d9e9a7e25b91afe1b',1,'SelectCharacter']]],
   ['btnmatesprite2',['btnMateSprite2',['../class_select_character.html#acc1f69b1d9d358154f8fef7ce672cd6a',1,'SelectCharacter']]],
-  ['btnstrong',['btnStrong',['../class_select_character.html#a63b9d54551c5f34bebab0fde58ba5da7',1,'SelectCharacter']]],
-  ['build_5flevels_5ffile_5fdirectory',['BUILD_LEVELS_FILE_DIRECTORY',['../class_game_levels.html#a3174dbf3e1e7288c9a1d454cd7b0c446',1,'GameLevels']]]
+  ['btnstrong',['btnStrong',['../class_select_character.html#a63b9d54551c5f34bebab0fde58ba5da7',1,'SelectCharacter']]]
 ];

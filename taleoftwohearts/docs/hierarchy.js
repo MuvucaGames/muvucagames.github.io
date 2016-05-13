@@ -1,8 +1,5 @@
 var hierarchy =
 [
-    [ "Game", "class_game.html", null ],
-    [ "GameData", "class_game_data.html", null ],
-    [ "GameLevels", "class_game_levels.html", null ],
     [ "IHeroActionable", "interface_i_hero_actionable.html", [
       [ "Lever", "class_lever.html", null ]
     ] ],
@@ -47,7 +44,7 @@ var hierarchy =
       [ "DesignTools", "class_design_tools.html", null ],
       [ "Esteira", "class_esteira.html", null ],
       [ "FliesControl", "class_flies_control.html", null ],
-      [ "GameBootstrap", "class_game_bootstrap.html", null ],
+      [ "GameManager", "class_game_manager.html", null ],
       [ "Hero", "class_hero.html", [
         [ "HeroFast", "class_hero_fast.html", null ],
         [ "HeroStrong", "class_hero_strong.html", null ]
@@ -70,6 +67,7 @@ var hierarchy =
       [ "Travelator", "class_travelator.html", null ]
     ] ],
     [ "ScriptableObject", null, [
+      [ "LevelHolder", "class_level_holder.html", null ],
       [ "Sentence", "class_sentence.html", null ]
     ] ]
 ];
