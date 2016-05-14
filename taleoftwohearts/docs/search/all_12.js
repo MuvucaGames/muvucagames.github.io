@@ -2,7 +2,7 @@ var searchData=
 [
   ['target',['target',['../class_movable_horizontal_platform.html#a1e4040cf70333528560a6f814c407b3e',1,'MovableHorizontalPlatform']]],
   ['teleport',['teleport',['../class_warp_zone_door.html#a00f5c74f50cf3a69fb6ceceb6ddaf3dd',1,'WarpZoneDoor']]],
-  ['terminal',['Terminal',['../class_colors_puzzle.html#aa8502ac1fd79219e1d6486401898ca98',1,'ColorsPuzzle']]],
+  ['terminal',['Terminal',['../class_claw_controller.html#a855405b3163edd7f6058e8d32d06d327',1,'ClawController.Terminal()'],['../class_colors_puzzle.html#aa8502ac1fd79219e1d6486401898ca98',1,'ColorsPuzzle.Terminal()']]],
   ['text',['text',['../class_credits.html#a67994a8292443ed381c65e2456613b1b',1,'Credits']]],
   ['textheight',['textHeight',['../class_credits.html#aaaeea0959b9d7a6a0701f84707cd0ebf',1,'Credits']]],
   ['think',['Think',['../class_balloon.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a4c96c9aaa582646555163130e869d834',1,'Balloon']]],

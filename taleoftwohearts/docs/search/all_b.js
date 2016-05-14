@@ -20,6 +20,8 @@ var searchData=
   ['leverdelay',['leverDelay',['../class_lever.html#a965a8cbdcf5847f232ccb55c1969f982',1,'Lever']]],
   ['lightrender',['LightRender',['../class_light_render.html',1,'']]],
   ['lightrender_2ecs',['LightRender.cs',['../_light_render_8cs.html',1,'']]],
+  ['limit',['Limit',['../class_limit.html',1,'']]],
+  ['limit_2ecs',['Limit.cs',['../_limit_8cs.html',1,'']]],
   ['list',['list',['../class_credits.html#ab02ebfa20632064816701189c88c0ccc',1,'Credits']]],
   ['listtransform',['listTransform',['../class_credits.html#a5dd83377afb043a8e900881a5fcaa0c6',1,'Credits']]],
   ['load',['Load',['../class_game_manager.html#af9341f0e88639e8b86546e9daf107f57',1,'GameManager']]],

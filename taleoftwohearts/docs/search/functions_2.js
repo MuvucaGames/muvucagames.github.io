@@ -7,7 +7,7 @@ var searchData=
   ['carry',['Carry',['../class_hero.html#aa552f9c4dd1ea0680aec49601dad56b7',1,'Hero']]],
   ['carryobject',['CarryObject',['../class_hero.html#ab4b5216bedb9ac729af8d68ff6c2032c',1,'Hero']]],
   ['changecameradistsance',['ChangeCameraDistsance',['../class_camera_param_tools.html#ad3b558615ee25d85292047029e1d6e03',1,'CameraParamTools']]],
-  ['changegravityscale',['ChangeGravityScale',['../class_hero_params_tool.html#a18ce0269d29aa92cf346fa3d317eaaac',1,'HeroParamsTool']]],
+  ['changegravityscale',['changeGravityScale',['../class_claw_per_se.html#a31f7cbb36e4b2feea098beda40abad22',1,'ClawPerSe.changeGravityScale()'],['../class_hero_params_tool.html#a18ce0269d29aa92cf346fa3d317eaaac',1,'HeroParamsTool.ChangeGravityScale()']]],
   ['changehero',['ChangeHero',['../class_hero.html#af339989ca4760bd99bbc2e40410bff18',1,'Hero']]],
   ['changehorizontalflyingforce',['ChangeHorizontalFlyingForce',['../class_hero_params_tool.html#aac48f6b6ab9531788e734fb55db60310',1,'HeroParamsTool']]],
   ['changejumpheight',['ChangeJumpHeight',['../class_hero_params_tool.html#ae0a8f2c7e3c1830967b0169945a1f70d',1,'HeroParamsTool']]],

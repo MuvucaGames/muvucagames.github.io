@@ -2,6 +2,7 @@ var dir_6e84312333c5eef9d4b7965f8ced21be =
 [
     [ "Carry", "dir_684788cd9074de624978834b3f1b9d3b.html", "dir_684788cd9074de624978834b3f1b9d3b" ],
     [ "Checkpoint", "dir_76fe2e1064a3b9269f37b4cec44b34d5.html", "dir_76fe2e1064a3b9269f37b4cec44b34d5" ],
+    [ "Claw", "dir_9d52b9939fa2879e1feef45f3f8e0ac1.html", "dir_9d52b9939fa2879e1feef45f3f8e0ac1" ],
     [ "Colors Puzzle", "dir_74db7198fb2a70ade378df472061c69f.html", "dir_74db7198fb2a70ade378df472061c69f" ],
     [ "Dialog", "dir_a4de67e83692cd03381dcfbd45ea285c.html", "dir_a4de67e83692cd03381dcfbd45ea285c" ],
     [ "Ladder", "dir_dc33f2e6fa67d823770b3cb3789b98fa.html", "dir_dc33f2e6fa67d823770b3cb3789b98fa" ],

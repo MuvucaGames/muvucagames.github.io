@@ -33,6 +33,7 @@ var class_hero =
     [ "CarriedObject", "class_hero.html#af5b06305557926d825a2b8f2e898146f", null ],
     [ "Carrying", "class_hero.html#a1955f81ba0a2ba56537ce54eb0b12129", null ],
     [ "CarryingByAction", "class_hero.html#ac3f37a7c93bacc1006552a98d2705a15", null ],
+    [ "changeHeroAllowed", "class_hero.html#ab81489d035c1a38b063e47ff25eebba6", null ],
     [ "Crouched", "class_hero.html#a869c8519e985f5f2a9f7fc048888ddf9", null ],
     [ "facingDirection", "class_hero.html#a6ef1486271b2e1f0fb03de95e51b0472", null ],
     [ "footCollider", "class_hero.html#ac654168b2ec2d791eee5e82a89d29cc5", null ],

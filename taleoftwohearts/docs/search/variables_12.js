@@ -1,7 +1,7 @@
 var searchData=
 [
   ['target',['target',['../class_movable_horizontal_platform.html#a1e4040cf70333528560a6f814c407b3e',1,'MovableHorizontalPlatform']]],
-  ['terminal',['Terminal',['../class_colors_puzzle.html#aa8502ac1fd79219e1d6486401898ca98',1,'ColorsPuzzle']]],
+  ['terminal',['Terminal',['../class_claw_controller.html#a855405b3163edd7f6058e8d32d06d327',1,'ClawController.Terminal()'],['../class_colors_puzzle.html#aa8502ac1fd79219e1d6486401898ca98',1,'ColorsPuzzle.Terminal()']]],
   ['text',['text',['../class_credits.html#a67994a8292443ed381c65e2456613b1b',1,'Credits']]],
   ['textheight',['textHeight',['../class_credits.html#aaaeea0959b9d7a6a0701f84707cd0ebf',1,'Credits']]],
   ['timeinseconds',['timeInSeconds',['../class_sentence_1_1_info.html#a334bd6547237413f63efe31e909b743c',1,'Sentence::Info']]],

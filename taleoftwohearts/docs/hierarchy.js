@@ -39,6 +39,12 @@ var hierarchy =
       ] ],
       [ "Checkpoint", "class_checkpoint.html", null ],
       [ "CheckpointManager", "class_checkpoint_manager.html", null ],
+      [ "Claw", "class_claw.html", [
+        [ "ClawMechanism", "class_claw_mechanism.html", null ],
+        [ "ClawNode", "class_claw_node.html", null ],
+        [ "ClawPerSe", "class_claw_per_se.html", null ]
+      ] ],
+      [ "ClawController", "class_claw_controller.html", null ],
       [ "Credits", "class_credits.html", null ],
       [ "DeathTrigger", "class_death_trigger.html", null ],
       [ "DesignTools", "class_design_tools.html", null ],
@@ -55,6 +61,7 @@ var hierarchy =
       [ "Intro", "class_intro.html", null ],
       [ "Ladder", "class_ladder.html", null ],
       [ "LightRender", "class_light_render.html", null ],
+      [ "Limit", "class_limit.html", null ],
       [ "MainMenu", "class_main_menu.html", null ],
       [ "MovableHorizontalPlatform", "class_movable_horizontal_platform.html", null ],
       [ "MoveAtoB", "class_move_ato_b.html", null ],

@@ -14,6 +14,9 @@ var dir_9ace04818a2f764b3fa19a0522bb3e87 =
     [ "LightRender.cs", "_light_render_8cs.html", [
       [ "LightRender", "class_light_render.html", "class_light_render" ]
     ] ],
+    [ "Limit.cs", "_limit_8cs.html", [
+      [ "Limit", "class_limit.html", "class_limit" ]
+    ] ],
     [ "TrapDoor.cs", "_trap_door_8cs.html", [
       [ "TrapDoor", "class_trap_door.html", "class_trap_door" ]
     ] ]
