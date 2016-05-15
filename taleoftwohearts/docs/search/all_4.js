@@ -24,5 +24,6 @@ var searchData=
   ['done',['done',['../class_trap_door.html#a09276147de932238c60e7c2ef2a7a61a',1,'TrapDoor']]],
   ['door',['Door',['../class_door.html',1,'']]],
   ['door_2ecs',['Door.cs',['../_door_8cs.html',1,'']]],
-  ['doortarget',['doorTarget',['../class_warp_zone_door.html#aac12534bc3960022d7334926988a6e80',1,'WarpZoneDoor']]]
+  ['doortarget',['doorTarget',['../class_warp_zone_door.html#aac12534bc3960022d7334926988a6e80',1,'WarpZoneDoor']]],
+  ['drawrectangle',['DrawRectangle',['../class_claw_utils.html#a52d56df74d7f44fcc74965ef6388f424',1,'ClawUtils']]]
 ];

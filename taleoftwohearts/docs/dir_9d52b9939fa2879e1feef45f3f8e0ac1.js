@@ -14,5 +14,8 @@ var dir_9d52b9939fa2879e1feef45f3f8e0ac1 =
     ] ],
     [ "ClawPerSe.cs", "_claw_per_se_8cs.html", [
       [ "ClawPerSe", "class_claw_per_se.html", "class_claw_per_se" ]
+    ] ],
+    [ "ClawUtils.cs", "_claw_utils_8cs.html", [
+      [ "ClawUtils", "class_claw_utils.html", "class_claw_utils" ]
     ] ]
 ];

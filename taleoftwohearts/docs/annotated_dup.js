@@ -17,6 +17,7 @@ var annotated_dup =
     [ "ClawMechanism", "class_claw_mechanism.html", "class_claw_mechanism" ],
     [ "ClawNode", "class_claw_node.html", "class_claw_node" ],
     [ "ClawPerSe", "class_claw_per_se.html", "class_claw_per_se" ],
+    [ "ClawUtils", "class_claw_utils.html", "class_claw_utils" ],
     [ "ColorsPuzzle", "class_colors_puzzle.html", "class_colors_puzzle" ],
     [ "ColorsPuzzleActivator", "class_colors_puzzle_activator.html", "class_colors_puzzle_activator" ],
     [ "Credits", "class_credits.html", "class_credits" ],

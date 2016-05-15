@@ -58,6 +58,8 @@ var searchData=
   ['clawnode_2ecs',['ClawNode.cs',['../_claw_node_8cs.html',1,'']]],
   ['clawperse',['ClawPerSe',['../class_claw_per_se.html',1,'ClawPerSe'],['../class_claw_controller.html#a81bf42afc8d8983f33c583e018569070',1,'ClawController.clawPerSe()']]],
   ['clawperse_2ecs',['ClawPerSe.cs',['../_claw_per_se_8cs.html',1,'']]],
+  ['clawutils',['ClawUtils',['../class_claw_utils.html',1,'']]],
+  ['clawutils_2ecs',['ClawUtils.cs',['../_claw_utils_8cs.html',1,'']]],
   ['clean',['clean',['../class_colors_puzzle.html#ab4771bd8f49b5f12e42d56d8147dee23',1,'ColorsPuzzle']]],
   ['closedclaw',['closedClaw',['../class_claw_per_se.html#a6772763cfdc93b080cea43931963d32d',1,'ClawPerSe']]],
   ['coll',['coll',['../class_claw.html#a4a738ffe4d7e30d5c198d671629c0d2e',1,'Claw.coll()'],['../class_rolling_ball.html#a8c40a7d9ea4ff232a19ef8d7a8fdde75',1,'RollingBall.coll()']]],

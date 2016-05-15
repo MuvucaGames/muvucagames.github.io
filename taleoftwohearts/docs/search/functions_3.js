@@ -6,5 +6,6 @@ var searchData=
   ['deactivatetriggerbuttons',['DeactivateTriggerButtons',['../class_puzzle_controller.html#a65f1256c9040bc1b771da2694a05fb0e',1,'PuzzleController.DeactivateTriggerButtons()'],['../class_hero_control.html#a585cb5775121963cbdbb6f74493b756f',1,'HeroControl.DeactivateTriggerButtons()']]],
   ['deactivation',['Deactivation',['../class_timer_activator.html#a20bb3a9f50c08a0a52ee4bfde25aef68',1,'TimerActivator']]],
   ['detectbuttonstates',['detectButtonStates',['../class_hero_control.html#a70689a043f63c3dee24c8490687f3142',1,'HeroControl']]],
-  ['doaction',['DoAction',['../class_hero.html#a15295e062b900011df58f777c1dc0e22',1,'Hero']]]
+  ['doaction',['DoAction',['../class_hero.html#a15295e062b900011df58f777c1dc0e22',1,'Hero']]],
+  ['drawrectangle',['DrawRectangle',['../class_claw_utils.html#a52d56df74d7f44fcc74965ef6388f424',1,'ClawUtils']]]
 ];

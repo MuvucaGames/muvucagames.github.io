@@ -12,6 +12,7 @@ var searchData=
   ['clawmechanism',['ClawMechanism',['../class_claw_mechanism.html',1,'']]],
   ['clawnode',['ClawNode',['../class_claw_node.html',1,'']]],
   ['clawperse',['ClawPerSe',['../class_claw_per_se.html',1,'']]],
+  ['clawutils',['ClawUtils',['../class_claw_utils.html',1,'']]],
   ['colorspuzzle',['ColorsPuzzle',['../class_colors_puzzle.html',1,'']]],
   ['colorspuzzleactivator',['ColorsPuzzleActivator',['../class_colors_puzzle_activator.html',1,'']]],
   ['credits',['Credits',['../class_credits.html',1,'']]]

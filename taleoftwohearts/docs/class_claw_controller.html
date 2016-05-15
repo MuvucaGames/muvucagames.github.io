@@ -152,6 +152,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:acb999bf9fad79b130d54fd9bf5a7562d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5c6b14b2531ecb397f0583b79be0691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#ab5c6b14b2531ecb397f0583b79be0691">FixedUpdate</a> ()</td></tr>
 <tr class="separator:ab5c6b14b2531ecb397f0583b79be0691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd23ab44e31a600afeadfd97c1ae9fe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#afd23ab44e31a600afeadfd97c1ae9fe5">OnDrawGizmos</a> ()</td></tr>
+<tr class="separator:afd23ab44e31a600afeadfd97c1ae9fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -159,8 +161,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a3598a913517627f85932d5a38c1cc84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2a37a1d5315cdb46f2cd42b4a975ce2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#af2a37a1d5315cdb46f2cd42b4a975ce2">verticalVelocity</a> = 1.2f</td></tr>
 <tr class="separator:af2a37a1d5315cdb46f2cd42b4a975ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab133bf2e2ae744a4a65e0370aa311aa1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#ab133bf2e2ae744a4a65e0370aa311aa1">minHeight</a> = 10.0f</td></tr>
+<tr class="memitem:ab133bf2e2ae744a4a65e0370aa311aa1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#ab133bf2e2ae744a4a65e0370aa311aa1">minHeight</a> = 4f</td></tr>
 <tr class="separator:ab133bf2e2ae744a4a65e0370aa311aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd17658d960e4f5ccb84ea18b9ef2bdf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#abd17658d960e4f5ccb84ea18b9ef2bdf">allowDrawing</a> = true</td></tr>
+<tr class="separator:abd17658d960e4f5ccb84ea18b9ef2bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cd6268d0514d5905826c30017393426"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#a8cd6268d0514d5905826c30017393426">clawLastPosition</a></td></tr>
 <tr class="separator:a8cd6268d0514d5905826c30017393426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc6ae35e139b65e96edd3fd8f06a42f5"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_claw_controller.html#abc6ae35e139b65e96edd3fd8f06a42f5">clawCenter</a></td></tr>
@@ -206,7 +210,7 @@ Private Attributes</h2></td></tr>
 </ul>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_claw.html" title="Parent class for Claw Pieces ">Claw</a>, <a class="el" href="class_claw_node.html" title="Support for claw that keeps it fixed on some point. ">ClawNode</a>, <a class="el" href="class_claw_per_se.html">ClawPerSe</a>, <a class="el" href="class_claw_mechanism.html" title="Piece that move between two physics limits. ">ClawMechanism</a>, <a class="el" href="class_invisible_area_trigger.html">InvisibleAreaTrigger</a>, <a class="el" href="class_camera_controller.html">CameraController</a>, <a class="el" href="class_carriable_light.html">CarriableLight</a>, <a class="el" href="class_hero_control.html">HeroControl</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00034">34</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00035">35</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ae17dacd3054ed15f695f72f6f1e4b590"></a>
 <div class="memitem">
@@ -229,7 +233,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00058">58</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00060">60</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -254,7 +258,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00208">208</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00210">210</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -282,7 +286,7 @@ Private Attributes</h2></td></tr>
 <p>Discover wich hero is active </p>
 <dl class="section return"><dt>Returns</dt><dd>Active hero </dd></dl>
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00150">150</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00152">152</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -316,7 +320,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00075">75</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00077">77</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -343,7 +347,32 @@ Private Attributes</h2></td></tr>
 
 <p>Main axis of the claw is duplicated or deleted whether the claw is going downwards or upwards </p>
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00101">101</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00103">103</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd23ab44e31a600afeadfd97c1ae9fe5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClawController.OnDrawGizmos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00262">262</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -368,7 +397,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00163">163</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00165">165</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -383,7 +412,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00045">45</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00047">47</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -397,7 +426,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00044">44</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00046">46</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -419,7 +448,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00052">52</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00054">54</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd17658d960e4f5ccb84ea18b9ef2bdf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClawController.allowDrawing = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00040">40</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -441,7 +492,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00051">51</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00053">53</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -463,7 +514,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00041">41</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00043">43</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -485,7 +536,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00040">40</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00042">42</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -507,7 +558,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00054">54</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00056">56</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -529,7 +580,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00055">55</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00057">57</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -551,7 +602,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00056">56</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00058">58</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -573,7 +624,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00047">47</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00049">49</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -595,7 +646,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00046">46</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00048">48</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -617,7 +668,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00042">42</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00044">44</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -639,7 +690,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00036">36</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00037">37</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -651,7 +702,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float ClawController.minHeight = 10.0f</td>
+          <td class="memname">float ClawController.minHeight = 4f</td>
         </tr>
       </table>
   </td>
@@ -661,7 +712,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00038">38</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00039">39</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -683,7 +734,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00048">48</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00050">50</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -705,7 +756,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00049">49</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00051">51</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -727,7 +778,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00050">50</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00052">52</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -749,7 +800,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00043">43</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00045">45</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
@@ -771,7 +822,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00037">37</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_claw_controller_8cs_source.html#l00038">38</a> of file <a class="el" href="_claw_controller_8cs_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>

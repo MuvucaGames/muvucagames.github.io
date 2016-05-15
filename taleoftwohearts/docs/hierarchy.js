@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "ClawUtils", "class_claw_utils.html", null ],
     [ "IHeroActionable", "interface_i_hero_actionable.html", [
       [ "Lever", "class_lever.html", null ]
     ] ],

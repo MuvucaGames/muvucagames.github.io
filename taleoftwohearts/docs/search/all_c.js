@@ -55,7 +55,7 @@ var searchData=
   ['moveatob_2ecs',['MoveAtoB.cs',['../_move_ato_b_8cs.html',1,'']]],
   ['moveclaw',['MoveClaw',['../class_claw_controller.html#ad8fff20c55a787623a2621eea5ed4beb',1,'ClawController']]],
   ['movecoroutine',['moveCoroutine',['../class_two_states_actionable_platform.html#a3c31f2f2a70d1e7d0985586d061feaf2',1,'TwoStatesActionablePlatform']]],
-  ['movement',['Movement',['../class_door.html#aedabca1df61d028f4711753e429895f3',1,'Door.Movement()'],['../class_two_states_actionable_platform.html#a86c8d4ddcca3a5887c4e5e414ef9781b',1,'TwoStatesActionablePlatform.Movement()'],['../class_door.html#a3f7d671b5898980964472a68132691b7',1,'Door.movement()']]],
+  ['movement',['movement',['../class_door.html#a3f7d671b5898980964472a68132691b7',1,'Door.movement()'],['../class_door.html#aedabca1df61d028f4711753e429895f3',1,'Door.Movement(Vector3 target)'],['../class_two_states_actionable_platform.html#a86c8d4ddcca3a5887c4e5e414ef9781b',1,'TwoStatesActionablePlatform.Movement()']]],
   ['movie',['movie',['../class_intro.html#aaeba3b6bb45cab4c5f4e7ceea7391d8d',1,'Intro']]],
   ['music',['music',['../class_sound_manager.html#a2ce82731e7fa44ac22175416904ae9eb',1,'SoundManager']]],
   ['musicvolume',['musicVolume',['../class_sound_manager.html#a4f4ab1b94b2fd48e87b2932db53bf202',1,'SoundManager']]],

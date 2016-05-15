@@ -21,6 +21,7 @@ var searchData=
   ['activehero',['activeHero',['../class_claw_controller.html#af999e7e9426b146840673024f1cb063d',1,'ClawController']]],
   ['activerenderer',['activeRenderer',['../class_lever.html#a8faa11ac6be87193d9b344417e445d98',1,'Lever']]],
   ['addactionableelement',['AddActionableElement',['../class_activator.html#a66402f9a677c781f791248fd58291bc8',1,'Activator']]],
+  ['allowdrawing',['allowDrawing',['../class_claw_controller.html#abd17658d960e4f5ccb84ea18b9ef2bdf',1,'ClawController.allowDrawing()'],['../class_claw_utils.html#a3161857b9ec2311d4495f7035444bd92',1,'ClawUtils.allowDrawing()']]],
   ['alreadytrigged',['alreadyTrigged',['../class_invisible_area_trigger.html#ab22d1eceb5ae5382d44d37837f2be2ce',1,'InvisibleAreaTrigger']]],
   ['alreadytriggered',['alreadyTriggered',['../class_dialog.html#a979c48e4896880b997d6b3473032c0e0',1,'Dialog']]],
   ['animateselectedbutton',['AnimateSelectedButton',['../class_select_character.html#abf94846dde012e5b382cae5f303efadc',1,'SelectCharacter']]],
