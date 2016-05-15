@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"class_invisible_area_trigger.html":[0,0,37],
 "class_invisible_area_trigger.html#a17bffd8045d1fc10e053f2d9c5736077":[0,0,37,6],
 "class_invisible_area_trigger.html#a1e021e0783a48ac8f77e72418bb3581e":[0,0,37,4],
 "class_invisible_area_trigger.html#a58fe547e0f0229f534fcdcc7c27324bb":[0,0,37,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "class_warp_zone_door.html#a61b828421f799ae979eb6f248809cd0d":[0,0,59,10],
 "class_warp_zone_door.html#a6b45a7a48b931def0c86db9ef7b4e626":[0,0,59,0],
 "class_warp_zone_door.html#a7e78b15314026a1c1e5b5f9f7ad4a43f":[0,0,59,16],
-"class_warp_zone_door.html#a80649d56f99bb677839fc69baa474c5d":[0,0,59,15],
-"class_warp_zone_door.html#a88e9c4a55e0b59e993391779d06856f6":[0,0,59,1]
+"class_warp_zone_door.html#a80649d56f99bb677839fc69baa474c5d":[0,0,59,15]
 };

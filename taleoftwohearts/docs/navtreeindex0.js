@@ -182,6 +182,7 @@ var NAVTREEINDEX0 =
 "class_camera_param_tools.html#ae36d70aa8762e7f4ee33d04b20237d38":[0,0,6,2],
 "class_carriable.html":[0,0,7],
 "class_carriable.html#a4ee7178919a57aa82a4a6f51dc56b4d4":[0,0,7,0],
+"class_carriable.html#a58cd17a392f716272891acc981c83456":[0,0,7,1],
 "class_carriable_heavy.html":[0,0,8],
 "class_carriable_heavy.html#a4f8f5835f090f2245e742c686d031988":[0,0,8,0],
 "class_carriable_light.html":[0,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_claw_controller.html#af2a37a1d5315cdb46f2cd42b4a975ce2":[0,0,13,24],
 "class_claw_controller.html#af637c902d444ca30f066fe713084a618":[0,0,13,2],
 "class_claw_controller.html#af999e7e9426b146840673024f1cb063d":[0,0,13,8],
-"class_claw_mechanism.html":[0,0,14],
-"class_claw_mechanism.html#a04db279d41e0cc33213664f85882d6d1":[0,0,14,2]
+"class_claw_mechanism.html":[0,0,14]
 };

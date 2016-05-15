@@ -10,6 +10,7 @@ var searchData=
   ['interobjrigidbody',['interObjRigidbody',['../class_claw_per_se.html#a84388bae4b56f354074d6cad6a290851',1,'ClawPerSe']]],
   ['introscene',['IntroScene',['../class_level_holder.html#abfe29c586b82f10cbc06206414971ee9',1,'LevelHolder']]],
   ['isactive',['isActive',['../class_colors_puzzle.html#a69c4dbf9fbfbbc95678a2496e2c39dfb',1,'ColorsPuzzle.isActive()'],['../class_colors_puzzle_activator.html#adb0c29ad21a45861929d92699738468d',1,'ColorsPuzzleActivator.isActive()'],['../class_lever.html#a4e7c7e5ee5be90744c07a2946e76fec2',1,'Lever.isActive()'],['../class_timer.html#a71ec8465b3b7fde475e13326f30b3ba6',1,'Timer.isActive()']]],
+  ['isbeingcarried',['isBeingCarried',['../class_carriable.html#a58cd17a392f716272891acc981c83456',1,'Carriable']]],
   ['isclimbing',['isClimbing',['../class_hero.html#ace96dc8907658f36ea6da8748a45a35e',1,'Hero']]],
   ['isherofastatdoor',['isHeroFastAtDoor',['../class_warp_zone_door.html#a3f18d281033da20dab8e2bdce7f915d1',1,'WarpZoneDoor']]],
   ['isherostrongatdoor',['isHeroStrongAtDoor',['../class_warp_zone_door.html#a1310abd4ef23bc66fc9d006a2835f2ec',1,'WarpZoneDoor']]],
