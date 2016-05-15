@@ -28,5 +28,5 @@ var searchData=
   ['triggerswithbothinside',['triggersWithBothInside',['../class_invisible_area_trigger.html#a17bffd8045d1fc10e053f2d9c5736077',1,'InvisibleAreaTrigger']]],
   ['twostatesactionableplatform',['TwoStatesActionablePlatform',['../class_two_states_actionable_platform.html',1,'']]],
   ['twostatesactionableplatform_2ecs',['TwoStatesActionablePlatform.cs',['../_two_states_actionable_platform_8cs.html',1,'']]],
-  ['typeofballoon',['TypeOfBalloon',['../class_balloon.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3',1,'Balloon.TypeOfBalloon()'],['../class_sentence_1_1_info.html#af30d335e5b4efe0093810167b4fd93be',1,'Sentence.Info.typeOfBalloon()']]]
+  ['typeofballoon',['typeOfBalloon',['../class_sentence_1_1_info.html#af30d335e5b4efe0093810167b4fd93be',1,'Sentence.Info.typeOfBalloon()'],['../class_balloon.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3',1,'Balloon.TypeOfBalloon()']]]
 ];

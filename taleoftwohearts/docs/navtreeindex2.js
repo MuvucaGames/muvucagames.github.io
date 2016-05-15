@@ -67,7 +67,7 @@ var NAVTREEINDEX2 =
 "class_movable_horizontal_platform.html#ae649a540424dde51cb3fadb9878c8020":[0,0,45,7],
 "class_movable_horizontal_platform.html#aec1a4d1912871dc0e09e66d6c905a32d":[0,0,45,13],
 "class_move_ato_b.html":[0,0,46],
-"class_move_ato_b.html#a54c7dcf59ba12fcaa73bed515009e4ed":[0,0,46,1],
+"class_move_ato_b.html#a11804dfb58b18705baf51ba3f0ba4fdc":[0,0,46,1],
 "class_move_ato_b.html#a74fcb8375eac75d0f0712a9b945f504d":[0,0,46,0],
 "class_move_ato_b.html#ac870c053904595c3af60ea57292eda22":[0,0,46,3],
 "class_move_ato_b.html#acc4eef98d36307ebf6a4eec46430c206":[0,0,46,2],

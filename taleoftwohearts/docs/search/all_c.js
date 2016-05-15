@@ -49,7 +49,7 @@ var searchData=
   ['movablehorizontalplatform',['MovableHorizontalPlatform',['../class_movable_horizontal_platform.html',1,'']]],
   ['movablehorizontalplatform_2ecs',['MovableHorizontalPlatform.cs',['../_movable_horizontal_platform_8cs.html',1,'']]],
   ['movablepart',['movablePart',['../class_door.html#a726e614c2956c205cd5c60f051fe0f73',1,'Door']]],
-  ['move',['Move',['../class_hero.html#a908fb89da692e995f31bd7cfdd999b8f',1,'Hero']]],
+  ['move',['Move',['../class_move_ato_b.html#a11804dfb58b18705baf51ba3f0ba4fdc',1,'MoveAtoB.Move()'],['../class_hero.html#a908fb89da692e995f31bd7cfdd999b8f',1,'Hero.Move()']]],
   ['move_5fthreshold',['MOVE_THRESHOLD',['../class_hero_control.html#aaf0d35c66ff1e6403e20c85444a4dc7d',1,'HeroControl']]],
   ['moveatob',['MoveAtoB',['../class_move_ato_b.html',1,'']]],
   ['moveatob_2ecs',['MoveAtoB.cs',['../_move_ato_b_8cs.html',1,'']]],
