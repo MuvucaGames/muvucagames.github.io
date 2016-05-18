@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['warpzonedoor',['WarpZoneDoor',['../class_warp_zone_door.html',1,'']]],
-  ['weigthbuttonwithphysics',['WeigthButtonWithPhysics',['../class_weigth_button_with_physics.html',1,'']]]
+  ['warpzonedoor',['WarpZoneDoor',['../a00064.html',1,'']]],
+  ['weigthbuttonwithphysics',['WeigthButtonWithPhysics',['../a00065.html',1,'']]]
 ];

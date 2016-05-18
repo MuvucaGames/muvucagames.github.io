@@ -1,12 +1,12 @@
 var dir_74db7198fb2a70ade378df472061c69f =
 [
-    [ "ColorsPuzzle.cs", "_colors_puzzle_8cs.html", [
-      [ "ColorsPuzzle", "class_colors_puzzle.html", "class_colors_puzzle" ]
+    [ "ColorsPuzzle.cs", "a00084.html", [
+      [ "ColorsPuzzle", "a00021.html", "a00021" ]
     ] ],
-    [ "ColorsPuzzleActivator.cs", "_colors_puzzle_activator_8cs.html", [
-      [ "ColorsPuzzleActivator", "class_colors_puzzle_activator.html", "class_colors_puzzle_activator" ]
+    [ "ColorsPuzzleActivator.cs", "a00085.html", [
+      [ "ColorsPuzzleActivator", "a00022.html", "a00022" ]
     ] ],
-    [ "PuzzleController.cs", "_puzzle_controller_8cs.html", [
-      [ "PuzzleController", "class_puzzle_controller.html", "class_puzzle_controller" ]
+    [ "PuzzleController.cs", "a00086.html", [
+      [ "PuzzleController", "a00052.html", "a00052" ]
     ] ]
 ];

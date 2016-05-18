@@ -1,13 +1,13 @@
 var dir_a4de67e83692cd03381dcfbd45ea285c =
 [
-    [ "Balloon.cs", "_balloon_8cs.html", [
-      [ "Balloon", "class_balloon.html", "class_balloon" ]
+    [ "Balloon.cs", "a00088.html", [
+      [ "Balloon", "a00007.html", "a00007" ]
     ] ],
-    [ "Dialog.cs", "_dialog_8cs.html", [
-      [ "Dialog", "class_dialog.html", "class_dialog" ]
+    [ "Dialog.cs", "a00089.html", [
+      [ "Dialog", "a00026.html", "a00026" ]
     ] ],
-    [ "Sentence.cs", "_sentence_8cs.html", [
-      [ "Sentence", "class_sentence.html", "class_sentence" ],
-      [ "Info", "class_sentence_1_1_info.html", "class_sentence_1_1_info" ]
+    [ "Sentence.cs", "a00090.html", [
+      [ "Sentence", "a00056.html", "a00056" ],
+      [ "Info", "a00040.html", "a00040" ]
     ] ]
 ];

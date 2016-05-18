@@ -1,6 +1,8 @@
 var NAVTREE =
 [
   [ "MuvucaGame01", "index.html", [
+    [ "Documentando o código", "index.html", null ],
+    [ "Prefabs", "a00001.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -22,10 +24,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_actionable_element_8cs.html",
-"class_claw_controller.html#af637c902d444ca30f066fe713084a618",
-"class_intro.html#a15f4ba71a733142c0a7cf2816d6f7f59",
-"class_warp_zone_door.html#a0ebb953ad790fbd15650fd6635d38e3e"
+"a00001.html",
+"a00031.html#ab945ababb90033f9551858d8a108d84d",
+"a00053.html#a952b3368c0ad074c1d6014c305523dd6",
+"a00113_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
