@@ -24,7 +24,6 @@ var a00032 =
     [ "StopCarry", "a00032.html#aef0e412cc1a949cc991dc1650469ee49", null ],
     [ "StopPush", "a00032.html#a2b186c744c991cd50f979d1c462dd56b", null ],
     [ "StopWalk", "a00032.html#acb61d5595b94b85c764a769e1ef3e512", null ],
-    [ "TouchedForceField", "a00032.html#a0e4b32ee18e17d7c2382698d5f5e0210", null ],
     [ "VerticalMove", "a00032.html#a2107e800fbd878b29031f1e95f5ee71d", null ],
     [ "_FACING_LEFT", "a00032.html#a8e38a33615252fb1b127110c9af842d3", null ],
     [ "_FACING_RIGHT", "a00032.html#a5896528ab8fa1e8a38bef63b219f3d6b", null ],
