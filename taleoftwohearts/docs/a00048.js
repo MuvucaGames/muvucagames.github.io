@@ -1,11 +1,15 @@
 var a00048 =
 [
-    [ "ContinueButton", "a00048.html#a3781a9d2779b42b3339a68d36ccca753", null ],
-    [ "CreditsButton", "a00048.html#a474151c8fd642483b707c0b491656a7e", null ],
-    [ "ExitGameButton", "a00048.html#a53b27cbc843d070b6628672f8167b722", null ],
-    [ "LoadGameButton", "a00048.html#a2e4e0d56bc1b6af29a41504907ffb986", null ],
-    [ "NewGameButton", "a00048.html#a7d63139a92775618fc43f6af9edc1c30", null ],
-    [ "OptionsButton", "a00048.html#aa05912b4df62216eebbccc8c2b168ce4", null ],
-    [ "Start", "a00048.html#ad629921d8cbec1c1bf97e6bc6ad65902", null ],
-    [ "existSavedGame", "a00048.html#afb5c336272b46a78cb630384fa304f2b", null ]
+    [ "Awake", "a00048.html#a5bc6a173098ef16061d2c4f41dd313bd", null ],
+    [ "ChangeState", "a00048.html#acaf0bc0e6f71749ad4ec7fe6d2218d4d", null ],
+    [ "OnHeroActivate", "a00048.html#a1ea3371e3876f251eef68271ca3d6400", null ],
+    [ "Swap", "a00048.html#ac35f33d61683a00883d409eff1207090", null ],
+    [ "Update", "a00048.html#adf9bb3922e11c9d1b4db141cfabe8e6b", null ],
+    [ "activeRenderer", "a00048.html#a8faa11ac6be87193d9b344417e445d98", null ],
+    [ "deactiveRenderer", "a00048.html#aab260a069d9dda184a7815c96244442b", null ],
+    [ "isActive", "a00048.html#a4e7c7e5ee5be90744c07a2946e76fec2", null ],
+    [ "isTimeBased", "a00048.html#aaeebc81d13905ab4e2cebc585cea1af8", null ],
+    [ "leverDelay", "a00048.html#a965a8cbdcf5847f232ccb55c1969f982", null ],
+    [ "timer", "a00048.html#ab8677eb36ed8d6bb791f98b9f15228d1", null ],
+    [ "IsActive", "a00048.html#ae86b8c8439fccdc71c761583a7e655d0", null ]
 ];

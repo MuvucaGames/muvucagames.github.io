@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['load',['Load',['../a00031.html#af9341f0e88639e8b86546e9daf107f57',1,'GameManager']]],
-  ['loadgamebutton',['LoadGameButton',['../a00048.html#a2e4e0d56bc1b6af29a41504907ffb986',1,'MainMenu']]],
-  ['loadnext',['LoadNext',['../a00031.html#ab945ababb90033f9551858d8a108d84d',1,'GameManager']]]
+  ['jump',['Jump',['../a00033.html#a84b947317d5ccaf6bfedfe05e0ed8717',1,'Hero.Jump()'],['../a00033.html#afbf0e4ec6b125c15a66d1c730a335eb0',1,'Hero.Jump(float multiplier)']]]
 ];

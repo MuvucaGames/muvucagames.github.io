@@ -15,5 +15,6 @@ var searchData=
   ['clawutils',['ClawUtils',['../a00020.html',1,'']]],
   ['colorspuzzle',['ColorsPuzzle',['../a00021.html',1,'']]],
   ['colorspuzzleactivator',['ColorsPuzzleActivator',['../a00022.html',1,'']]],
-  ['credits',['Credits',['../a00023.html',1,'']]]
+  ['controllable',['Controllable',['../a00023.html',1,'']]],
+  ['credits',['Credits',['../a00024.html',1,'']]]
 ];

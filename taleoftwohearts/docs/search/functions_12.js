@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['update',['Update',['../a00008.html#a7c4f486f4bcbd1d54a346fdce9707bd5',1,'CameraController.Update()'],['../a00016.html#acb999bf9fad79b130d54fd9bf5a7562d',1,'ClawController.Update()'],['../a00019.html#a9558073e179d78e5f76ca75324597d68',1,'ClawPerSe.Update()'],['../a00021.html#a0d365094985b68998b5ce0210048cd08',1,'ColorsPuzzle.Update()'],['../a00022.html#a95b18e4690076047d8031482156e41a8',1,'ColorsPuzzleActivator.Update()'],['../a00052.html#a753a50f26aaaf2af2f767c1a12bdb98f',1,'PuzzleController.Update()'],['../a00007.html#aefc2e0f93a63e041bd49e225287d90d7',1,'Balloon.Update()'],['../a00029.html#a7235329ac53a4110792f1a46165653e5',1,'FliesControl.Update()'],['../a00045.html#adf9bb3922e11c9d1b4db141cfabe8e6b',1,'Lever.Update()'],['../a00058.html#ac2c16f9aa88f2d3e7df7785545578f27',1,'Timer.Update()'],['../a00033.html#ac6e54a1d5598b409de15218a56695221',1,'HeroControl.Update()'],['../a00023.html#a13494420297e3aeb01affe25b5fbbf49',1,'Credits.Update()'],['../a00041.html#a098dcb8138f593c141a199b235b2e632',1,'Intro.Update()'],['../a00054.html#ab1a6b3a50ee919dd3d3c28f81aef81ef',1,'SelectCharacter.Update()']]],
-  ['updatespherecolor',['updateSphereColor',['../a00021.html#a41a61978f5adb427c7458168b15d88e9',1,'ColorsPuzzle']]],
-  ['updatesprites',['UpdateSprites',['../a00054.html#a7ea14ac1064eb4246f58fc7eb9ec4dbd',1,'SelectCharacter']]]
+  ['teleport',['teleport',['../a00068.html#a00f5c74f50cf3a69fb6ceceb6ddaf3dd',1,'WarpZoneDoor']]],
+  ['timeout',['timeout',['../a00062.html#a18eaa11a83660ee7cf977c2aaf964773',1,'Timer']]],
+  ['timeremainingtochangeactivestate',['timeRemainingToChangeActiveState',['../a00068.html#ab1ad5b5cfdefcadf3cd0f192b2888c28',1,'WarpZoneDoor']]]
 ];

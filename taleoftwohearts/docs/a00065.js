@@ -1,11 +1,8 @@
 var a00065 =
 [
-    [ "CalculateMeanWeight", "a00065.html#a1d3976396516298ff5d6fe0919aa8721", null ],
-    [ "FixedUpdate", "a00065.html#af0e65d4a55eea1e909361ef65b5838b6", null ],
-    [ "activationWeight", "a00065.html#a2c3a65b94c55b7ddaf3c55d6ec61e6fe", null ],
-    [ "lastMeasures", "a00065.html#a66acd28b39176e11ed3897bdc9ab4578", null ],
-    [ "meanWeight", "a00065.html#a33ce2e67b8435ec7e0549050384d5b2a", null ],
-    [ "selfWeight", "a00065.html#aaf061caedf4bd49f5021075085e53548", null ],
-    [ "springJoint2D", "a00065.html#a8c06fd5791ebc02a82aed4b6c63561bb", null ],
-    [ "wasActivated", "a00065.html#af9229817577d8eaaed07f00b0d930e7d", null ]
+    [ "Activate", "a00065.html#ad936f4ffe1e066865a41f76bdbf2ffaa", null ],
+    [ "Awake", "a00065.html#a294a6d41b019d3c94bd2df7cfb780b78", null ],
+    [ "Deactivate", "a00065.html#af43418efcd52769ee166d4ef840d6ba3", null ],
+    [ "animator", "a00065.html#aa8ca254394d5df56e5215c4029b9326b", null ],
+    [ "done", "a00065.html#a09276147de932238c60e7c2ef2a7a61a", null ]
 ];

@@ -1,23 +1,13 @@
 var searchData=
 [
-  ['setactivesprites',['SetActiveSprites',['../a00054.html#aa32a6d93d46bace9a0ab2dc4c9f05ed2',1,'SelectCharacter']]],
-  ['setcanvassizeandimages',['SetCanvasSizeAndImages',['../a00007.html#aaa3619f93f9d216050c22bdf5897d57f',1,'Balloon']]],
-  ['setcontrolactive',['setControlActive',['../a00052.html#af5a97d8b0fe58427bd4b2209cf96cd89',1,'PuzzleController']]],
-  ['setcurrentbox',['setCurrentBox',['../a00052.html#afbf2dd86a4356b4aef77db02aeb05d73',1,'PuzzleController']]],
-  ['setmaingender',['SetMainGender',['../a00054.html#a25f22956dbd498f7dbb274a7da16f826',1,'SelectCharacter']]],
-  ['setmainsprite',['SetMainSprite',['../a00054.html#a8708e329d8ae1e07ea5efd4b2c3e560e',1,'SelectCharacter']]],
-  ['setmaintype',['SetMainType',['../a00054.html#a7f544c0621e6269f5b97eee55f2b095e',1,'SelectCharacter']]],
-  ['setmategender',['SetMateGender',['../a00054.html#ac407756e5f35daffe81d0c7305398167',1,'SelectCharacter']]],
-  ['setmatesprite',['SetMateSprite',['../a00054.html#a368db5b66ea11ab54f2a8ee2a1106cbf',1,'SelectCharacter']]],
-  ['setspringjoint',['SetSpringJoint',['../a00007.html#aa64d25e16da995963542e3831f75f233',1,'Balloon']]],
-  ['showselected',['ShowSelected',['../a00054.html#a57a94c98b71b76ac621263e801301c96',1,'SelectCharacter']]],
-  ['showtext',['ShowText',['../a00041.html#a28100370da1045d6834bf11de3c3e992',1,'Intro']]],
-  ['slotbutton',['SlotButton',['../a00055.html#a7ad68414b80b9d048eab15441a663c9d',1,'SelectSlot']]],
-  ['soundbutton',['SoundButton',['../a00051.html#ad97967e0908ca8971ba1573dbe65bd2d',1,'Options']]],
-  ['standup',['StandUp',['../a00032.html#aafd52b14e1a32904e4feaef182df6da6',1,'Hero']]],
-  ['start',['Start',['../a00013.html#aebf3512a218cd81036983629951afa31',1,'Checkpoint.Start()'],['../a00019.html#a32647a943c3ea0537d6465f36074b320',1,'ClawPerSe.Start()'],['../a00021.html#ad8eecdd6fb6b14388ebcbfb0259fba3b',1,'ColorsPuzzle.Start()'],['../a00028.html#a0785fb7fddf6dee20570df9efcddabf9',1,'Esteira.Start()'],['../a00029.html#ab97d3b6344f0bfb486da927b02383598',1,'FliesControl.Start()'],['../a00005.html#a7bc27b1f8224239d6544de6371a04519',1,'ActionableLadder.Start()'],['../a00058.html#ade9c690f80327bd47ebb927c59a06a0e',1,'Timer.Start()'],['../a00064.html#a0ebb953ad790fbd15650fd6635d38e3e',1,'WarpZoneDoor.Start()'],['../a00046.html#a1faf571df03d198cac82b78c4ccb0f46',1,'LightRender.Start()'],['../a00023.html#a99a1eb5f51c7e03afd80d2280d51baaf',1,'Credits.Start()'],['../a00041.html#afb1d44994b779155f00996a96138a794',1,'Intro.Start()'],['../a00048.html#ad629921d8cbec1c1bf97e6bc6ad65902',1,'MainMenu.Start()'],['../a00051.html#a3866aa39d55273a344e451c1faa28b5c',1,'Options.Start()'],['../a00055.html#a5da2078102426d7c6b462738bf170756',1,'SelectSlot.Start()'],['../a00009.html#a43a427acd154fa9ffd1b7fdbcc898483',1,'CameraParamTools.Start()'],['../a00036.html#a94797ac35f6f60804d55ceb12a79d333',1,'HeroParamsTool.Start()']]],
-  ['stopcarry',['StopCarry',['../a00032.html#aef0e412cc1a949cc991dc1650469ee49',1,'Hero']]],
-  ['stoppush',['StopPush',['../a00032.html#a2b186c744c991cd50f979d1c462dd56b',1,'Hero']]],
-  ['stopwalk',['StopWalk',['../a00032.html#acb61d5595b94b85c764a769e1ef3e512',1,'Hero']]],
-  ['swap',['Swap',['../a00045.html#ac35f33d61683a00883d409eff1207090',1,'Lever']]]
+  ['registercheckpoint',['RegisterCheckpoint',['../a00014.html#a0c17e9c7360397f51987d94f8871662d',1,'CheckpointManager']]],
+  ['releaseobject',['ReleaseObject',['../a00033.html#a83084e2436f03a465e9223f1e6f75dac',1,'Hero']]],
+  ['removeactionableelement',['RemoveActionableElement',['../a00006.html#a6f97e5eaa32e5178e7f22619bb051aea',1,'Activator']]],
+  ['resetcheckpoins',['ResetCheckpoins',['../a00014.html#afe68721488c3213dd38dbce42c4713f0',1,'CheckpointManager']]],
+  ['resetcontrollableobject',['ResetControllableObject',['../a00039.html#a924e195c1dacee34580e1c0eb162259c',1,'HeroUtil']]],
+  ['resetlevel',['ResetLevel',['../a00026.html#ab455d2031bda1373b8dc8bbd92b4a155',1,'DesignTools']]],
+  ['resettimer',['resetTimer',['../a00062.html#ad259abee6632b9c2467ff7b0d7f2440c',1,'Timer']]],
+  ['restartpuzzle',['restartPuzzle',['../a00021.html#a7257faa395062fcf4f4903b67f11107b',1,'ColorsPuzzle']]],
+  ['restorebutton',['RestoreButton',['../a00054.html#a48c2b7997b65cadf5c0c90f56ec9f70a',1,'Options']]],
+  ['returntomenu',['ReturnToMenu',['../a00032.html#abb2e96edc7707cbc58a2f146425fab70',1,'GameManager']]]
 ];

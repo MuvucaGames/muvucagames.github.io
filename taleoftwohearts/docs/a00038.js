@@ -1,4 +1,5 @@
 var a00038 =
 [
-    [ "OnHeroActivate", "a00038.html#a7af09344f73c56f453e50ff6ee98ee83", null ]
+    [ "Awake", "a00038.html#adb5d9c84d04e5fc8d0534ae8384ab1d9", null ],
+    [ "IsStrong", "a00038.html#a41aeeb3437fcfa7aa462add27d03238d", null ]
 ];
