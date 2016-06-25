@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>Unity WebGL Player | A Tale of Two Hearts</title>
+    <title>Build v0.1-beta WebGl do jogo A Tale of Two Hearts</title>
+
+    <!-- Codigo inserido para ficar no padrão da muvucagames-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Fim Insercao Codigo-->
+
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+
+    <!-- Codigo inserido para ficar no padrão da muvucagames-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body { background-color: #FFFFFF; font-size: 16px; -webkit-font-smoothing: antialiased; }
+    </style>
+    <!-- Fim Insercao Codigo-->
+
+  </head>
+  <body class="template">
+    <!-- Codigo inserido para ficar no padrão da muvucagames-->
+    <div class="fluid-container mini-header">
+      <div class="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo">
+              <a href="/">
+                <img class="img-responsive" src="/assets/layout/logo.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-8 hidden-xs">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Novidades</a></li>
+              <li><a href="/como-participar">Como participar?</a></li>
+              <li><a href="/feed.xml">RSS</a></li>
+              <li><a href="/sobre">Sobre</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Insercao Codigo-->
+
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="400px" width="640px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">A Tale of Two Hearts</div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Development/AgoraFoi.data",
+    codeUrl: "Development/AgoraFoi.js",
+    memUrl: "Development/AgoraFoi.mem",
+  };
+</script>
+<script src="Development/UnityLoader.js"></script>
+
+  </body>
+</html>
