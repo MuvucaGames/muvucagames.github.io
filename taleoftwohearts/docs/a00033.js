@@ -46,7 +46,6 @@ var a00033 =
     [ "isClimbing", "a00033.html#ace96dc8907658f36ea6da8748a45a35e", null ],
     [ "jumpForce", "a00033.html#a6790a5c98ecd4cdd9f7bc2ece0ecb602", null ],
     [ "jumpHeight", "a00033.html#a65c197c5069ba4c48befb56609129ce5", null ],
-    [ "ladder", "a00033.html#a1edf947adc84737274b9e0274e947d31", null ],
     [ "m_onAir", "a00033.html#a6ba7c5256020d936a44e495e0e13fa7f", null ],
     [ "mapInteractiveObjectsMask", "a00033.html#ace91ee9e9b3dfeb46ada29013e5a9b95", null ],
     [ "maxClimbingSpeed", "a00033.html#a513a8b9edc0e2bcadc3cc23d8845f41a", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ladder',['Ladder',['../a00046.html',1,'Ladder'],['../a00033.html#a1edf947adc84737274b9e0274e947d31',1,'Hero.ladder()'],['../a00036.html#a788c95e3e1ad18e0b1d7cff7ee00614f',1,'HeroInteractor.ladder()']]],
+  ['ladder',['Ladder',['../a00046.html',1,'Ladder'],['../a00036.html#a788c95e3e1ad18e0b1d7cff7ee00614f',1,'HeroInteractor.ladder()']]],
   ['ladder_2ecs',['Ladder.cs',['../a00104.html',1,'']]],
   ['ladders',['ladders',['../a00036.html#afd57aa1bfca56c286009566802c6b9f0',1,'HeroInteractor']]],
   ['lastactivehero',['lastActiveHero',['../a00039.html#a7301175ed66f83873dfe5787b317110b',1,'HeroUtil']]],

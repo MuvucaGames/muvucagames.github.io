@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ladder',['ladder',['../a00033.html#a1edf947adc84737274b9e0274e947d31',1,'Hero']]],
   ['ladders',['ladders',['../a00036.html#afd57aa1bfca56c286009566802c6b9f0',1,'HeroInteractor']]],
   ['lastactivehero',['lastActiveHero',['../a00039.html#a7301175ed66f83873dfe5787b317110b',1,'HeroUtil']]],
   ['lastcheckpoint',['lastCheckpoint',['../a00014.html#ae5cae6ddc6a5d8e8619d8426e78cf6a6',1,'CheckpointManager']]],
