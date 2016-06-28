@@ -1,7 +1,7 @@
 var searchData=
 [
   ['walkmotor',['walkMotor',['../a00033.html#a4066cfc250e731073a4cd35c8a402e58',1,'Hero']]],
-  ['walkmotortorque',['walkMotorTorque',['../a00033.html#a8f43b8b297df4fe4220f19af8fe88e2d',1,'Hero.walkMotorTorque()'],['../a00033.html#a9992951b6ed218db019747f1edbc2662',1,'Hero.WalkMotorTorque()']]],
+  ['walkmotortorque',['WalkMotorTorque',['../a00033.html#a9992951b6ed218db019747f1edbc2662',1,'Hero.WalkMotorTorque()'],['../a00033.html#a8f43b8b297df4fe4220f19af8fe88e2d',1,'Hero.walkMotorTorque()']]],
   ['warpzonedoor',['WarpZoneDoor',['../a00068.html',1,'']]],
   ['warpzonedoor_2ecs',['WarpZoneDoor.cs',['../a00115.html',1,'']]],
   ['wasactivated',['wasActivated',['../a00069.html#af9229817577d8eaaed07f00b0d930e7d',1,'WeigthButtonWithPhysics']]],

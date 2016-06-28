@@ -37,6 +37,7 @@ var a00033 =
     [ "facingDirection", "a00033.html#a6ef1486271b2e1f0fb03de95e51b0472", null ],
     [ "footCollider", "a00033.html#ac654168b2ec2d791eee5e82a89d29cc5", null ],
     [ "gravityOriginal", "a00033.html#a0ca3a985849da5e24480efcefa152631", null ],
+    [ "groundTrigger", "a00033.html#aa7d76ec2a33f2191ed68975c726e949b", null ],
     [ "headCollider", "a00033.html#af9d68db4bf8eb2c7a423886b1678780c", null ],
     [ "heroInterac", "a00033.html#a5f1b1f03e005626b3383c25ebb6c6a2d", null ],
     [ "heroPlatform", "a00033.html#ac3cd30ed3896c6832bae51bad59c1f5a", null ],

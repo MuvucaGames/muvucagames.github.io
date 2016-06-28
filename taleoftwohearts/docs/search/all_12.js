@@ -28,5 +28,5 @@ var searchData=
   ['triggerswithbothinside',['triggersWithBothInside',['../a00045.html#a17bffd8045d1fc10e053f2d9c5736077',1,'InvisibleAreaTrigger']]],
   ['twostatesactionableplatform',['TwoStatesActionablePlatform',['../a00067.html',1,'']]],
   ['twostatesactionableplatform_2ecs',['TwoStatesActionablePlatform.cs',['../a00114.html',1,'']]],
-  ['typeofballoon',['typeOfBalloon',['../a00042.html#af30d335e5b4efe0093810167b4fd93be',1,'Sentence.Info.typeOfBalloon()'],['../a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3',1,'Balloon.TypeOfBalloon()']]]
+  ['typeofballoon',['TypeOfBalloon',['../a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3',1,'Balloon.TypeOfBalloon()'],['../a00042.html#af30d335e5b4efe0093810167b4fd93be',1,'Sentence.Info.typeOfBalloon()']]]
 ];

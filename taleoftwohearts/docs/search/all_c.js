@@ -38,7 +38,7 @@ var searchData=
   ['maxmotortorqueslider',['maxMotorTorqueSlider',['../a00037.html#aab62573c991f11f0e644731f85b7f0ce',1,'HeroParamsTool']]],
   ['maxmotortorquetext',['maxMotorTorqueText',['../a00037.html#af4b5a434b8f5a367cec823073839417d',1,'HeroParamsTool']]],
   ['maxspeed',['maxSpeed',['../a00028.html#a911b63227e12a3b93638c29522b77a7d',1,'Door']]],
-  ['maxwalkingspeed',['MaxWalkingSpeed',['../a00033.html#ab649abb58c8061ba6966066a9a131195',1,'Hero.MaxWalkingSpeed()'],['../a00033.html#abb59456deadece44a7c8ed09ba471130',1,'Hero.maxWalkingSpeed()']]],
+  ['maxwalkingspeed',['maxWalkingSpeed',['../a00033.html#abb59456deadece44a7c8ed09ba471130',1,'Hero.maxWalkingSpeed()'],['../a00033.html#ab649abb58c8061ba6966066a9a131195',1,'Hero.MaxWalkingSpeed()']]],
   ['maxwalkingspeedslider',['maxWalkingSpeedSlider',['../a00037.html#aefd3872eaf03421b2b1effddc7bed490',1,'HeroParamsTool']]],
   ['maxwalkingspeedtext',['maxWalkingSpeedText',['../a00037.html#a0542fca628025f89107506d88e28f839',1,'HeroParamsTool']]],
   ['meanweight',['meanWeight',['../a00069.html#a33ce2e67b8435ec7e0549050384d5b2a',1,'WeigthButtonWithPhysics']]],
