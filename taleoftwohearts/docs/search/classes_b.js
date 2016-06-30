@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['options',['Options',['../a00054.html',1,'']]]
+  ['puzzlecontroller',['PuzzleController',['../a00054.html',1,'']]]
 ];

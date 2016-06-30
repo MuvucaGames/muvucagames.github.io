@@ -1,11 +1,11 @@
 var a00044 =
 [
-    [ "ShowText", "a00044.html#a28100370da1045d6834bf11de3c3e992", null ],
-    [ "Start", "a00044.html#afb1d44994b779155f00996a96138a794", null ],
-    [ "Update", "a00044.html#a098dcb8138f593c141a199b235b2e632", null ],
-    [ "m_alphaValue", "a00044.html#ae14da55d6fcd054400853616e5db21ab", null ],
-    [ "m_audio", "a00044.html#a3b8568a40259a274cdf2df4c77199984", null ],
-    [ "m_fadeIn", "a00044.html#afd3305019f1166bc34639e4fa3373f8d", null ],
-    [ "m_pressStartText", "a00044.html#a15f4ba71a733142c0a7cf2816d6f7f59", null ],
-    [ "movie", "a00044.html#aaeba3b6bb45cab4c5f4e7ceea7391d8d", null ]
+    [ "GetQttHeroesInside", "a00044.html#a58fe547e0f0229f534fcdcc7c27324bb", null ],
+    [ "OnTriggerEnter2D", "a00044.html#a9dfce328d18bd933e9df3b5852a81000", null ],
+    [ "OnTriggerExit2D", "a00044.html#a6d51f39a059cc616214cc28a619054b2", null ],
+    [ "allowDeactivate", "a00044.html#abe9c8466b52c4825e4975fead7dc4487", null ],
+    [ "alreadyTrigged", "a00044.html#ab22d1eceb5ae5382d44d37837f2be2ce", null ],
+    [ "heroesInside", "a00044.html#a1e021e0783a48ac8f77e72418bb3581e", null ],
+    [ "triggerOnlyOnce", "a00044.html#a6f5c730b4c9c90b14aac88c2ef890d15", null ],
+    [ "triggersWithBothInside", "a00044.html#a17bffd8045d1fc10e053f2d9c5736077", null ]
 ];

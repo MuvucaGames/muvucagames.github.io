@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['hero',['Hero',['../a00033.html',1,'']]],
-  ['herocontrol',['HeroControl',['../a00034.html',1,'']]],
-  ['herofast',['HeroFast',['../a00035.html',1,'']]],
-  ['herointeractor',['HeroInteractor',['../a00036.html',1,'']]],
-  ['heroparamstool',['HeroParamsTool',['../a00037.html',1,'']]],
-  ['herostrong',['HeroStrong',['../a00038.html',1,'']]],
-  ['heroutil',['HeroUtil',['../a00039.html',1,'']]]
+  ['iheroactionable',['IHeroActionable',['../a00039.html',1,'']]],
+  ['iladder',['ILadder',['../a00040.html',1,'']]],
+  ['info',['Info',['../a00041.html',1,'Sentence']]],
+  ['inputmanager',['InputManager',['../a00042.html',1,'']]],
+  ['intro',['Intro',['../a00043.html',1,'']]],
+  ['invisibleareatrigger',['InvisibleAreaTrigger',['../a00044.html',1,'']]]
 ];

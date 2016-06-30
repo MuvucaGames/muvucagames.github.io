@@ -1,12 +1,11 @@
 var a00043 =
 [
-    [ "FixedUpdate", "a00043.html#a3a4b1e99cd277a9838c931a781ef9a02", null ],
-    [ "Start", "a00043.html#a5ea91a2053e03c49da58ee3a56628763", null ],
-    [ "Update", "a00043.html#a17a33be75084fed42bebb52892323c62", null ],
-    [ "_actionButtonPressed", "a00043.html#a20871b8788d06211822ba7d7ea51cc7d", null ],
-    [ "_changeHeroButtonPressed", "a00043.html#ab16af97529ce1d6769986bbb3d5f4690", null ],
-    [ "heroFast", "a00043.html#af5b38630ec64f8bbd9000df0f143e5c8", null ],
-    [ "heroStrong", "a00043.html#a1dd5d00e5893e60afc66cb96a8d58823", null ],
-    [ "instance", "a00043.html#aeda6fd31e552aaebf8f07fcc8f7d9377", null ],
-    [ "Instance", "a00043.html#afb55d4ebb7290ab0950c3fd7d3825729", null ]
+    [ "ShowText", "a00043.html#a28100370da1045d6834bf11de3c3e992", null ],
+    [ "Start", "a00043.html#afb1d44994b779155f00996a96138a794", null ],
+    [ "Update", "a00043.html#a098dcb8138f593c141a199b235b2e632", null ],
+    [ "m_alphaValue", "a00043.html#ae14da55d6fcd054400853616e5db21ab", null ],
+    [ "m_audio", "a00043.html#a3b8568a40259a274cdf2df4c77199984", null ],
+    [ "m_fadeIn", "a00043.html#afd3305019f1166bc34639e4fa3373f8d", null ],
+    [ "m_pressStartText", "a00043.html#a15f4ba71a733142c0a7cf2816d6f7f59", null ],
+    [ "movie", "a00043.html#aaeba3b6bb45cab4c5f4e7ceea7391d8d", null ]
 ];
