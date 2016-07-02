@@ -6,7 +6,7 @@ var dir_9ace04818a2f764b3fa19a0522bb3e87 =
     [ "Menu", "dir_61abe590afba6dac798f839b4ecfa3c2.html", "dir_61abe590afba6dac798f839b4ecfa3c2" ],
     [ "Tools", "dir_e533e608a64ebc00901b802c1ad91842.html", "dir_e533e608a64ebc00901b802c1ad91842" ],
     [ "CameraController.cs", "a00070.html", [
-      [ "CameraController", "a00008.html", "a00008" ]
+      [ "CameraController", "a00007.html", "a00007" ]
     ] ],
     [ "GameManager.cs", "a00115.html", [
       [ "GameManager", "a00031.html", "a00031" ]

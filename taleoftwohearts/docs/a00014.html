@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MuvucaGame01: CheckpointManager Class Reference</title>
+<title>MuvucaGame01: Claw Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,59 +109,59 @@ $(document).ready(function(){initNavTree('a00014.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="a00154.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CheckpointManager Class Reference</div>  </div>
+<div class="title">Claw Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Parent class for <a class="el" href="a00014.html" title="Parent class for Claw Pieces ">Claw</a> Pieces  
+ <a href="a00014.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for CheckpointManager:</div>
+Inheritance diagram for Claw:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="a00014.png" usemap="#CheckpointManager_map" alt=""/>
-  <map id="CheckpointManager_map" name="CheckpointManager_map">
+  <img src="a00014.png" usemap="#Claw_map" alt=""/>
+  <map id="Claw_map" name="Claw_map">
+<area href="a00016.html" title="Piece that move between two physics limits. " alt="ClawMechanism" shape="rect" coords="0,112,104,136"/>
+<area href="a00017.html" title="Support for claw that keeps it fixed on some point. " alt="ClawNode" shape="rect" coords="114,112,218,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a0c17e9c7360397f51987d94f8871662d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a0c17e9c7360397f51987d94f8871662d">RegisterCheckpoint</a> (<a class="el" href="a00013.html">Checkpoint</a> checkpoint)</td></tr>
-<tr class="separator:a0c17e9c7360397f51987d94f8871662d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe68721488c3213dd38dbce42c4713f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#afe68721488c3213dd38dbce42c4713f0">ResetCheckpoins</a> ()</td></tr>
-<tr class="separator:afe68721488c3213dd38dbce42c4713f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad7f76dc3fb07bc8070f8a228fd3f1f78"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#ad7f76dc3fb07bc8070f8a228fd3f1f78">heroStrong</a></td></tr>
-<tr class="separator:ad7f76dc3fb07bc8070f8a228fd3f1f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e60d48ec597fb41a413be575b8f5c9"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#ae7e60d48ec597fb41a413be575b8f5c9">heroFast</a></td></tr>
-<tr class="separator:ae7e60d48ec597fb41a413be575b8f5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b5f2474523ae98840d35b7fa1127aa"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#aa1b5f2474523ae98840d35b7fa1127aa">clawInitialPos</a></td></tr>
+<tr class="separator:aa1b5f2474523ae98840d35b7fa1127aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0771384c71e223c5009ec97bed6f8f31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00015.html">ClawController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a0771384c71e223c5009ec97bed6f8f31">controller</a> = null</td></tr>
+<tr class="separator:a0771384c71e223c5009ec97bed6f8f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aaab3f4d600e0b646c0ec5d22a7abd9cb"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#aaab3f4d600e0b646c0ec5d22a7abd9cb">heroStrongRigidBody</a> = null</td></tr>
+<tr class="separator:aaab3f4d600e0b646c0ec5d22a7abd9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206a34cdb1fee8e723f7368b77d2aaf4"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a206a34cdb1fee8e723f7368b77d2aaf4">heroFastRigidBody</a> = null</td></tr>
+<tr class="separator:a206a34cdb1fee8e723f7368b77d2aaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28cfb6570f6f822eb6f37b18b80a8672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00037.html">HeroStrong</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a28cfb6570f6f822eb6f37b18b80a8672">heroStrong</a> = null</td></tr>
+<tr class="separator:a28cfb6570f6f822eb6f37b18b80a8672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac838e7fd8a39b69c3c106cb227c7b786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00034.html">HeroFast</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#ac838e7fd8a39b69c3c106cb227c7b786">heroFast</a> = null</td></tr>
+<tr class="separator:ac838e7fd8a39b69c3c106cb227c7b786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a738ffe4d7e30d5c198d671629c0d2e"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a4a738ffe4d7e30d5c198d671629c0d2e">coll</a></td></tr>
+<tr class="separator:a4a738ffe4d7e30d5c198d671629c0d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab1049e7c4c6ef27a643c4ad7c5612fb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#ab1049e7c4c6ef27a643c4ad7c5612fb2">Awake</a> ()</td></tr>
-<tr class="separator:ab1049e7c4c6ef27a643c4ad7c5612fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb526b235c8e9f9d3b539581ce7732cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#adb526b235c8e9f9d3b539581ce7732cf">PlaceHeroes</a> (<a class="el" href="a00013.html">Checkpoint</a> checkpoint)</td></tr>
-<tr class="separator:adb526b235c8e9f9d3b539581ce7732cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d15575306cdb6a01ed1fc7f1da92020"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a0d15575306cdb6a01ed1fc7f1da92020">PlayerChangedLevel</a> ()</td></tr>
-<tr class="separator:a0d15575306cdb6a01ed1fc7f1da92020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae5cae6ddc6a5d8e8619d8426e78cf6a6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#ae5cae6ddc6a5d8e8619d8426e78cf6a6">lastCheckpoint</a> = 0</td></tr>
-<tr class="separator:ae5cae6ddc6a5d8e8619d8426e78cf6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b3dee209e863c08782770bc826b7b18"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#a5b3dee209e863c08782770bc826b7b18">lastLevel</a></td></tr>
-<tr class="separator:a5b3dee209e863c08782770bc826b7b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2ca206c1fe4f5621fa603de105bbac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html#abd2ca206c1fe4f5621fa603de105bbac">Awake</a> ()</td></tr>
+<tr class="separator:abd2ca206c1fe4f5621fa603de105bbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="a00080_source.html#l00005">5</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
+<div class="textblock"><p>Parent class for <a class="el" href="a00014.html" title="Parent class for Claw Pieces ">Claw</a> Pieces </p>
+
+<p>Definition at line <a class="el" href="a00080_source.html#l00007">7</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab1049e7c4c6ef27a643c4ad7c5612fb2"></a>
+<a class="anchor" id="abd2ca206c1fe4f5621fa603de105bbac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,7 +169,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CheckpointManager.Awake </td>
+          <td class="memname">void Claw.Awake </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -182,142 +182,26 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00080_source.html#l00011">11</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adb526b235c8e9f9d3b539581ce7732cf"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CheckpointManager.PlaceHeroes </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00013.html">Checkpoint</a>&#160;</td>
-          <td class="paramname"><em>checkpoint</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00080_source.html#l00048">48</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0d15575306cdb6a01ed1fc7f1da92020"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool CheckpointManager.PlayerChangedLevel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00080_source.html#l00054">54</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0c17e9c7360397f51987d94f8871662d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CheckpointManager.RegisterCheckpoint </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00013.html">Checkpoint</a>&#160;</td>
-          <td class="paramname"><em>checkpoint</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00080_source.html#l00035">35</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afe68721488c3213dd38dbce42c4713f0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CheckpointManager.ResetCheckpoins </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00080_source.html#l00043">43</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00080_source.html#l00017">17</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ae7e60d48ec597fb41a413be575b8f5c9"></a>
+<a class="anchor" id="aa1b5f2474523ae98840d35b7fa1127aa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject CheckpointManager.heroFast</td>
+          <td class="memname">Vector3 Claw.clawInitialPos</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00080_source.html#l00007">7</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00080_source.html#l00009">9</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad7f76dc3fb07bc8070f8a228fd3f1f78"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GameObject CheckpointManager.heroStrong</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00080_source.html#l00006">6</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae5cae6ddc6a5d8e8619d8426e78cf6a6"></a>
+<a class="anchor" id="a4a738ffe4d7e30d5c198d671629c0d2e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -325,21 +209,35 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int CheckpointManager.lastCheckpoint = 0</td>
+          <td class="memname">Collider2D Claw.coll</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00080_source.html#l00008">8</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00080_source.html#l00014">14</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5b3dee209e863c08782770bc826b7b18"></a>
+<a class="anchor" id="a0771384c71e223c5009ec97bed6f8f31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00015.html">ClawController</a> Claw.controller = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00080_source.html#l00015">15</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac838e7fd8a39b69c3c106cb227c7b786"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -347,29 +245,95 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int CheckpointManager.lastLevel</td>
+          <td class="memname"><a class="el" href="a00034.html">HeroFast</a> Claw.heroFast = null</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00080_source.html#l00009">9</a> of file <a class="el" href="a00080_source.html">CheckpointManager.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00080_source.html#l00013">13</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a206a34cdb1fee8e723f7368b77d2aaf4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody2D Claw.heroFastRigidBody = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00080_source.html#l00011">11</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a28cfb6570f6f822eb6f37b18b80a8672"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00037.html">HeroStrong</a> Claw.heroStrong = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00080_source.html#l00012">12</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaab3f4d600e0b646c0ec5d22a7abd9cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody2D Claw.heroStrongRigidBody = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00080_source.html#l00010">10</a> of file <a class="el" href="a00080_source.html">Claw.cs</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>MuvucaGame01/Assets/Scripts/Elements/Checkpoint/<a class="el" href="a00080_source.html">CheckpointManager.cs</a></li>
+<li>MuvucaGame01/Assets/Scripts/Elements/Claw/<a class="el" href="a00080_source.html">Claw.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00014.html">CheckpointManager</a></li>
+    <li class="navelem"><a class="el" href="a00014.html">Claw</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

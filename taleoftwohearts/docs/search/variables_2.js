@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['backgroundimg',['backgroundImg',['../a00007.html#a147af66578fd8785365ff2dac5e9217d',1,'Balloon']]],
-  ['balloonprefab',['balloonPrefab',['../a00027.html#a12e0574248035b58acd4c9cc4dae0e5d',1,'Dialog']]],
+  ['backgroundimg',['backgroundImg',['../a00006.html#a147af66578fd8785365ff2dac5e9217d',1,'Balloon']]],
+  ['balloonprefab',['balloonPrefab',['../a00026.html#a12e0574248035b58acd4c9cc4dae0e5d',1,'Dialog']]],
   ['bodycollider',['bodyCollider',['../a00032.html#aebbf3d38f45c0daf0274063f9d7b7b8d',1,'Hero']]],
-  ['bothcheckedrenderer',['bothCheckedRenderer',['../a00013.html#ad927b65ca2ed563e38cf02b62d9dc518',1,'Checkpoint']]],
+  ['bothcheckedrenderer',['bothCheckedRenderer',['../a00012.html#ad927b65ca2ed563e38cf02b62d9dc518',1,'Checkpoint']]],
   ['bothheroesneeded',['bothHeroesNeeded',['../a00067.html#ac28c3ef617ed079ef2cf1c7b1f3a0188',1,'WarpZoneDoor']]],
   ['btnfast',['btnFast',['../a00056.html#a4dd3c02d6c3e9c47e8afe4cf425d8ff9',1,'SelectCharacter']]],
   ['btnmainfemalesign',['btnMainFemaleSign',['../a00056.html#aedb3e5086414ff7faf7de80bdc83e7f7',1,'SelectCharacter']]],

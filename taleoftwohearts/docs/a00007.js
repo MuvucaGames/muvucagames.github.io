@@ -1,18 +1,18 @@
 var a00007 =
 [
-    [ "TypeOfBalloon", "a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3", [
-      [ "Normal", "a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a960b44c579bc2f6818d2daaf9e4c16f0", null ],
-      [ "Think", "a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a4c96c9aaa582646555163130e869d834", null ],
-      [ "Shout", "a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a0a6de9d8668281593bbd349ef75c1f49", null ]
-    ] ],
-    [ "Callback", "a00007.html#aada32b91b6d8b7fd2de96bc453a42a48", null ],
-    [ "Init", "a00007.html#af92054d1bcdc265e987fc207c7637c31", null ],
-    [ "OnDestroy", "a00007.html#abe342ea32aad2d428ff46f48d47a915b", null ],
-    [ "SetCanvasSizeAndImages", "a00007.html#aaa3619f93f9d216050c22bdf5897d57f", null ],
-    [ "SetSpringJoint", "a00007.html#aa64d25e16da995963542e3831f75f233", null ],
-    [ "Update", "a00007.html#aefc2e0f93a63e041bd49e225287d90d7", null ],
-    [ "backgroundImg", "a00007.html#a147af66578fd8785365ff2dac5e9217d", null ],
-    [ "imgTmp", "a00007.html#a97f25e98750eebab730c80efd94058dc", null ],
-    [ "sentenceInfo", "a00007.html#add58388905ca252b0a258cee37a2a711", null ],
-    [ "callback", "a00007.html#a62cb5942b717fc8b80ca8083353d14b0", null ]
+    [ "getCamera", "a00007.html#a7641c9645f866308f953eecb1f308cc1", null ],
+    [ "SetCameraControl", "a00007.html#a3c04b3bd70aac151aea92f07a6d4b618", null ],
+    [ "Start", "a00007.html#ad4a238c6f7db3ee003302a245d860860", null ],
+    [ "Update", "a00007.html#a7c4f486f4bcbd1d54a346fdce9707bd5", null ],
+    [ "cameraSpeed", "a00007.html#a7eba438939b6e5e6907fb1245e1c244b", null ],
+    [ "focusableObject", "a00007.html#ab8146c2412d48a89a8c3a3418475cb76", null ],
+    [ "heroFast", "a00007.html#a8b4a0930459a62de20cd2851c7328d73", null ],
+    [ "heroStrong", "a00007.html#a324ef9a4e039512d5d0936db6bc38677", null ],
+    [ "instance", "a00007.html#a59d02bd4735399f59379f5bd3b83fc09", null ],
+    [ "m_isOnCutscene", "a00007.html#a0270b6477b29df7b3c0a4a3730d8f070", null ],
+    [ "m_newPosition", "a00007.html#a5c8b7b9508ab97135ed77134099b8193", null ],
+    [ "myCamera", "a00007.html#a759262aac09f3e7888c63ee936b220e9", null ],
+    [ "velocity", "a00007.html#a7008c2174dce96aa16d2b0474aeedfb6", null ],
+    [ "Instance", "a00007.html#a28a5e0ea4216e77600a421585cebf3ab", null ],
+    [ "IsOnActive", "a00007.html#ababf9dda4fbc0cb5b07e59e635a8253f", null ]
 ];

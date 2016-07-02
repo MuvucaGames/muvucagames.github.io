@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MuvucaGame01: Claw Class Reference</title>
+<title>MuvucaGame01: ClawController Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,59 +109,100 @@ $(document).ready(function(){initNavTree('a00015.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a00155.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Claw Class Reference</div>  </div>
+<div class="title">ClawController Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Parent class for <a class="el" href="a00015.html" title="Parent class for Claw Pieces ">Claw</a> Pieces  
+<p>Controls claws action and movement.  
  <a href="a00015.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for Claw:</div>
+Inheritance diagram for ClawController:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="a00015.png" usemap="#Claw_map" alt=""/>
-  <map id="Claw_map" name="Claw_map">
-<area href="a00017.html" title="Piece that move between two physics limits. " alt="ClawMechanism" shape="rect" coords="0,112,104,136"/>
-<area href="a00018.html" title="Support for claw that keeps it fixed on some point. " alt="ClawNode" shape="rect" coords="114,112,218,136"/>
+  <img src="a00015.png" usemap="#ClawController_map" alt=""/>
+  <map id="ClawController_map" name="ClawController_map">
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad8fff20c55a787623a2621eea5ed4beb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ad8fff20c55a787623a2621eea5ed4beb">MoveClaw</a> (Vector3 direction)</td></tr>
+<tr class="memdesc:ad8fff20c55a787623a2621eea5ed4beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momevent code for claw parts.  <a href="#ad8fff20c55a787623a2621eea5ed4beb">More...</a><br /></td></tr>
+<tr class="separator:ad8fff20c55a787623a2621eea5ed4beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa1b5f2474523ae98840d35b7fa1127aa"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aa1b5f2474523ae98840d35b7fa1127aa">clawInitialPos</a></td></tr>
-<tr class="separator:aa1b5f2474523ae98840d35b7fa1127aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0771384c71e223c5009ec97bed6f8f31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00016.html">ClawController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a0771384c71e223c5009ec97bed6f8f31">controller</a> = null</td></tr>
-<tr class="separator:a0771384c71e223c5009ec97bed6f8f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:aaab3f4d600e0b646c0ec5d22a7abd9cb"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aaab3f4d600e0b646c0ec5d22a7abd9cb">heroStrongRigidBody</a> = null</td></tr>
-<tr class="separator:aaab3f4d600e0b646c0ec5d22a7abd9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a206a34cdb1fee8e723f7368b77d2aaf4"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a206a34cdb1fee8e723f7368b77d2aaf4">heroFastRigidBody</a> = null</td></tr>
-<tr class="separator:a206a34cdb1fee8e723f7368b77d2aaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28cfb6570f6f822eb6f37b18b80a8672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00037.html">HeroStrong</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a28cfb6570f6f822eb6f37b18b80a8672">heroStrong</a> = null</td></tr>
-<tr class="separator:a28cfb6570f6f822eb6f37b18b80a8672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac838e7fd8a39b69c3c106cb227c7b786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00034.html">HeroFast</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ac838e7fd8a39b69c3c106cb227c7b786">heroFast</a> = null</td></tr>
-<tr class="separator:ac838e7fd8a39b69c3c106cb227c7b786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a738ffe4d7e30d5c198d671629c0d2e"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a4a738ffe4d7e30d5c198d671629c0d2e">coll</a></td></tr>
-<tr class="separator:a4a738ffe4d7e30d5c198d671629c0d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dbff7f4d1ccc074ac143431bd7cac3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a2dbff7f4d1ccc074ac143431bd7cac3c">active</a> = false</td></tr>
+<tr class="separator:a2dbff7f4d1ccc074ac143431bd7cac3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c367767e35ef1a8ec486e33bdd0428e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a1c367767e35ef1a8ec486e33bdd0428e">action</a> = false</td></tr>
+<tr class="separator:a1c367767e35ef1a8ec486e33bdd0428e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:abd2ca206c1fe4f5621fa603de105bbac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#abd2ca206c1fe4f5621fa603de105bbac">Awake</a> ()</td></tr>
-<tr class="separator:abd2ca206c1fe4f5621fa603de105bbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae17dacd3054ed15f695f72f6f1e4b590"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ae17dacd3054ed15f695f72f6f1e4b590">Awake</a> ()</td></tr>
+<tr class="separator:ae17dacd3054ed15f695f72f6f1e4b590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d74605b7847feed2df79534cc92c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a95d74605b7847feed2df79534cc92c69">NodeUpdate</a> ()</td></tr>
+<tr class="memdesc:a95d74605b7847feed2df79534cc92c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main axis of the claw is duplicated or deleted whether the claw is going downwards or upwards  <a href="#a95d74605b7847feed2df79534cc92c69">More...</a><br /></td></tr>
+<tr class="separator:a95d74605b7847feed2df79534cc92c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb999bf9fad79b130d54fd9bf5a7562d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#acb999bf9fad79b130d54fd9bf5a7562d">Update</a> ()</td></tr>
+<tr class="separator:acb999bf9fad79b130d54fd9bf5a7562d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c6b14b2531ecb397f0583b79be0691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ab5c6b14b2531ecb397f0583b79be0691">FixedUpdate</a> ()</td></tr>
+<tr class="separator:ab5c6b14b2531ecb397f0583b79be0691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd23ab44e31a600afeadfd97c1ae9fe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#afd23ab44e31a600afeadfd97c1ae9fe5">OnDrawGizmos</a> ()</td></tr>
+<tr class="separator:afd23ab44e31a600afeadfd97c1ae9fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3598a913517627f85932d5a38c1cc84c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a3598a913517627f85932d5a38c1cc84c">horizontalVelocity</a> = 1.5f</td></tr>
+<tr class="separator:a3598a913517627f85932d5a38c1cc84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2a37a1d5315cdb46f2cd42b4a975ce2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#af2a37a1d5315cdb46f2cd42b4a975ce2">verticalVelocity</a> = 1.2f</td></tr>
+<tr class="separator:af2a37a1d5315cdb46f2cd42b4a975ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab133bf2e2ae744a4a65e0370aa311aa1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ab133bf2e2ae744a4a65e0370aa311aa1">minHeight</a> = 4f</td></tr>
+<tr class="separator:ab133bf2e2ae744a4a65e0370aa311aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd17658d960e4f5ccb84ea18b9ef2bdf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#abd17658d960e4f5ccb84ea18b9ef2bdf">allowDrawing</a> = true</td></tr>
+<tr class="separator:abd17658d960e4f5ccb84ea18b9ef2bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd6268d0514d5905826c30017393426"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a8cd6268d0514d5905826c30017393426">clawLastPosition</a></td></tr>
+<tr class="separator:a8cd6268d0514d5905826c30017393426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6ae35e139b65e96edd3fd8f06a42f5"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#abc6ae35e139b65e96edd3fd8f06a42f5">clawCenter</a></td></tr>
+<tr class="separator:abc6ae35e139b65e96edd3fd8f06a42f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcfa78e8ffe6561273aa09d4518c14d1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#adcfa78e8ffe6561273aa09d4518c14d1">horizontalPos</a></td></tr>
+<tr class="separator:adcfa78e8ffe6561273aa09d4518c14d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614fb2df8fec15af8d8264d3838f9090"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a614fb2df8fec15af8d8264d3838f9090">verticalPos</a></td></tr>
+<tr class="separator:a614fb2df8fec15af8d8264d3838f9090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95ac3c8cf5856c1aa55d1745d1be6b8"><td class="memItemLeft" align="right" valign="top">Stack&lt; SpriteRenderer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ac95ac3c8cf5856c1aa55d1745d1be6b8">nodes</a> = new Stack&lt;SpriteRenderer&gt;()</td></tr>
+<tr class="separator:ac95ac3c8cf5856c1aa55d1745d1be6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29bf6e669fea44f8b564a8f352c70c5"><td class="memItemLeft" align="right" valign="top">Stack&lt; SpriteRenderer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ad29bf6e669fea44f8b564a8f352c70c5">nodesPool</a> = new Stack&lt;SpriteRenderer&gt;()</td></tr>
+<tr class="separator:ad29bf6e669fea44f8b564a8f352c70c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9f3d41443fc27e4d182e0975aa7ae1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00016.html">ClawMechanism</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a9c9f3d41443fc27e4d182e0975aa7ae1">clawMechanism</a></td></tr>
+<tr class="separator:a9c9f3d41443fc27e4d182e0975aa7ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f6c2ce2808ce043443578576ef901e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00017.html">ClawNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a50f6c2ce2808ce043443578576ef901e">clawNode</a></td></tr>
+<tr class="separator:a50f6c2ce2808ce043443578576ef901e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bf42afc8d8983f33c583e018569070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00018.html">ClawPerSe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a81bf42afc8d8983f33c583e018569070">clawPerSe</a></td></tr>
+<tr class="separator:a81bf42afc8d8983f33c583e018569070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Parent class for <a class="el" href="a00015.html" title="Parent class for Claw Pieces ">Claw</a> Pieces </p>
+<div class="textblock"><p>Controls claws action and movement. </p>
+<p>To activate, the hero must stand within the <a class="el" href="a00060.html" title="Activator Terminal for Controllable Objects. ">Terminal</a> bounds and press the corresponding button to 'Change <a class="el" href="a00032.html">Hero</a>', and then control and camera are transferred to the claw.</p>
+<p>To movement claw, player must use arrows keys, and when the claw is in direct contact with and object of type '<a class="el" href="a00011.html">CarriableLight</a>', user must press button Action in order to lift the object. Pressing action with object lifted will cause the object to fall and claw to open.</p>
+<h3>TODO:</h3>
+<ul>
+<li>Extend concept for Object Pool to the role build <a href="https://en.wikipedia.org/wiki/Object_pool_pattern">Object Pool Pattern</a>.</li>
+</ul>
+<h3>KNOWN BUGS:</h3>
+<ul>
+<li>Sometimes, nodes are placed with some distance between them. This depends on some physics matters.</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a00014.html" title="Parent class for Claw Pieces ">Claw</a>, <a class="el" href="a00017.html" title="Support for claw that keeps it fixed on some point. ">ClawNode</a>, <a class="el" href="a00018.html">ClawPerSe</a>, <a class="el" href="a00016.html" title="Piece that move between two physics limits. ">ClawMechanism</a>, <a class="el" href="a00044.html">InvisibleAreaTrigger</a>, <a class="el" href="a00007.html">CameraController</a>, <a class="el" href="a00011.html">CarriableLight</a>, <a class="el" href="a00033.html">HeroControl</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00007">7</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00029">29</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="abd2ca206c1fe4f5621fa603de105bbac"></a>
+<a class="anchor" id="ae17dacd3054ed15f695f72f6f1e4b590"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,7 +210,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Claw.Awake </td>
+          <td class="memname">void ClawController.Awake </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -182,62 +223,176 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00017">17</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00049">49</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5c6b14b2531ecb397f0583b79be0691"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClawController.FixedUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00124">124</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad8fff20c55a787623a2621eea5ed4beb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClawController.MoveClaw </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>direction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Momevent code for claw parts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">direction</td><td>Direction vector applied to claw </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00062">62</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a95d74605b7847feed2df79534cc92c69"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClawController.NodeUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Main axis of the claw is duplicated or deleted whether the claw is going downwards or upwards </p>
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00076">76</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd23ab44e31a600afeadfd97c1ae9fe5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClawController.OnDrawGizmos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00179">179</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb999bf9fad79b130d54fd9bf5a7562d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClawController.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00111">111</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa1b5f2474523ae98840d35b7fa1127aa"></a>
+<a class="anchor" id="a1c367767e35ef1a8ec486e33bdd0428e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Vector3 Claw.clawInitialPos</td>
+          <td class="memname">bool ClawController.action = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00009">9</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00041">41</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4a738ffe4d7e30d5c198d671629c0d2e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Collider2D Claw.coll</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00081_source.html#l00014">14</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0771384c71e223c5009ec97bed6f8f31"></a>
+<a class="anchor" id="a2dbff7f4d1ccc074ac143431bd7cac3c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00016.html">ClawController</a> Claw.controller = null</td>
+          <td class="memname">bool ClawController.active = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00015">15</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00040">40</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac838e7fd8a39b69c3c106cb227c7b786"></a>
+<a class="anchor" id="abd17658d960e4f5ccb84ea18b9ef2bdf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -245,21 +400,21 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00034.html">HeroFast</a> Claw.heroFast = null</td>
+          <td class="memname">bool ClawController.allowDrawing = true</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00013">13</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00034">34</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a206a34cdb1fee8e723f7368b77d2aaf4"></a>
+<a class="anchor" id="abc6ae35e139b65e96edd3fd8f06a42f5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -267,21 +422,21 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Rigidbody2D Claw.heroFastRigidBody = null</td>
+          <td class="memname">Vector3 ClawController.clawCenter</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00011">11</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00037">37</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a28cfb6570f6f822eb6f37b18b80a8672"></a>
+<a class="anchor" id="a8cd6268d0514d5905826c30017393426"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -289,21 +444,21 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00037.html">HeroStrong</a> Claw.heroStrong = null</td>
+          <td class="memname">Vector3 ClawController.clawLastPosition</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00012">12</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00036">36</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aaab3f4d600e0b646c0ec5d22a7abd9cb"></a>
+<a class="anchor" id="a9c9f3d41443fc27e4d182e0975aa7ae1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -311,29 +466,227 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Rigidbody2D Claw.heroStrongRigidBody = null</td>
+          <td class="memname"><a class="el" href="a00016.html">ClawMechanism</a> ClawController.clawMechanism</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00081_source.html#l00010">10</a> of file <a class="el" href="a00081_source.html">Claw.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00081_source.html#l00045">45</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a50f6c2ce2808ce043443578576ef901e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00017.html">ClawNode</a> ClawController.clawNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00046">46</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81bf42afc8d8983f33c583e018569070"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00018.html">ClawPerSe</a> ClawController.clawPerSe</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00047">47</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adcfa78e8ffe6561273aa09d4518c14d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ClawController.horizontalPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00038">38</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3598a913517627f85932d5a38c1cc84c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ClawController.horizontalVelocity = 1.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00031">31</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab133bf2e2ae744a4a65e0370aa311aa1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ClawController.minHeight = 4f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00033">33</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac95ac3c8cf5856c1aa55d1745d1be6b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Stack&lt;SpriteRenderer&gt; ClawController.nodes = new Stack&lt;SpriteRenderer&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00042">42</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad29bf6e669fea44f8b564a8f352c70c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Stack&lt;SpriteRenderer&gt; ClawController.nodesPool = new Stack&lt;SpriteRenderer&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00043">43</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a614fb2df8fec15af8d8264d3838f9090"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ClawController.verticalPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00039">39</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af2a37a1d5315cdb46f2cd42b4a975ce2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ClawController.verticalVelocity = 1.2f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00081_source.html#l00032">32</a> of file <a class="el" href="a00081_source.html">ClawController.cs</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>MuvucaGame01/Assets/Scripts/Elements/Claw/<a class="el" href="a00081_source.html">Claw.cs</a></li>
+<li>MuvucaGame01/Assets/Scripts/Elements/Claw/<a class="el" href="a00081_source.html">ClawController.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00015.html">Claw</a></li>
+    <li class="navelem"><a class="el" href="a00015.html">ClawController</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

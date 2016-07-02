@@ -4,9 +4,9 @@ var searchData=
   ['teleport',['teleport',['../a00067.html#a00f5c74f50cf3a69fb6ceceb6ddaf3dd',1,'WarpZoneDoor']]],
   ['terminal',['Terminal',['../a00060.html',1,'']]],
   ['terminal_2ecs',['Terminal.cs',['../a00107.html',1,'']]],
-  ['text',['text',['../a00024.html#a67994a8292443ed381c65e2456613b1b',1,'Credits']]],
-  ['textheight',['textHeight',['../a00024.html#aaaeea0959b9d7a6a0701f84707cd0ebf',1,'Credits']]],
-  ['think',['Think',['../a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a4c96c9aaa582646555163130e869d834',1,'Balloon']]],
+  ['text',['text',['../a00023.html#a67994a8292443ed381c65e2456613b1b',1,'Credits']]],
+  ['textheight',['textHeight',['../a00023.html#aaaeea0959b9d7a6a0701f84707cd0ebf',1,'Credits']]],
+  ['think',['Think',['../a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a4c96c9aaa582646555163130e869d834',1,'Balloon']]],
   ['timeinseconds',['timeInSeconds',['../a00041.html#a334bd6547237413f63efe31e909b743c',1,'Sentence::Info']]],
   ['timeleftinseconds',['timeLeftInSeconds',['../a00061.html#ab00011659f9df0d4db38ba267a332d4f',1,'Timer']]],
   ['timeout',['timeout',['../a00061.html#a18eaa11a83660ee7cf977c2aaf964773',1,'Timer']]],
@@ -28,5 +28,5 @@ var searchData=
   ['triggerswithbothinside',['triggersWithBothInside',['../a00044.html#a17bffd8045d1fc10e053f2d9c5736077',1,'InvisibleAreaTrigger']]],
   ['twostatesactionableplatform',['TwoStatesActionablePlatform',['../a00066.html',1,'']]],
   ['twostatesactionableplatform_2ecs',['TwoStatesActionablePlatform.cs',['../a00112.html',1,'']]],
-  ['typeofballoon',['TypeOfBalloon',['../a00007.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3',1,'Balloon.TypeOfBalloon()'],['../a00041.html#af30d335e5b4efe0093810167b4fd93be',1,'Sentence.Info.typeOfBalloon()']]]
+  ['typeofballoon',['TypeOfBalloon',['../a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3',1,'Balloon.TypeOfBalloon()'],['../a00041.html#af30d335e5b4efe0093810167b4fd93be',1,'Sentence.Info.typeOfBalloon()']]]
 ];

@@ -17,8 +17,8 @@ var searchData=
   ['_5fminx',['_minX',['../a00029.html#af8eb3e5ff30f689c525ebea19154fdbd',1,'FliesControl']]],
   ['_5fminy',['_minY',['../a00029.html#a8bc6eb0ba0ad4c3b46051373ebca1524',1,'FliesControl']]],
   ['_5fmovebuttonspeed',['_moveButtonSpeed',['../a00033.html#a751b8c1ddbfff8ab0144804c935d98cc',1,'HeroControl']]],
-  ['_5fonfocus',['_OnFocus',['../a00023.html#a06c0f7ed40de4b7c1e3c11456ea250e3',1,'Controllable']]],
-  ['_5fonfocusout',['_OnFocusOut',['../a00023.html#af666a1dfd26bc2b83e01f68f0cb9441b',1,'Controllable']]],
+  ['_5fonfocus',['_OnFocus',['../a00022.html#a06c0f7ed40de4b7c1e3c11456ea250e3',1,'Controllable']]],
+  ['_5fonfocusout',['_OnFocusOut',['../a00022.html#af666a1dfd26bc2b83e01f68f0cb9441b',1,'Controllable']]],
   ['_5fspinningposition',['_spinningPosition',['../a00054.html#a5503ac8a767add0e188b5d8d6ebc1684',1,'PuzzleController']]],
   ['_5fverticalmovebuttonspeed',['_verticalMoveButtonSpeed',['../a00033.html#adb90ebe2e58a7f9fa6b53ec267f42757',1,'HeroControl']]]
 ];

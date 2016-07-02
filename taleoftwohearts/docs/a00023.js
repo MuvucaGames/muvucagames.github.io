@@ -1,11 +1,13 @@
 var a00023 =
 [
-    [ "_OnFocus", "a00023.html#a06c0f7ed40de4b7c1e3c11456ea250e3", null ],
-    [ "_OnFocusOut", "a00023.html#af666a1dfd26bc2b83e01f68f0cb9441b", null ],
-    [ "Activate", "a00023.html#a29926cc66aa9f73bccf6bd03ce1551f9", null ],
-    [ "Deactivate", "a00023.html#a6bcf2efcf72ae0e3221a75ccd1989bb8", null ],
-    [ "OnFocus", "a00023.html#ab72840db4251c20753642b995b623b9c", null ],
-    [ "OnFocusOut", "a00023.html#aa30944868952566395b45fe986e56fb6", null ],
-    [ "isActive", "a00023.html#ad7b928e5fb864fc806b584dbb34818cc", null ],
-    [ "IsActive", "a00023.html#a2083393446a26b20894bd3dfd57d8eb6", null ]
+    [ "FixedUpdate", "a00023.html#a13ea92acd796ff1aeb7875d77c9442ad", null ],
+    [ "Start", "a00023.html#a99a1eb5f51c7e03afd80d2280d51baaf", null ],
+    [ "Update", "a00023.html#a13494420297e3aeb01affe25b5fbbf49", null ],
+    [ "creditsTransform", "a00023.html#adf5a3ad0fa93a9a06d70185593979f95", null ],
+    [ "list", "a00023.html#ab02ebfa20632064816701189c88c0ccc", null ],
+    [ "listTransform", "a00023.html#a5dd83377afb043a8e900881a5fcaa0c6", null ],
+    [ "rollSpeed", "a00023.html#a9ad4facb4bae45494e78974a73ffdb69", null ],
+    [ "screenHeight", "a00023.html#a047a67c3f36599b6dc55351bcde691da", null ],
+    [ "text", "a00023.html#a67994a8292443ed381c65e2456613b1b", null ],
+    [ "textHeight", "a00023.html#aaaeea0959b9d7a6a0701f84707cd0ebf", null ]
 ];

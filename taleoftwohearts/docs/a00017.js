@@ -1,7 +1,6 @@
 var a00017 =
 [
-    [ "OnTriggerEnter2D", "a00017.html#a4b27616ef858701490f264d29f2d7517", null ],
-    [ "OnTriggerExit2D", "a00017.html#a53af814832c3d51363d6f34b2c3df5fd", null ],
-    [ "isOnLeftLimit", "a00017.html#a04db279d41e0cc33213664f85882d6d1", null ],
-    [ "isOnRightLimit", "a00017.html#aeca217dd1fbb5a0325d28e4f6bdd062f", null ]
+    [ "FixedUpdate", "a00017.html#a4d5005877acb953bf87db30b5081bb41", null ],
+    [ "clawMechanism", "a00017.html#a6f99e752980295eeb2a571ed15dd51aa", null ],
+    [ "itemsOverPlatform", "a00017.html#a3df231241fbb2842328037fc166b3847", null ]
 ];

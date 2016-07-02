@@ -1,13 +1,13 @@
 var searchData=
 [
   ['backbutton',['BackButton',['../a00053.html#ae060a8e8b24e52b229c15cdfd15e3c61',1,'Options.BackButton()'],['../a00056.html#a2adde53c14f85595dd83dd504ee7db72',1,'SelectCharacter.BackButton()'],['../a00057.html#abf38068590107af6e0036bb0ef38b72a',1,'SelectSlot.BackButton()']]],
-  ['backgroundimg',['backgroundImg',['../a00007.html#a147af66578fd8785365ff2dac5e9217d',1,'Balloon']]],
-  ['balloon',['Balloon',['../a00007.html',1,'']]],
-  ['balloon_2ecs',['Balloon.cs',['../a00092.html',1,'']]],
-  ['balloonprefab',['balloonPrefab',['../a00027.html#a12e0574248035b58acd4c9cc4dae0e5d',1,'Dialog']]],
+  ['backgroundimg',['backgroundImg',['../a00006.html#a147af66578fd8785365ff2dac5e9217d',1,'Balloon']]],
+  ['balloon',['Balloon',['../a00006.html',1,'']]],
+  ['balloon_2ecs',['Balloon.cs',['../a00091.html',1,'']]],
+  ['balloonprefab',['balloonPrefab',['../a00026.html#a12e0574248035b58acd4c9cc4dae0e5d',1,'Dialog']]],
   ['blink',['Blink',['../a00048.html#a454b8d575730b3da43acd422707d0f71',1,'LightRender']]],
   ['bodycollider',['bodyCollider',['../a00032.html#aebbf3d38f45c0daf0274063f9d7b7b8d',1,'Hero']]],
-  ['bothcheckedrenderer',['bothCheckedRenderer',['../a00013.html#ad927b65ca2ed563e38cf02b62d9dc518',1,'Checkpoint']]],
+  ['bothcheckedrenderer',['bothCheckedRenderer',['../a00012.html#ad927b65ca2ed563e38cf02b62d9dc518',1,'Checkpoint']]],
   ['bothheroesneeded',['bothHeroesNeeded',['../a00067.html#ac28c3ef617ed079ef2cf1c7b1f3a0188',1,'WarpZoneDoor']]],
   ['btnfast',['btnFast',['../a00056.html#a4dd3c02d6c3e9c47e8afe4cf425d8ff9',1,'SelectCharacter']]],
   ['btnmainfemalesign',['btnMainFemaleSign',['../a00056.html#aedb3e5086414ff7faf7de80bdc83e7f7',1,'SelectCharacter']]],

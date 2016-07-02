@@ -7,9 +7,9 @@ var searchData=
   ['deltatimelastsound',['deltaTimeLastSound',['../a00055.html#a8b52cf1c9f0efbe753fa95b411b17aa9',1,'RollingBall']]],
   ['deltatimestopsound',['deltaTimeStopSound',['../a00055.html#a43dc55dba878a60c62b3e9a75b9a9af7',1,'RollingBall']]],
   ['direction',['direction',['../a00051.html#a30cc0408cd078ccbc214a70827b843ae',1,'MovableHorizontalPlatform']]],
-  ['disable',['disable',['../a00019.html#a6900604d15e233630f8da753a4b30e36',1,'ClawPerSe']]],
+  ['disable',['disable',['../a00018.html#a6900604d15e233630f8da753a4b30e36',1,'ClawPerSe']]],
   ['distancetotargetprevious',['distanceToTargetPrevious',['../a00051.html#a42be7bf5df0a4be7f1aac0e1d64ef602',1,'MovableHorizontalPlatform']]],
-  ['distjoint',['distJoint',['../a00019.html#a2c6fbcff8a8735e6be775575f115c7e4',1,'ClawPerSe']]],
+  ['distjoint',['distJoint',['../a00018.html#a2c6fbcff8a8735e6be775575f115c7e4',1,'ClawPerSe']]],
   ['done',['done',['../a00064.html#a09276147de932238c60e7c2ef2a7a61a',1,'TrapDoor']]],
   ['doortarget',['doorTarget',['../a00067.html#aac12534bc3960022d7334926988a6e80',1,'WarpZoneDoor']]]
 ];

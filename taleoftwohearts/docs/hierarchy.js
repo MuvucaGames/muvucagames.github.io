@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "ClawUtils", "a00020.html", null ],
+    [ "ClawUtils", "a00019.html", null ],
     [ "HeroUtil", "a00038.html", null ],
     [ "IHeroActionable", "a00039.html", [
       [ "Lever", "a00047.html", null ],
@@ -17,24 +17,41 @@ var hierarchy =
           [ "RollingBall", "a00055.html", null ]
         ] ],
         [ "ActionableLadder", "a00005.html", null ],
-        [ "Controllable", "a00023.html", [
-          [ "ClawPerSe", "a00019.html", null ],
-          [ "ColorsPuzzle", "a00021.html", null ],
+        [ "Controllable", "a00022.html", [
+          [ "ClawPerSe", "a00018.html", null ],
+          [ "ColorsPuzzle", "a00020.html", null ],
           [ "Hero", "a00032.html", [
             [ "HeroFast", "a00034.html", null ],
             [ "HeroStrong", "a00037.html", null ]
           ] ]
         ] ],
-        [ "Dialog", "a00027.html", null ],
-        [ "Door", "a00028.html", null ],
+        [ "Dialog", "a00026.html", null ],
+        [ "Door", "a00027.html", null ],
         [ "ForceField", "a00030.html", null ],
         [ "Timer", "a00061.html", null ],
         [ "TrapDoor", "a00064.html", null ],
         [ "TwoStatesActionablePlatform", "a00066.html", null ],
         [ "WarpZoneDoor", "a00067.html", null ]
       ] ],
-      [ "Activator", "a00006.html", [
-        [ "ColorsPuzzleActivator", "a00022.html", null ],
+      [ "Balloon", "a00006.html", null ],
+      [ "CameraController", "a00007.html", null ],
+      [ "CameraParamTools", "a00008.html", null ],
+      [ "Carriable", "a00009.html", [
+        [ "CarriableHeavy", "a00010.html", null ],
+        [ "CarriableLight", "a00011.html", null ]
+      ] ],
+      [ "Checkpoint", "a00012.html", null ],
+      [ "CheckpointManager", "a00013.html", null ],
+      [ "Claw", "a00014.html", [
+        [ "ClawMechanism", "a00016.html", null ],
+        [ "ClawNode", "a00017.html", null ]
+      ] ],
+      [ "ClawController", "a00015.html", null ],
+      [ "Credits", "a00023.html", null ],
+      [ "DeathTrigger", "a00024.html", null ],
+      [ "DesignTools", "a00025.html", null ],
+      [ "ElementActivator", "a00028.html", [
+        [ "ColorsPuzzleActivator", "a00021.html", null ],
         [ "InvisibleAreaTrigger", "a00044.html", [
           [ "Terminal", "a00060.html", null ]
         ] ],
@@ -42,23 +59,6 @@ var hierarchy =
         [ "TimerActivator", "a00062.html", null ],
         [ "WeigthButtonWithPhysics", "a00068.html", null ]
       ] ],
-      [ "Balloon", "a00007.html", null ],
-      [ "CameraController", "a00008.html", null ],
-      [ "CameraParamTools", "a00009.html", null ],
-      [ "Carriable", "a00010.html", [
-        [ "CarriableHeavy", "a00011.html", null ],
-        [ "CarriableLight", "a00012.html", null ]
-      ] ],
-      [ "Checkpoint", "a00013.html", null ],
-      [ "CheckpointManager", "a00014.html", null ],
-      [ "Claw", "a00015.html", [
-        [ "ClawMechanism", "a00017.html", null ],
-        [ "ClawNode", "a00018.html", null ]
-      ] ],
-      [ "ClawController", "a00016.html", null ],
-      [ "Credits", "a00024.html", null ],
-      [ "DeathTrigger", "a00025.html", null ],
-      [ "DesignTools", "a00026.html", null ],
       [ "FliesControl", "a00029.html", null ],
       [ "GameManager", "a00031.html", null ],
       [ "HeroControl", "a00033.html", null ],

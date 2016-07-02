@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MuvucaGame01: Activator Class Reference</title>
+<title>MuvucaGame01: Balloon Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,59 +109,70 @@ $(document).ready(function(){initNavTree('a00006.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a00146.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Activator Class Reference</div>  </div>
+<div class="title">Balloon Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for Activator:</div>
+Inheritance diagram for Balloon:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="a00006.png" usemap="#Activator_map" alt=""/>
-  <map id="Activator_map" name="Activator_map">
-<area href="a00022.html" alt="ColorsPuzzleActivator" shape="rect" coords="0,112,153,136"/>
-<area href="a00044.html" alt="InvisibleAreaTrigger" shape="rect" coords="163,112,316,136"/>
-<area href="a00047.html" alt="Lever" shape="rect" coords="326,112,479,136"/>
-<area href="a00062.html" alt="TimerActivator" shape="rect" coords="489,112,642,136"/>
-<area href="a00068.html" alt="WeigthButtonWithPhysics" shape="rect" coords="652,112,805,136"/>
-<area href="a00060.html" title="Activator Terminal for Controllable Objects. " alt="Terminal" shape="rect" coords="163,168,316,192"/>
+  <img src="a00006.png" usemap="#Balloon_map" alt=""/>
+  <map id="Balloon_map" name="Balloon_map">
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a0e0a17dcbb9a0ad3b8c521b70f1bcaf3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3">TypeOfBalloon</a> { <a class="el" href="a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a960b44c579bc2f6818d2daaf9e4c16f0">TypeOfBalloon.Normal</a>, 
+<a class="el" href="a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a4c96c9aaa582646555163130e869d834">TypeOfBalloon.Think</a>, 
+<a class="el" href="a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a0a6de9d8668281593bbd349ef75c1f49">TypeOfBalloon.Shout</a>
+ }</td></tr>
+<tr class="separator:a0e0a17dcbb9a0ad3b8c521b70f1bcaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a66402f9a677c781f791248fd58291bc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a66402f9a677c781f791248fd58291bc8">AddActionableElement</a> (<a class="el" href="a00003.html">ActionableElement</a> act_elem)</td></tr>
-<tr class="separator:a66402f9a677c781f791248fd58291bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f97e5eaa32e5178e7f22619bb051aea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a6f97e5eaa32e5178e7f22619bb051aea">RemoveActionableElement</a> (<a class="el" href="a00003.html">ActionableElement</a> act_elem)</td></tr>
-<tr class="separator:a6f97e5eaa32e5178e7f22619bb051aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada32b91b6d8b7fd2de96bc453a42a48"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#aada32b91b6d8b7fd2de96bc453a42a48">Callback</a> ()</td></tr>
+<tr class="separator:aada32b91b6d8b7fd2de96bc453a42a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92054d1bcdc265e987fc207c7637c31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#af92054d1bcdc265e987fc207c7637c31">Init</a> (<a class="el" href="a00041.html">Sentence.Info</a> <a class="el" href="a00006.html#add58388905ca252b0a258cee37a2a711">sentenceInfo</a>, <a class="el" href="a00006.html#aada32b91b6d8b7fd2de96bc453a42a48">Callback</a> <a class="el" href="a00006.html#a62cb5942b717fc8b80ca8083353d14b0">callback</a>)</td></tr>
+<tr class="separator:af92054d1bcdc265e987fc207c7637c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe342ea32aad2d428ff46f48d47a915b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#abe342ea32aad2d428ff46f48d47a915b">OnDestroy</a> ()</td></tr>
+<tr class="separator:abe342ea32aad2d428ff46f48d47a915b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3691dbbfde3b74543a05a9dd3bd8fe39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a3691dbbfde3b74543a05a9dd3bd8fe39">ActivateAll</a> ()</td></tr>
-<tr class="separator:a3691dbbfde3b74543a05a9dd3bd8fe39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f0d86af4bb6ee82a73f56076e94d1c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a9f0d86af4bb6ee82a73f56076e94d1c4">DeactivateAll</a> ()</td></tr>
-<tr class="separator:a9f0d86af4bb6ee82a73f56076e94d1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a62cb5942b717fc8b80ca8083353d14b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00006.html#aada32b91b6d8b7fd2de96bc453a42a48">Callback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a62cb5942b717fc8b80ca8083353d14b0">callback</a></td></tr>
+<tr class="separator:a62cb5942b717fc8b80ca8083353d14b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ac4d20e7c91e45e78b95a23dc79164f35"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="a00003.html">ActionableElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#ac4d20e7c91e45e78b95a23dc79164f35">actionableElements</a></td></tr>
-<tr class="separator:ac4d20e7c91e45e78b95a23dc79164f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aefc2e0f93a63e041bd49e225287d90d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#aefc2e0f93a63e041bd49e225287d90d7">Update</a> ()</td></tr>
+<tr class="separator:aefc2e0f93a63e041bd49e225287d90d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa3619f93f9d216050c22bdf5897d57f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#aaa3619f93f9d216050c22bdf5897d57f">SetCanvasSizeAndImages</a> ()</td></tr>
+<tr class="separator:aaa3619f93f9d216050c22bdf5897d57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64d25e16da995963542e3831f75f233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#aa64d25e16da995963542e3831f75f233">SetSpringJoint</a> ()</td></tr>
+<tr class="separator:aa64d25e16da995963542e3831f75f233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a39d25974a398f2bb20bdc410af0ab0de"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="a00003.html">ActionableElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a39d25974a398f2bb20bdc410af0ab0de">ActionableElements</a><code> [get, set]</code></td></tr>
-<tr class="separator:a39d25974a398f2bb20bdc410af0ab0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:add58388905ca252b0a258cee37a2a711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00041.html">Sentence.Info</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#add58388905ca252b0a258cee37a2a711">sentenceInfo</a></td></tr>
+<tr class="separator:add58388905ca252b0a258cee37a2a711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a147af66578fd8785365ff2dac5e9217d"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a147af66578fd8785365ff2dac5e9217d">backgroundImg</a></td></tr>
+<tr class="separator:a147af66578fd8785365ff2dac5e9217d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f25e98750eebab730c80efd94058dc"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00006.html#a97f25e98750eebab730c80efd94058dc">imgTmp</a></td></tr>
+<tr class="separator:a97f25e98750eebab730c80efd94058dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="a00075_source.html#l00005">5</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3691dbbfde3b74543a05a9dd3bd8fe39"></a>
+<p>Definition at line <a class="el" href="a00091_source.html#l00005">5</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a0e0a17dcbb9a0ad3b8c521b70f1bcaf3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,24 +180,45 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Activator.ActivateAll </td>
+          <td class="memname">enum <a class="el" href="a00006.html#a0e0a17dcbb9a0ad3b8c521b70f1bcaf3">Balloon.TypeOfBalloon</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a960b44c579bc2f6818d2daaf9e4c16f0"></a>Normal&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a4c96c9aaa582646555163130e869d834"></a>Think&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a0e0a17dcbb9a0ad3b8c521b70f1bcaf3a0a6de9d8668281593bbd349ef75c1f49"></a>Shout&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="a00091_source.html#l00075">75</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aada32b91b6d8b7fd2de96bc453a42a48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Balloon.Callback </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00075_source.html#l00009">9</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a66402f9a677c781f791248fd58291bc8"></a>
+<a class="anchor" id="af92054d1bcdc265e987fc207c7637c31"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -194,10 +226,45 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Activator.AddActionableElement </td>
+          <td class="memname">void Balloon.Init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00003.html">ActionableElement</a>&#160;</td>
-          <td class="paramname"><em>act_elem</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00041.html">Sentence.Info</a>&#160;</td>
+          <td class="paramname"><em>sentenceInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00006.html#aada32b91b6d8b7fd2de96bc453a42a48">Callback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00091_source.html#l00025">25</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abe342ea32aad2d428ff46f48d47a915b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Balloon.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -208,11 +275,11 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00075_source.html#l00034">34</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00091_source.html#l00069">69</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9f0d86af4bb6ee82a73f56076e94d1c4"></a>
+<a class="anchor" id="aaa3619f93f9d216050c22bdf5897d57f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -220,7 +287,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Activator.DeactivateAll </td>
+          <td class="memname">void Balloon.SetCanvasSizeAndImages </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -228,16 +295,16 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00075_source.html#l00017">17</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00091_source.html#l00039">39</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6f97e5eaa32e5178e7f22619bb051aea"></a>
+<a class="anchor" id="aa64d25e16da995963542e3831f75f233"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -245,26 +312,50 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Activator.RemoveActionableElement </td>
+          <td class="memname">void Balloon.SetSpringJoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00003.html">ActionableElement</a>&#160;</td>
-          <td class="paramname"><em>act_elem</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00075_source.html#l00038">38</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00091_source.html#l00059">59</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aefc2e0f93a63e041bd49e225287d90d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Balloon.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00091_source.html#l00016">16</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ac4d20e7c91e45e78b95a23dc79164f35"></a>
+<a class="anchor" id="a147af66578fd8785365ff2dac5e9217d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -272,22 +363,21 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="a00003.html">ActionableElement</a>&gt; Activator.actionableElements</td>
+          <td class="memname">Image Balloon.backgroundImg</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00075_source.html#l00007">7</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00091_source.html#l00012">12</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
-<a class="anchor" id="a39d25974a398f2bb20bdc410af0ab0de"></a>
+<a class="anchor" id="a97f25e98750eebab730c80efd94058dc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -295,29 +385,74 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="a00003.html">ActionableElement</a>&gt; Activator.ActionableElements</td>
+          <td class="memname">Image Balloon.imgTmp</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00075_source.html#l00025">25</a> of file <a class="el" href="a00075_source.html">Activator.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00091_source.html#l00014">14</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add58388905ca252b0a258cee37a2a711"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00041.html">Sentence.Info</a> Balloon.sentenceInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00091_source.html#l00007">7</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a class="anchor" id="a62cb5942b717fc8b80ca8083353d14b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00006.html#aada32b91b6d8b7fd2de96bc453a42a48">Callback</a> Balloon.callback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00091_source.html#l00009">9</a> of file <a class="el" href="a00091_source.html">Balloon.cs</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>MuvucaGame01/Assets/Scripts/Elements/<a class="el" href="a00075_source.html">Activator.cs</a></li>
+<li>MuvucaGame01/Assets/Scripts/Elements/Dialog/<a class="el" href="a00091_source.html">Balloon.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00006.html">Activator</a></li>
+    <li class="navelem"><a class="el" href="a00006.html">Balloon</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

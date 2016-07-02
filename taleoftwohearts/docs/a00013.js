@@ -1,19 +1,12 @@
 var a00013 =
 [
-    [ "Awake", "a00013.html#af3783fddf42967c30cfd022dfc582d79", null ],
-    [ "ChangeRendering", "a00013.html#a070d3884102792ec012f82060b2655b1", null ],
-    [ "CheckThisPoint", "a00013.html#a1f75d3a0ebd5bd825a71a68db61df2a5", null ],
-    [ "OnTriggerEnter2D", "a00013.html#a6ab1c65ac3333b3d99d4cf55d408ab88", null ],
-    [ "Start", "a00013.html#aebf3512a218cd81036983629951afa31", null ],
-    [ "bothCheckedRenderer", "a00013.html#ad927b65ca2ed563e38cf02b62d9dc518", null ],
-    [ "checkedHeroes", "a00013.html#a26c1c9c1e58ca321027f1706c18b7fe0", null ],
-    [ "checkpointOrder", "a00013.html#a3a5a54d0068b7c84c01ba352bec62e96", null ],
-    [ "heroFastTransform", "a00013.html#a61603337300b6872bb4fe4c70da94172", null ],
-    [ "heroStrongTransform", "a00013.html#a8d30c54e38b870fef6a398ab793b1124", null ],
-    [ "manager", "a00013.html#a3849a52f97305b670b048bd800abdd64", null ],
-    [ "notCheckedRenderer", "a00013.html#ad262733d2db200f7bda77f2a879cf70e", null ],
-    [ "oneCheckedRenderer", "a00013.html#a174b0f5fd6db273fbb55da8b27f2e317", null ],
-    [ "requiresBothHeroes", "a00013.html#ac99511eb28df437e1deb8c12a19db081", null ],
-    [ "HeroFastTransform", "a00013.html#af351abdf6a9d21453df8d68501ce29ec", null ],
-    [ "HeroStrongTransform", "a00013.html#a4d94288b37541eaa87676d2d218a0178", null ]
+    [ "Awake", "a00013.html#ab1049e7c4c6ef27a643c4ad7c5612fb2", null ],
+    [ "PlaceHeroes", "a00013.html#adb526b235c8e9f9d3b539581ce7732cf", null ],
+    [ "PlayerChangedLevel", "a00013.html#a0d15575306cdb6a01ed1fc7f1da92020", null ],
+    [ "RegisterCheckpoint", "a00013.html#a0c17e9c7360397f51987d94f8871662d", null ],
+    [ "ResetCheckpoins", "a00013.html#afe68721488c3213dd38dbce42c4713f0", null ],
+    [ "heroFast", "a00013.html#ae7e60d48ec597fb41a413be575b8f5c9", null ],
+    [ "heroStrong", "a00013.html#ad7f76dc3fb07bc8070f8a228fd3f1f78", null ],
+    [ "lastCheckpoint", "a00013.html#ae5cae6ddc6a5d8e8619d8426e78cf6a6", null ],
+    [ "lastLevel", "a00013.html#a5b3dee209e863c08782770bc826b7b18", null ]
 ];

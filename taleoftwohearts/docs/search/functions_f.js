@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['placeheroes',['PlaceHeroes',['../a00014.html#adb526b235c8e9f9d3b539581ce7732cf',1,'CheckpointManager']]],
-  ['playerchangedlevel',['PlayerChangedLevel',['../a00014.html#a0d15575306cdb6a01ed1fc7f1da92020',1,'CheckpointManager']]],
+  ['placeheroes',['PlaceHeroes',['../a00013.html#adb526b235c8e9f9d3b539581ce7732cf',1,'CheckpointManager']]],
+  ['playerchangedlevel',['PlayerChangedLevel',['../a00013.html#a0d15575306cdb6a01ed1fc7f1da92020',1,'CheckpointManager']]],
   ['playmusic',['PlayMusic',['../a00059.html#a8bdd7f9164449a27dfc8a19612d5203d',1,'SoundManager']]],
   ['playsfxbounceball',['PlaySFXBounceBall',['../a00059.html#acd9e8d88b4fdd0a0b04682315611696a',1,'SoundManager']]],
   ['playsfxclosegate',['PlaySFXCloseGate',['../a00059.html#aaa27a3ea4cb22155ca24ecf1a95bd979',1,'SoundManager']]],
