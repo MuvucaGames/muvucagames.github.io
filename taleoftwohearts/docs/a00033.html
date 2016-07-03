@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MuvucaGame01: HeroControl Class Reference</title>
+<title>MuvucaGame01: Hero Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,63 +109,198 @@ $(document).ready(function(){initNavTree('a00033.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
-<a href="a00173.html">List of all members</a>  </div>
+<a href="a00175.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">HeroControl Class Reference</div>  </div>
+<div class="title">Hero Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for HeroControl:</div>
+Inheritance diagram for Hero:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="a00033.png" usemap="#HeroControl_map" alt=""/>
-  <map id="HeroControl_map" name="HeroControl_map">
+  <img src="a00033.png" usemap="#Hero_map" alt=""/>
+  <map id="Hero_map" name="Hero_map">
+<area href="a00022.html" title="Class for objects that receive focus of keyboard and camera " alt="Controllable" shape="rect" coords="63,112,179,136"/>
+<area href="a00003.html" title="Actionable element. Extend this class to create a element that can be activated or deactivated by the..." alt="ActionableElement" shape="rect" coords="63,56,179,80"/>
+<area href="a00035.html" alt="HeroFast" shape="rect" coords="0,224,116,248"/>
+<area href="a00038.html" alt="HeroStrong" shape="rect" coords="126,224,242,248"/>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adbd7000fa78d2d4daf8e96268db776c9"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#adbd7000fa78d2d4daf8e96268db776c9">IsStrong</a> ()</td></tr>
+<tr class="separator:adbd7000fa78d2d4daf8e96268db776c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7e406b33fed8f4ad008d791cc8453d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aca7e406b33fed8f4ad008d791cc8453d">isGrounded</a> ()</td></tr>
+<tr class="separator:aca7e406b33fed8f4ad008d791cc8453d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abefa83937bded7d862ca135e11181b83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#abefa83937bded7d862ca135e11181b83">isPushingSomething</a> ()</td></tr>
+<tr class="separator:abefa83937bded7d862ca135e11181b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908fb89da692e995f31bd7cfdd999b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a908fb89da692e995f31bd7cfdd999b8f">Move</a> (float speed)</td></tr>
+<tr class="separator:a908fb89da692e995f31bd7cfdd999b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb61d5595b94b85c764a769e1ef3e512"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#acb61d5595b94b85c764a769e1ef3e512">StopWalk</a> ()</td></tr>
+<tr class="separator:acb61d5595b94b85c764a769e1ef3e512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2107e800fbd878b29031f1e95f5ee71d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a2107e800fbd878b29031f1e95f5ee71d">VerticalMove</a> (float speed)</td></tr>
+<tr class="separator:a2107e800fbd878b29031f1e95f5ee71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b947317d5ccaf6bfedfe05e0ed8717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a84b947317d5ccaf6bfedfe05e0ed8717">Jump</a> ()</td></tr>
+<tr class="separator:a84b947317d5ccaf6bfedfe05e0ed8717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf0e4ec6b125c15a66d1c730a335eb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#afbf0e4ec6b125c15a66d1c730a335eb0">Jump</a> (float multiplier)</td></tr>
+<tr class="memdesc:afbf0e4ec6b125c15a66d1c730a335eb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the <a class="el" href="a00033.html">Hero</a> jump to his/her maximum height multiplied by a factor.  <a href="#afbf0e4ec6b125c15a66d1c730a335eb0">More...</a><br /></td></tr>
+<tr class="separator:afbf0e4ec6b125c15a66d1c730a335eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b1dec6fa435f236be8d20fbc6e44d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a14b1dec6fa435f236be8d20fbc6e44d9">Crouch</a> ()</td></tr>
+<tr class="separator:a14b1dec6fa435f236be8d20fbc6e44d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd52b14e1a32904e4feaef182df6da6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aafd52b14e1a32904e4feaef182df6da6">StandUp</a> ()</td></tr>
+<tr class="separator:aafd52b14e1a32904e4feaef182df6da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd65fdf5c2d0facd4f250c0e958ff27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a1cd65fdf5c2d0facd4f250c0e958ff27">Push</a> ()</td></tr>
+<tr class="separator:a1cd65fdf5c2d0facd4f250c0e958ff27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b186c744c991cd50f979d1c462dd56b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a2b186c744c991cd50f979d1c462dd56b">StopPush</a> ()</td></tr>
+<tr class="separator:a2b186c744c991cd50f979d1c462dd56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa552f9c4dd1ea0680aec49601dad56b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aa552f9c4dd1ea0680aec49601dad56b7">Carry</a> ()</td></tr>
+<tr class="separator:aa552f9c4dd1ea0680aec49601dad56b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef0e412cc1a949cc991dc1650469ee49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aef0e412cc1a949cc991dc1650469ee49">StopCarry</a> ()</td></tr>
+<tr class="separator:aef0e412cc1a949cc991dc1650469ee49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1daa34885bc1933f8a3873a2283118d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a1daa34885bc1933f8a3873a2283118d3">Action</a> ()</td></tr>
+<tr class="separator:a1daa34885bc1933f8a3873a2283118d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83084e2436f03a465e9223f1e6f75dac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a83084e2436f03a465e9223f1e6f75dac">ReleaseObject</a> ()</td></tr>
+<tr class="separator:a83084e2436f03a465e9223f1e6f75dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31b1a1bb6923af5e950164d86f2d60f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ad31b1a1bb6923af5e950164d86f2d60f">IsTouchingAreaTrigger</a> ()</td></tr>
+<tr class="separator:ad31b1a1bb6923af5e950164d86f2d60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00022"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00022')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00022.html">Controllable</a></td></tr>
+<tr class="memitem:a29926cc66aa9f73bccf6bd03ce1551f9 inherit pub_methods_a00022"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#a29926cc66aa9f73bccf6bd03ce1551f9">Activate</a> ()</td></tr>
+<tr class="memdesc:a29926cc66aa9f73bccf6bd03ce1551f9 inherit pub_methods_a00022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate this element  <a href="#a29926cc66aa9f73bccf6bd03ce1551f9">More...</a><br /></td></tr>
+<tr class="separator:a29926cc66aa9f73bccf6bd03ce1551f9 inherit pub_methods_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcf2efcf72ae0e3221a75ccd1989bb8 inherit pub_methods_a00022"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#a6bcf2efcf72ae0e3221a75ccd1989bb8">Deactivate</a> ()</td></tr>
+<tr class="memdesc:a6bcf2efcf72ae0e3221a75ccd1989bb8 inherit pub_methods_a00022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate this element.  <a href="#a6bcf2efcf72ae0e3221a75ccd1989bb8">More...</a><br /></td></tr>
+<tr class="separator:a6bcf2efcf72ae0e3221a75ccd1989bb8 inherit pub_methods_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c0f7ed40de4b7c1e3c11456ea250e3 inherit pub_methods_a00022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#a06c0f7ed40de4b7c1e3c11456ea250e3">_OnFocus</a> ()</td></tr>
+<tr class="separator:a06c0f7ed40de4b7c1e3c11456ea250e3 inherit pub_methods_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af666a1dfd26bc2b83e01f68f0cb9441b inherit pub_methods_a00022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#af666a1dfd26bc2b83e01f68f0cb9441b">_OnFocusOut</a> ()</td></tr>
+<tr class="separator:af666a1dfd26bc2b83e01f68f0cb9441b inherit pub_methods_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab72840db4251c20753642b995b623b9c inherit pub_methods_a00022"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#ab72840db4251c20753642b995b623b9c">OnFocus</a> ()</td></tr>
+<tr class="memdesc:ab72840db4251c20753642b995b623b9c inherit pub_methods_a00022"><td class="mdescLeft">&#160;</td><td class="mdescRight">At Receiving focus of keyboard and camera, virtual method OnFocus is called.  <a href="#ab72840db4251c20753642b995b623b9c">More...</a><br /></td></tr>
+<tr class="separator:ab72840db4251c20753642b995b623b9c inherit pub_methods_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30944868952566395b45fe986e56fb6 inherit pub_methods_a00022"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#aa30944868952566395b45fe986e56fb6">OnFocusOut</a> ()</td></tr>
+<tr class="memdesc:aa30944868952566395b45fe986e56fb6 inherit pub_methods_a00022"><td class="mdescLeft">&#160;</td><td class="mdescRight">At leaving focus of keyboard and camera, virtual method OnFocusOut is called.  <a href="#aa30944868952566395b45fe986e56fb6">More...</a><br /></td></tr>
+<tr class="separator:aa30944868952566395b45fe986e56fb6 inherit pub_methods_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adc56ac4b90702703965afa61aac3b7bd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#adc56ac4b90702703965afa61aac3b7bd">Awake</a> ()</td></tr>
+<tr class="separator:adc56ac4b90702703965afa61aac3b7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:ae23edfd350b58c3840d8816ee311100a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ae23edfd350b58c3840d8816ee311100a">OnAir</a><code> [get]</code></td></tr>
+<tr class="separator:ae23edfd350b58c3840d8816ee311100a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab543bbdbe40eac330b7a3810665bdd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a8ab543bbdbe40eac330b7a3810665bdd">JumpHeight</a><code> [get, set]</code></td></tr>
+<tr class="separator:a8ab543bbdbe40eac330b7a3810665bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9992951b6ed218db019747f1edbc2662"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a9992951b6ed218db019747f1edbc2662">WalkMotorTorque</a><code> [get, set]</code></td></tr>
+<tr class="separator:a9992951b6ed218db019747f1edbc2662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab649abb58c8061ba6966066a9a131195"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ab649abb58c8061ba6966066a9a131195">MaxWalkingSpeed</a><code> [get, set]</code></td></tr>
+<tr class="separator:ab649abb58c8061ba6966066a9a131195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3d00b9c7cf402b071779fd6d1f6a3f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a6e3d00b9c7cf402b071779fd6d1f6a3f">HorizontalFlyingForce</a><code> [get, set]</code></td></tr>
+<tr class="separator:a6e3d00b9c7cf402b071779fd6d1f6a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ccda6bf920c0ad171843a54ea78613"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a71ccda6bf920c0ad171843a54ea78613">GravityScale</a><code> [get, set]</code></td></tr>
+<tr class="separator:a71ccda6bf920c0ad171843a54ea78613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_a00022"><td colspan="2" onclick="javascript:toggleInherit('properties_a00022')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="a00022.html">Controllable</a></td></tr>
+<tr class="memitem:a2083393446a26b20894bd3dfd57d8eb6 inherit properties_a00022"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00022.html#a2083393446a26b20894bd3dfd57d8eb6">IsActive</a><code> [get, set]</code></td></tr>
+<tr class="separator:a2083393446a26b20894bd3dfd57d8eb6 inherit properties_a00022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a9e5967c890d1e98b327a792320bc77e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a9e5967c890d1e98b327a792320bc77e4">Awake</a> ()</td></tr>
-<tr class="separator:a9e5967c890d1e98b327a792320bc77e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70689a043f63c3dee24c8490687f3142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a70689a043f63c3dee24c8490687f3142">detectButtonStates</a> ()</td></tr>
-<tr class="separator:a70689a043f63c3dee24c8490687f3142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6e54a1d5598b409de15218a56695221"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ac6e54a1d5598b409de15218a56695221">Update</a> ()</td></tr>
-<tr class="separator:ac6e54a1d5598b409de15218a56695221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a0008ccbaa18c2f539756a0bd507c5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a4a0008ccbaa18c2f539756a0bd507c5e">FixedUpdate</a> ()</td></tr>
-<tr class="separator:a4a0008ccbaa18c2f539756a0bd507c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585cb5775121963cbdbb6f74493b756f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a585cb5775121963cbdbb6f74493b756f">DeactivateTriggerButtons</a> ()</td></tr>
-<tr class="separator:a585cb5775121963cbdbb6f74493b756f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcd5a51b4b6bd7e580fe1e63f23005d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a0dcd5a51b4b6bd7e580fe1e63f23005d">FixedUpdate</a> ()</td></tr>
+<tr class="separator:a0dcd5a51b4b6bd7e580fe1e63f23005d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f0fbad3197c61495b44f057ebfc97c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a5f0fbad3197c61495b44f057ebfc97c8">flipAnimation</a> (float horizontalMove)</td></tr>
+<tr class="separator:a5f0fbad3197c61495b44f057ebfc97c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7958bb9f21d17bc95310d4822d7bbf11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a7958bb9f21d17bc95310d4822d7bbf11">CalculateJumpForce</a> ()</td></tr>
+<tr class="separator:a7958bb9f21d17bc95310d4822d7bbf11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84f84f192ca28268c1ea0ffcf21cb60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#af84f84f192ca28268c1ea0ffcf21cb60">CalculateWalkingMotorAngularSpeed</a> ()</td></tr>
+<tr class="separator:af84f84f192ca28268c1ea0ffcf21cb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f63890b01d0dc6b0d14cac065b2fe6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ae6f63890b01d0dc6b0d14cac065b2fe6">ChangeMotorSpeed</a> (float speed)</td></tr>
+<tr class="separator:ae6f63890b01d0dc6b0d14cac065b2fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15295e062b900011df58f777c1dc0e22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a15295e062b900011df58f777c1dc0e22">DoAction</a> ()</td></tr>
+<tr class="separator:a15295e062b900011df58f777c1dc0e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b5216bedb9ac729af8d68ff6c2032c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ab4b5216bedb9ac729af8d68ff6c2032c">CarryObject</a> ()</td></tr>
+<tr class="separator:ab4b5216bedb9ac729af8d68ff6c2032c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0486aacd3088b41f5bc58ec1e30d278a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00032.html">Hero</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a0486aacd3088b41f5bc58ec1e30d278a">hero</a></td></tr>
-<tr class="separator:a0486aacd3088b41f5bc58ec1e30d278a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a751b8c1ddbfff8ab0144804c935d98cc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a751b8c1ddbfff8ab0144804c935d98cc">_moveButtonSpeed</a> = 0.0f</td></tr>
-<tr class="separator:a751b8c1ddbfff8ab0144804c935d98cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb90ebe2e58a7f9fa6b53ec267f42757"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#adb90ebe2e58a7f9fa6b53ec267f42757">_verticalMoveButtonSpeed</a> = 0.0f</td></tr>
-<tr class="separator:adb90ebe2e58a7f9fa6b53ec267f42757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef215fc24fb5733aa73a600528aed458"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aef215fc24fb5733aa73a600528aed458">_jumpButtonPressed</a> = false</td></tr>
-<tr class="separator:aef215fc24fb5733aa73a600528aed458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af376b01fb03a32441210671c2ecfcca6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#af376b01fb03a32441210671c2ecfcca6">_crouchButtonPressed</a> = false</td></tr>
-<tr class="separator:af376b01fb03a32441210671c2ecfcca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab85b4f22edaf667e2ee48af3828cd1cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ab85b4f22edaf667e2ee48af3828cd1cb">_carryButtonPressed</a> = false</td></tr>
-<tr class="separator:ab85b4f22edaf667e2ee48af3828cd1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f94b16f4d0e866deb53deea9ed4ef99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a5f94b16f4d0e866deb53deea9ed4ef99">_actionButtonPressed</a> = false</td></tr>
-<tr class="separator:a5f94b16f4d0e866deb53deea9ed4ef99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb59456deadece44a7c8ed09ba471130"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#abb59456deadece44a7c8ed09ba471130">maxWalkingSpeed</a> = 5f</td></tr>
+<tr class="separator:abb59456deadece44a7c8ed09ba471130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f43b8b297df4fe4220f19af8fe88e2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a8f43b8b297df4fe4220f19af8fe88e2d">walkMotorTorque</a> = 40f</td></tr>
+<tr class="separator:a8f43b8b297df4fe4220f19af8fe88e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a513a8b9edc0e2bcadc3cc23d8845f41a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a513a8b9edc0e2bcadc3cc23d8845f41a">maxClimbingSpeed</a> = 5f</td></tr>
+<tr class="separator:a513a8b9edc0e2bcadc3cc23d8845f41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b2b3493ff9aa5666c200e2c9b9e5426"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a1b2b3493ff9aa5666c200e2c9b9e5426">horizontalFlyingForce</a> = 0.5f</td></tr>
+<tr class="separator:a1b2b3493ff9aa5666c200e2c9b9e5426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c197c5069ba4c48befb56609129ce5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a65c197c5069ba4c48befb56609129ce5">jumpHeight</a> = 1f</td></tr>
+<tr class="separator:a65c197c5069ba4c48befb56609129ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bc94698540504262b23186f66bc1190"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a8bc94698540504262b23186f66bc1190">offsetCarryObjHero</a> = 0.7f</td></tr>
+<tr class="separator:a8bc94698540504262b23186f66bc1190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eea8539300279ba381d35925444af36"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a8eea8539300279ba381d35925444af36">whatIsGround</a></td></tr>
+<tr class="separator:a8eea8539300279ba381d35925444af36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c86da7782e8efc17dcf3e466983ee5"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ad4c86da7782e8efc17dcf3e466983ee5">heroPlatformMask</a></td></tr>
+<tr class="separator:ad4c86da7782e8efc17dcf3e466983ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace91ee9e9b3dfeb46ada29013e5a9b95"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ace91ee9e9b3dfeb46ada29013e5a9b95">mapInteractiveObjectsMask</a></td></tr>
+<tr class="separator:ace91ee9e9b3dfeb46ada29013e5a9b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d68db4bf8eb2c7a423886b1678780c"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#af9d68db4bf8eb2c7a423886b1678780c">headCollider</a> = null</td></tr>
+<tr class="separator:af9d68db4bf8eb2c7a423886b1678780c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3cd30ed3896c6832bae51bad59c1f5a"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ac3cd30ed3896c6832bae51bad59c1f5a">heroPlatform</a> = null</td></tr>
+<tr class="separator:ac3cd30ed3896c6832bae51bad59c1f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebbf3d38f45c0daf0274063f9d7b7b8d"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aebbf3d38f45c0daf0274063f9d7b7b8d">bodyCollider</a> = null</td></tr>
+<tr class="separator:aebbf3d38f45c0daf0274063f9d7b7b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4066cfc250e731073a4cd35c8a402e58"><td class="memItemLeft" align="right" valign="top">HingeJoint2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a4066cfc250e731073a4cd35c8a402e58">walkMotor</a> = null</td></tr>
+<tr class="separator:a4066cfc250e731073a4cd35c8a402e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac654168b2ec2d791eee5e82a89d29cc5"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ac654168b2ec2d791eee5e82a89d29cc5">footCollider</a> = null</td></tr>
+<tr class="separator:ac654168b2ec2d791eee5e82a89d29cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d76ec2a33f2191ed68975c726e949b"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aa7d76ec2a33f2191ed68975c726e949b">groundTrigger</a> = null</td></tr>
+<tr class="separator:aa7d76ec2a33f2191ed68975c726e949b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1b1f03e005626b3383c25ebb6c6a2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00036.html">HeroInteractor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a5f1b1f03e005626b3383c25ebb6c6a2d">heroInterac</a></td></tr>
+<tr class="separator:a5f1b1f03e005626b3383c25ebb6c6a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4406afc53753f0a5f7ab48b5683d97e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ab4406afc53753f0a5f7ab48b5683d97e">motorMaxAngularSpeed</a> = 0f</td></tr>
+<tr class="separator:ab4406afc53753f0a5f7ab48b5683d97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef1486271b2e1f0fb03de95e51b0472"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a6ef1486271b2e1f0fb03de95e51b0472">facingDirection</a> =<a class="el" href="a00033.html#a5896528ab8fa1e8a38bef63b219f3d6b">_FACING_RIGHT</a></td></tr>
+<tr class="separator:a6ef1486271b2e1f0fb03de95e51b0472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ff8c6901f0610e195874e8cf54c6d1"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a20ff8c6901f0610e195874e8cf54c6d1">rigidBody2D</a></td></tr>
+<tr class="separator:a20ff8c6901f0610e195874e8cf54c6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6790a5c98ecd4cdd9f7bc2ece0ecb602"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a6790a5c98ecd4cdd9f7bc2ece0ecb602">jumpForce</a></td></tr>
+<tr class="separator:a6790a5c98ecd4cdd9f7bc2ece0ecb602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad77c7655659c61151052c05ab7df6451"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ad77c7655659c61151052c05ab7df6451">animator</a></td></tr>
+<tr class="separator:ad77c7655659c61151052c05ab7df6451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace96dc8907658f36ea6da8748a45a35e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ace96dc8907658f36ea6da8748a45a35e">isClimbing</a> = false</td></tr>
+<tr class="separator:ace96dc8907658f36ea6da8748a45a35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca3a985849da5e24480efcefa152631"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a0ca3a985849da5e24480efcefa152631">gravityOriginal</a></td></tr>
+<tr class="separator:a0ca3a985849da5e24480efcefa152631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1955f81ba0a2ba56537ce54eb0b12129"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a1955f81ba0a2ba56537ce54eb0b12129">Carrying</a> = false</td></tr>
+<tr class="separator:a1955f81ba0a2ba56537ce54eb0b12129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a869c8519e985f5f2a9f7fc048888ddf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a869c8519e985f5f2a9f7fc048888ddf9">Crouched</a> = false</td></tr>
+<tr class="separator:a869c8519e985f5f2a9f7fc048888ddf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f37a7c93bacc1006552a98d2705a15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ac3f37a7c93bacc1006552a98d2705a15">CarryingByAction</a> = false</td></tr>
+<tr class="separator:ac3f37a7c93bacc1006552a98d2705a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b06305557926d825a2b8f2e898146f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#af5b06305557926d825a2b8f2e898146f">CarriedObject</a></td></tr>
+<tr class="separator:af5b06305557926d825a2b8f2e898146f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31fcc1e8109005a87731238bd123cb8"><td class="memItemLeft" align="right" valign="top">Collider2D[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#ad31fcc1e8109005a87731238bd123cb8">colliders</a></td></tr>
+<tr class="separator:ad31fcc1e8109005a87731238bd123cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba7c5256020d936a44e495e0e13fa7f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a6ba7c5256020d936a44e495e0e13fa7f">m_onAir</a> = false</td></tr>
+<tr class="separator:a6ba7c5256020d936a44e495e0e13fa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:aaf0d35c66ff1e6403e20c85444a4dc7d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aaf0d35c66ff1e6403e20c85444a4dc7d">MOVE_THRESHOLD</a> = 0.19f</td></tr>
-<tr class="separator:aaf0d35c66ff1e6403e20c85444a4dc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e38a33615252fb1b127110c9af842d3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a8e38a33615252fb1b127110c9af842d3">_FACING_LEFT</a> = -1</td></tr>
+<tr class="separator:a8e38a33615252fb1b127110c9af842d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5896528ab8fa1e8a38bef63b219f3d6b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a5896528ab8fa1e8a38bef63b219f3d6b">_FACING_RIGHT</a> = 1</td></tr>
+<tr class="separator:a5896528ab8fa1e8a38bef63b219f3d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="a00117_source.html#l00005">5</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00006">6</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9e5967c890d1e98b327a792320bc77e4"></a>
+<a class="anchor" id="a1daa34885bc1933f8a3873a2283118d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -173,7 +308,59 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HeroControl.Awake </td>
+          <td class="memname">void Hero.Action </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00309">309</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc56ac4b90702703965afa61aac3b7bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Hero.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="a00038.html#adb5d9c84d04e5fc8d0534ae8384ab1d9">HeroStrong</a>.</p>
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00066">66</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7958bb9f21d17bc95310d4822d7bbf11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.CalculateJumpForce </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -186,11 +373,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00117_source.html#l00020">20</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00278">278</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a585cb5775121963cbdbb6f74493b756f"></a>
+<a class="anchor" id="af84f84f192ca28268c1ea0ffcf21cb60"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -198,7 +385,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HeroControl.DeactivateTriggerButtons </td>
+          <td class="memname">void Hero.CalculateWalkingMotorAngularSpeed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -211,11 +398,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00117_source.html#l00105">105</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00293">293</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a70689a043f63c3dee24c8490687f3142"></a>
+<a class="anchor" id="aa552f9c4dd1ea0680aec49601dad56b7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -223,7 +410,32 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HeroControl.detectButtonStates </td>
+          <td class="memname">void Hero.Carry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00246">246</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4b5216bedb9ac729af8d68ff6c2032c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.CarryObject </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -236,11 +448,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00117_source.html#l00024">24</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00386">386</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4a0008ccbaa18c2f539756a0bd507c5e"></a>
+<a class="anchor" id="ae6f63890b01d0dc6b0d14cac065b2fe6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -248,7 +460,58 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HeroControl.FixedUpdate </td>
+          <td class="memname">void Hero.ChangeMotorSpeed </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00301">301</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14b1dec6fa435f236be8d20fbc6e44d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.Crouch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00218">218</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a15295e062b900011df58f777c1dc0e22"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.DoAction </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -261,11 +524,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00117_source.html#l00063">63</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00314">314</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac6e54a1d5598b409de15218a56695221"></a>
+<a class="anchor" id="a0dcd5a51b4b6bd7e580fe1e63f23005d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -273,7 +536,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HeroControl.Update </td>
+          <td class="memname">void Hero.FixedUpdate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -286,12 +549,399 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00117_source.html#l00059">59</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00081">81</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5f0fbad3197c61495b44f057ebfc97c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.flipAnimation </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>horizontalMove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00264">264</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca7e406b33fed8f4ad008d791cc8453d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.isGrounded </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00086">86</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abefa83937bded7d862ca135e11181b83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.isPushingSomething </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00093">93</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adbd7000fa78d2d4daf8e96268db776c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool Hero.IsStrong </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00038.html#a41aeeb3437fcfa7aa462add27d03238d">HeroStrong</a>, and <a class="el" href="a00035.html#a0dc01779a8ae8edffbae2a1874a67819">HeroFast</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad31b1a1bb6923af5e950164d86f2d60f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.IsTouchingAreaTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00434">434</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84b947317d5ccaf6bfedfe05e0ed8717"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.Jump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00193">193</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afbf0e4ec6b125c15a66d1c730a335eb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.Jump </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>multiplier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes the <a class="el" href="a00033.html">Hero</a> jump to his/her maximum height multiplied by a factor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">multiplier</td><td>Maximum height factor.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00202">202</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a908fb89da692e995f31bd7cfdd999b8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.Move </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00098">98</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1cd65fdf5c2d0facd4f250c0e958ff27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.Push </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00236">236</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83084e2436f03a465e9223f1e6f75dac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.ReleaseObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00412">412</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aafd52b14e1a32904e4feaef182df6da6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.StandUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00226">226</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aef0e412cc1a949cc991dc1650469ee49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.StopCarry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00256">256</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b186c744c991cd50f979d1c462dd56b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.StopPush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00241">241</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb61d5595b94b85c764a769e1ef3e512"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.StopWalk </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00143">143</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2107e800fbd878b29031f1e95f5ee71d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hero.VerticalMove </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00155">155</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a5f94b16f4d0e866deb53deea9ed4ef99"></a>
+<a class="anchor" id="a8e38a33615252fb1b127110c9af842d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -299,161 +949,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool HeroControl._actionButtonPressed = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00017">17</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab85b4f22edaf667e2ee48af3828cd1cb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool HeroControl._carryButtonPressed = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00016">16</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af376b01fb03a32441210671c2ecfcca6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool HeroControl._crouchButtonPressed = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00015">15</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aef215fc24fb5733aa73a600528aed458"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool HeroControl._jumpButtonPressed = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00014">14</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a751b8c1ddbfff8ab0144804c935d98cc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float HeroControl._moveButtonSpeed = 0.0f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00012">12</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adb90ebe2e58a7f9fa6b53ec267f42757"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float HeroControl._verticalMoveButtonSpeed = 0.0f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00013">13</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0486aacd3088b41f5bc58ec1e30d278a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00032.html">Hero</a> HeroControl.hero</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00117_source.html#l00009">9</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aaf0d35c66ff1e6403e20c85444a4dc7d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float HeroControl.MOVE_THRESHOLD = 0.19f</td>
+          <td class="memname">int Hero._FACING_LEFT = -1</td>
         </tr>
       </table>
   </td>
@@ -463,19 +959,812 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00117_source.html#l00007">7</a> of file <a class="el" href="a00117_source.html">HeroControl.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00118_source.html#l00008">8</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5896528ab8fa1e8a38bef63b219f3d6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hero._FACING_RIGHT = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00009">9</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad77c7655659c61151052c05ab7df6451"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animator Hero.animator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00048">48</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aebbf3d38f45c0daf0274063f9d7b7b8d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D Hero.bodyCollider = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00035">35</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af5b06305557926d825a2b8f2e898146f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Hero.CarriedObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00054">54</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1955f81ba0a2ba56537ce54eb0b12129"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.Carrying = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00051">51</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3f37a7c93bacc1006552a98d2705a15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.CarryingByAction = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00053">53</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad31fcc1e8109005a87731238bd123cb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D [] Hero.colliders</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00055">55</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a869c8519e985f5f2a9f7fc048888ddf9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.Crouched = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00052">52</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ef1486271b2e1f0fb03de95e51b0472"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hero.facingDirection =<a class="el" href="a00033.html#a5896528ab8fa1e8a38bef63b219f3d6b">_FACING_RIGHT</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00045">45</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac654168b2ec2d791eee5e82a89d29cc5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D Hero.footCollider = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00039">39</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ca3a985849da5e24480efcefa152631"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.gravityOriginal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00050">50</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7d76ec2a33f2191ed68975c726e949b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D Hero.groundTrigger = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00041">41</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9d68db4bf8eb2c7a423886b1678780c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D Hero.headCollider = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00031">31</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5f1b1f03e005626b3383c25ebb6c6a2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00036.html">HeroInteractor</a> Hero.heroInterac</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00043">43</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3cd30ed3896c6832bae51bad59c1f5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D Hero.heroPlatform = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00033">33</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4c86da7782e8efc17dcf3e466983ee5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask Hero.heroPlatformMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00027">27</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b2b3493ff9aa5666c200e2c9b9e5426"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.horizontalFlyingForce = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00018">18</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ace96dc8907658f36ea6da8748a45a35e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.isClimbing = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00049">49</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6790a5c98ecd4cdd9f7bc2ece0ecb602"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Hero.jumpForce</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00047">47</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65c197c5069ba4c48befb56609129ce5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.jumpHeight = 1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00020">20</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ba7c5256020d936a44e495e0e13fa7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.m_onAir = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00058">58</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ace91ee9e9b3dfeb46ada29013e5a9b95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask Hero.mapInteractiveObjectsMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00029">29</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a513a8b9edc0e2bcadc3cc23d8845f41a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.maxClimbingSpeed = 5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00016">16</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb59456deadece44a7c8ed09ba471130"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.maxWalkingSpeed = 5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00012">12</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4406afc53753f0a5f7ab48b5683d97e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.motorMaxAngularSpeed = 0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00044">44</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8bc94698540504262b23186f66bc1190"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.offsetCarryObjHero = 0.7f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00022">22</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20ff8c6901f0610e195874e8cf54c6d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody2D Hero.rigidBody2D</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00046">46</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4066cfc250e731073a4cd35c8a402e58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HingeJoint2D Hero.walkMotor = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00037">37</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8f43b8b297df4fe4220f19af8fe88e2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.walkMotorTorque = 40f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00014">14</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8eea8539300279ba381d35925444af36"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask Hero.whatIsGround</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00025">25</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a71ccda6bf920c0ad171843a54ea78613"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.GravityScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00374">374</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6e3d00b9c7cf402b071779fd6d1f6a3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.HorizontalFlyingForce</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00365">365</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ab543bbdbe40eac330b7a3810665bdd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.JumpHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00335">335</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab649abb58c8061ba6966066a9a131195"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.MaxWalkingSpeed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00355">355</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae23edfd350b58c3840d8816ee311100a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hero.OnAir</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00060">60</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9992951b6ed218db019747f1edbc2662"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Hero.WalkMotorTorque</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00118_source.html#l00345">345</a> of file <a class="el" href="a00118_source.html">Hero.cs</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>MuvucaGame01/Assets/Scripts/Hero/<a class="el" href="a00117_source.html">HeroControl.cs</a></li>
+<li>MuvucaGame01/Assets/Scripts/Hero/<a class="el" href="a00118_source.html">Hero.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00033.html">HeroControl</a></li>
+    <li class="navelem"><a class="el" href="a00033.html">Hero</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,18 +1,11 @@
 var a00051 =
 [
-    [ "Awake", "a00051.html#aa56a4ad350ca76f5892e6c7c4bf11166", null ],
-    [ "FixedUpdate", "a00051.html#abdbfa149ed25223c66504e80e4609f83", null ],
-    [ "hasWeight", "a00051.html#abb1c8ecd868efec0a11a6f37e5645263", null ],
-    [ "collider2D", "a00051.html#a029d906098652a62f60f377c2a477d2d", null ],
-    [ "direction", "a00051.html#a30cc0408cd078ccbc214a70827b843ae", null ],
-    [ "distanceToTargetPrevious", "a00051.html#a42be7bf5df0a4be7f1aac0e1d64ef602", null ],
-    [ "from", "a00051.html#ad64b4e1bb2c4611610e162c0b57ce255", null ],
-    [ "heroMask", "a00051.html#ae649a540424dde51cb3fadb9878c8020", null ],
-    [ "mapInteractiveObjectsMask", "a00051.html#aa01d9c04c0a64452df08e81dae8c73ea", null ],
-    [ "originalTransform", "a00051.html#a6ee378d184b75d964b15c7561b87ecce", null ],
-    [ "pointA", "a00051.html#a2fea23646ded8281849925d173de6733", null ],
-    [ "pointB", "a00051.html#a747ea82d5fda336a1dbf8ac4b9a85591", null ],
-    [ "rigidBody2D", "a00051.html#ae294d1a71d7e2314df387950ccecd15b", null ],
-    [ "speed", "a00051.html#aec1a4d1912871dc0e09e66d6c905a32d", null ],
-    [ "target", "a00051.html#a1e4040cf70333528560a6f814c407b3e", null ]
+    [ "ContinueButton", "a00051.html#a3781a9d2779b42b3339a68d36ccca753", null ],
+    [ "CreditsButton", "a00051.html#a474151c8fd642483b707c0b491656a7e", null ],
+    [ "ExitGameButton", "a00051.html#a53b27cbc843d070b6628672f8167b722", null ],
+    [ "LoadGameButton", "a00051.html#a2e4e0d56bc1b6af29a41504907ffb986", null ],
+    [ "NewGameButton", "a00051.html#a7d63139a92775618fc43f6af9edc1c30", null ],
+    [ "OptionsButton", "a00051.html#aa05912b4df62216eebbccc8c2b168ce4", null ],
+    [ "Start", "a00051.html#ad629921d8cbec1c1bf97e6bc6ad65902", null ],
+    [ "existSavedGame", "a00051.html#afb5c336272b46a78cb630384fa304f2b", null ]
 ];

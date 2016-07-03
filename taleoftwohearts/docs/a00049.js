@@ -1,5 +1,7 @@
 var a00049 =
 [
-    [ "isLeftLimit", "a00049.html#aabdc244bcffa4ee34aa26238a6d8b0bf", null ],
-    [ "isRightLimit", "a00049.html#a9941ca90073b32d5fb8de450a0419ba1", null ]
+    [ "Blink", "a00049.html#a454b8d575730b3da43acd422707d0f71", null ],
+    [ "Start", "a00049.html#a1faf571df03d198cac82b78c4ccb0f46", null ],
+    [ "rend", "a00049.html#a0824c11e2768d77f572434eb1e0889ac", null ],
+    [ "timeToBlink", "a00049.html#abe7eb9f1c15af8e6fd4bff68389093be", null ]
 ];
