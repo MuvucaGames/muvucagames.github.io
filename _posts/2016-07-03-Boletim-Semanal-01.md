@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Boletim Semanal- Semana 26/07-03/07
+title: Boletim Semanal- Semana 26/07-03/07
 date:  2016-07-03 23:08:00
 categories: atualizacoes
 author: BorgesGPF
