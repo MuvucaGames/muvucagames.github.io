@@ -15,22 +15,22 @@ A votação foi dividida em algumas votações separadas para as diferentes apar
 
 Desta forma, serão realizadas oito votações para decidir qual o melhor design para cada variação. Com os seguintes links:
 
- - Personagem feminino ágil 1 - http://www.strawpoll.me/10672240
+ - [Personagem feminino ágil 1](http://www.strawpoll.me/10672240)
 
 
- - Personagem feminino ágil 2 - http://www.strawpoll.me/10672246
+ - [Personagem feminino ágil 2](http://www.strawpoll.me/10672246)
  
- - Personagem feminino forte 1 - http://www.strawpoll.me/10672286
+ - [Personagem feminino forte 1](http://www.strawpoll.me/10672286)
  
- - Personagem feminino forte 2 - http://www.strawpoll.me/10672312
+ - [Personagem feminino forte 2](http://www.strawpoll.me/10672312)
 
- - Personagem masculino ágil 1 - http://www.strawpoll.me/10672259
+ - [Personagem masculino ágil 1](http://www.strawpoll.me/10672259)
  
- - Personagem masculino ágil 2 - http://www.strawpoll.me/10672274
+ - [Personagem masculino ágil 2](http://www.strawpoll.me/10672274)
  
- - Personagem masculino forte 1 - http://www.strawpoll.me/10672364
+ - [Personagem masculino forte 1](http://www.strawpoll.me/10672364)
  
- - Personagem masculino forte 2 - http://www.strawpoll.me/10672388
+ - [Personagem masculino forte 2](http://www.strawpoll.me/10672388)
  
  
 Ajude-nos a decidir qual será o design escolhido votando nas diferentes opções.
