@@ -8,3 +8,5 @@ permalink: /votacoes/
 ### Personagem principal:
 
 <iframe src="http://www.strawpoll.me/embed_1/10724003" style="width:600px;height:300px;border:0;">Loading poll...</iframe>
+
+
