@@ -4,17 +4,15 @@ title: Sobre a Muvuca
 permalink: /sobre/
 ---
 
-#O que é e como funciona a Muvuca Games?#
+
+*A Muvuca Games foi criada em 2015, pelo Diogo Braga, o [Didi Braguinha](https://twitter.com/DiogoMRG), através do [IndieDi](https://www.youtube.com/user/TheindieDi), e é __uma comunidade de jogadores e desenvolvedores que têm um objetivo em comum: desenvolver jogos colaborativamente, aprendendo e crescendo uns com os outros__.*
+
+*Desde o primeiro [vídeo de apresentação do projeto](https://www.youtube.com/watch?v=X-tSJpcoHlE), o objetivo da Muvuca Games tem sido desenvolver games em grupo, mas não como uma desenvolvedora qualquer, o objetivo da Muvuca Games vai muito além de apenas desenvolver jogos.* 
+
+*A Muvuca Games é aberta ao público, ou seja todos que quiserem entrar no projeto e ajudar no desenvolvimento, podem entrar. O objetivo da Muvuca, além de desenvolver games, é desenvolvê-los socialmente, possibilitando ao participante aprender como desenvolver, formar amigos desenvolvedores e principalmente incentivar produtores a desenvolver cada vez mais e mais.*
 
 
-*A Muvuca Games foi criada em 2015, pelo Diogo Braga, o Didi Braguinha através do Indiedi, e é uma comunidade de jogadores e desenvolvedores que tem um objetivo em comum: desenvolver um jogo colaborativamente.*
-
-*Desde o primeiro [vídeo](https://www.youtube.com/watch?v=X-tSJpcoHlE) de apresentação do projeto, o objetivo da Muvuca Games tem sido desenvolver games em grupo, mas não como uma desenvolvedora qualquer, o objetivo da Muvuca Games vai muito além de apenas desenvolver jogos.* 
-
-*A Muvuca Games é aberta ao público, ou seja todos que quiserem entrar no projeto e ajudar no desenvolvimento, podem entrar. O objetivo da Muvuca, além de desenvolver games, é desenvolvê-los socialmente, possibilitando ao participante aprender como desenvolver, formar amigos desenvolvedores, etc.*
-
-
-*A gente sabe que essa parece uma ideia meio maluca e é porque ela é! E nós sabíamos disso desde o começo! Porém, com o tempo e com a experiência que adquirimos, conseguimos nos organizar dentro dessa ideia e para isso, usamos quatro áreas: O Roteiro/Editorial, o Game Design, as Artes e a Programação. Cada uma dessa áreas possui um board no nossa página no Trello e um organizador responsável por administrar e gerenciar a sua respectiva área* 
+*A gente sabe que essa parece uma ideia meio maluca e é porque ela é! E nós sabíamos disso desde o começo! Porém, com o tempo e com a experiência que adquirimos, conseguimos nos organizar e para isso, usamos quatro diferentes áreas, responsáveis por tarefas específicas: O [Roteiro/Editorial](http://www.muvucagames.com.br/roteiro/), o [Game Design](http://www.muvucagames.com.br/gamedesign/), as [Artes](http://www.muvucagames.com.br/artes/) e a [Programação](http://www.muvucagames.com.br/programacao/). Cada uma dessa áreas possui um board no nossa página no [Trello](https://trello.com/muvucagames) e um organizador responsável por administrar e gerenciar a sua respectiva área* 
 
 *Além dessa divisão, tínhamos que  encontrar ferramentas para nos organizarmos dentro dessa estrutura e para isso usamos o Trello, o Github e o Slack.*
 
