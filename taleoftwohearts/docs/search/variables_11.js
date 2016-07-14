@@ -22,6 +22,9 @@ var searchData=
   ['source',['source',['../a00060.html#ad3779983dcb3c35428064dde3cbc944a',1,'SoundManager']]],
   ['speed',['speed',['../a00029.html#a51a7e8a604515cefe5e72b9a7671de2f',1,'FallingParticleBehavior.speed()'],['../a00030.html#a7bb2e33b34f4d3a02a609272b181ec0d',1,'FliesControl.speed()'],['../a00052.html#aec1a4d1912871dc0e09e66d6c905a32d',1,'MovableHorizontalPlatform.speed()'],['../a00053.html#adf57b9d7f2b124ba6f13b1300efdbaac',1,'MoveAtoB.speed()'],['../a00067.html#a8b2ed2460b0bf0e8cc11c03bc5308010',1,'TwoStatesActionablePlatform.speed()']]],
   ['springjoint2d',['springJoint2D',['../a00069.html#a8c06fd5791ebc02a82aed4b6c63561bb',1,'WeigthButtonWithPhysics']]],
+  ['spriteballoonnormal',['spriteBalloonNormal',['../a00006.html#a6d4642ef29cc954b8615a41bbe47623b',1,'Balloon']]],
+  ['spriteballoonshout',['spriteBalloonShout',['../a00006.html#a6af011a9c238be2f957d3f976bf9ec8c',1,'Balloon']]],
+  ['spriteballoonthink',['spriteBalloonThink',['../a00006.html#acb2da99c855df5e3b819db4d1bdca131',1,'Balloon']]],
   ['startx',['startX',['../a00029.html#acd1f8197676bd40ec0c114a4ec5e8014',1,'FallingParticleBehavior']]],
   ['starty',['startY',['../a00029.html#a0a8cb6e577b6cc9f0538090b6dc13126',1,'FallingParticleBehavior']]]
 ];

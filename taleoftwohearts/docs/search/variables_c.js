@@ -20,6 +20,7 @@ var searchData=
   ['maintypeisstrong',['mainTypeIsStrong',['../a00057.html#afcedc09cb4611cb481e961216bb69e33',1,'SelectCharacter']]],
   ['manager',['manager',['../a00012.html#a3849a52f97305b670b048bd800abdd64',1,'Checkpoint']]],
   ['mapinteractiveobjectsmask',['mapInteractiveObjectsMask',['../a00052.html#aa01d9c04c0a64452df08e81dae8c73ea',1,'MovableHorizontalPlatform.mapInteractiveObjectsMask()'],['../a00056.html#a7f700a61c3ff99f976e6d269562d6c5f',1,'RollingBall.mapInteractiveObjectsMask()'],['../a00033.html#ace91ee9e9b3dfeb46ada29013e5a9b95',1,'Hero.mapInteractiveObjectsMask()']]],
+  ['margin',['margin',['../a00006.html#ab2978868ed4f5dd9707079b0ea4badb5',1,'Balloon']]],
   ['mategenderismale',['mateGenderIsMale',['../a00057.html#a729a1f82544953ee5c8fe42f225b5a54',1,'SelectCharacter']]],
   ['mateopt1femalefast',['mateOpt1FemaleFast',['../a00057.html#a7cfd36409196e0a9ccd506954cc315aa',1,'SelectCharacter']]],
   ['mateopt1femalestrong',['mateOpt1FemaleStrong',['../a00057.html#a52dd63a81844c42b3f4d8ff6c690fed6',1,'SelectCharacter']]],

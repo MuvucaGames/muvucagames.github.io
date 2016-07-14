@@ -25,6 +25,7 @@ var searchData=
   ['herostrongtransform',['heroStrongTransform',['../a00012.html#a8d30c54e38b870fef6a398ab793b1124',1,'Checkpoint.heroStrongTransform()'],['../a00012.html#a4d94288b37541eaa87676d2d218a0178',1,'Checkpoint.HeroStrongTransform()']]],
   ['heroutil',['HeroUtil',['../a00039.html',1,'']]],
   ['heroutil_2ecs',['HeroUtil.cs',['../a00123.html',1,'']]],
+  ['hokkerrenderer',['hokkerRenderer',['../a00006.html#a1823cb165c7af7ad662071454cf28bfd',1,'Balloon']]],
   ['hooker',['Hooker',['../a00042.html#afd4c55bb71e2641eb7d43517b445a28b',1,'Sentence::Info']]],
   ['horizontalflyingforce',['horizontalFlyingForce',['../a00033.html#a1b2b3493ff9aa5666c200e2c9b9e5426',1,'Hero.horizontalFlyingForce()'],['../a00033.html#a6e3d00b9c7cf402b071779fd6d1f6a3f',1,'Hero.HorizontalFlyingForce()']]],
   ['horizontalflyingforceslider',['horizontalFlyingForceSlider',['../a00037.html#a60fd5b72641ec25d66b7330fcb3e7509',1,'HeroParamsTool']]],
