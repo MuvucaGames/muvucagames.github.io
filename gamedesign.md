@@ -16,6 +16,6 @@ Junto com o organizador do board, o [Tito Oliveira](https://github.com/TitoOlive
 
 __Qualquer dúvida, entre em contato com o organizador__
 
-Twitter: https://twitter.com/TitoOliveira
+Twitter: [@TitoOliveira](https://twitter.com/TitoOliveira)
 
 
