@@ -13,7 +13,7 @@ var a00006 =
     [ "Update", "a00006.html#aefc2e0f93a63e041bd49e225287d90d7", null ],
     [ "backgroundImg", "a00006.html#a147af66578fd8785365ff2dac5e9217d", null ],
     [ "extraMarginWidthToOneIcon", "a00006.html#a4b4be178b426970a17f7f95ae26c9a0e", null ],
-    [ "hokkerRenderer", "a00006.html#a1823cb165c7af7ad662071454cf28bfd", null ],
+    [ "hookerRenderer", "a00006.html#a59446309d9fed8c68f1e4302032635a3", null ],
     [ "imgTmp", "a00006.html#a97f25e98750eebab730c80efd94058dc", null ],
     [ "margin", "a00006.html#ab2978868ed4f5dd9707079b0ea4badb5", null ],
     [ "sentenceInfo", "a00006.html#add58388905ca252b0a258cee37a2a711", null ],
