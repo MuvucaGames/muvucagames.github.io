@@ -71,12 +71,18 @@ layout: home
 
                     <div class="col-md-12 post">
                         <p>
+                      {% if post == site.posts.first %}
+                        <strong>
+                      {% endif %}
                             <span>
                                 {% assign m = post.date | date: "%-m" %}
                                 {{ post.date | date: "%d" }}/{{ post.date | date: "%m" }}/{{ post.date | date: "%Y" }}
                             </span>
                             &nbsp;-&nbsp;
                             <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+                      {% if post == site.posts.first %}
+                        </strong>
+                      {% endif %}
                         </p>
                         <hr/>
                     </div>
