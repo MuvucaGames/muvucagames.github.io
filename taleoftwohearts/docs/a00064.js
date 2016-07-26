@@ -1,5 +1,5 @@
 var a00064 =
 [
-    [ "OnTriggerEnter2D", "a00064.html#ac3f9cc29580f4a588ec56a5ff8a0e022", null ],
-    [ "maxHeightMultiplier", "a00064.html#a00fc6171fe6629e74b922db909ed9b17", null ]
+    [ "Activation", "a00064.html#a30505126610de0bd2a7cb96ac716f43b", null ],
+    [ "Deactivation", "a00064.html#a20bb3a9f50c08a0a52ee4bfde25aef68", null ]
 ];

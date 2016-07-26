@@ -1,24 +1,17 @@
 var searchData=
 [
-  ['_5factionbuttonpressed',['_actionButtonPressed',['../a00034.html#a5f94b16f4d0e866deb53deea9ed4ef99',1,'HeroControl._actionButtonPressed()'],['../a00043.html#a20871b8788d06211822ba7d7ea51cc7d',1,'InputManager._actionButtonPressed()']]],
-  ['_5fcarrybuttonpressed',['_carryButtonPressed',['../a00034.html#ab85b4f22edaf667e2ee48af3828cd1cb',1,'HeroControl']]],
-  ['_5fchangeherobuttonpressed',['_changeHeroButtonPressed',['../a00043.html#ab16af97529ce1d6769986bbb3d5f4690',1,'InputManager']]],
-  ['_5fcolorselected',['_colorSelected',['../a00055.html#a9deeeb80c028c90dd49229cea2a8cf36',1,'PuzzleController']]],
-  ['_5fcrouchbuttonpressed',['_crouchButtonPressed',['../a00034.html#af376b01fb03a32441210671c2ecfcca6',1,'HeroControl']]],
+  ['_5fcolorselected',['_colorSelected',['../a00056.html#a9deeeb80c028c90dd49229cea2a8cf36',1,'PuzzleController']]],
   ['_5fdebug',['_debug',['../a00030.html#a49bab23f47a1ab68c7ec5038e48d0e2d',1,'FliesControl']]],
-  ['_5ffacing_5fleft',['_FACING_LEFT',['../a00033.html#a8e38a33615252fb1b127110c9af842d3',1,'Hero']]],
-  ['_5ffacing_5fright',['_FACING_RIGHT',['../a00033.html#a5896528ab8fa1e8a38bef63b219f3d6b',1,'Hero']]],
+  ['_5ffacing_5fleft',['_FACING_LEFT',['../a00034.html#a8e38a33615252fb1b127110c9af842d3',1,'Hero']]],
+  ['_5ffacing_5fright',['_FACING_RIGHT',['../a00034.html#a5896528ab8fa1e8a38bef63b219f3d6b',1,'Hero']]],
   ['_5fflielist',['_flieList',['../a00030.html#ac32f59a1e0d8476a9636e25904472fee',1,'FliesControl']]],
-  ['_5fhorizontalbuttonpressed',['_horizontalButtonPressed',['../a00055.html#aa3525660a0165bdbade3b2d9cacd8e75',1,'PuzzleController']]],
+  ['_5fhorizontalbuttonpressed',['_horizontalButtonPressed',['../a00056.html#aa3525660a0165bdbade3b2d9cacd8e75',1,'PuzzleController']]],
   ['_5fisactivated',['_isActivated',['../a00004.html#a13b69707ac2c534355dd9726b7d2f91b',1,'ActionableElementBase._isActivated()'],['../a00005.html#a98daee07546a7aa1b61a9f658384cc29',1,'ActionableLadder._isActivated()']]],
-  ['_5fjumpbuttonpressed',['_jumpButtonPressed',['../a00034.html#aef215fc24fb5733aa73a600528aed458',1,'HeroControl']]],
   ['_5fmaxx',['_maxX',['../a00030.html#a82e761faf19e43244548fb7b62518532',1,'FliesControl']]],
   ['_5fmaxy',['_maxY',['../a00030.html#a48becb110554e5e697f4d1b543768532',1,'FliesControl']]],
   ['_5fminx',['_minX',['../a00030.html#af8eb3e5ff30f689c525ebea19154fdbd',1,'FliesControl']]],
   ['_5fminy',['_minY',['../a00030.html#a8bc6eb0ba0ad4c3b46051373ebca1524',1,'FliesControl']]],
-  ['_5fmovebuttonspeed',['_moveButtonSpeed',['../a00034.html#a751b8c1ddbfff8ab0144804c935d98cc',1,'HeroControl']]],
   ['_5fonfocus',['_OnFocus',['../a00022.html#a06c0f7ed40de4b7c1e3c11456ea250e3',1,'Controllable']]],
   ['_5fonfocusout',['_OnFocusOut',['../a00022.html#af666a1dfd26bc2b83e01f68f0cb9441b',1,'Controllable']]],
-  ['_5fspinningposition',['_spinningPosition',['../a00055.html#a5503ac8a767add0e188b5d8d6ebc1684',1,'PuzzleController']]],
-  ['_5fverticalmovebuttonspeed',['_verticalMoveButtonSpeed',['../a00034.html#adb90ebe2e58a7f9fa6b53ec267f42757',1,'HeroControl']]]
+  ['_5fspinningposition',['_spinningPosition',['../a00056.html#a5503ac8a767add0e188b5d8d6ebc1684',1,'PuzzleController']]]
 ];

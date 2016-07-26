@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MuvucaGame01: IHeroActionable Interface Reference</title>
+<title>MuvucaGame01: HeroUtil Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,58 +109,290 @@ $(document).ready(function(){initNavTree('a00040.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a00182.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="a00183.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IHeroActionable Interface Reference</div>  </div>
+<div class="title">HeroUtil Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for IHeroActionable:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="a00040.png" usemap="#IHeroActionable_map" alt=""/>
-  <map id="IHeroActionable_map" name="IHeroActionable_map">
-<area href="a00048.html" alt="Lever" shape="rect" coords="0,56,103,80"/>
-<area href="a00061.html" title="Activator Terminal for Controllable Objects. " alt="Terminal" shape="rect" coords="113,56,216,80"/>
-</map>
- </div></div>
+
+<p><a class="el" href="a00034.html">Hero</a> Utilities class.  
+ <a href="a00040.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a7af09344f73c56f453e50ff6ee98ee83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a7af09344f73c56f453e50ff6ee98ee83">OnHeroActivate</a> ()</td></tr>
-<tr class="separator:a7af09344f73c56f453e50ff6ee98ee83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a28785b9d4a075ed236ae13f72031f404"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a28785b9d4a075ed236ae13f72031f404">DisableControlAll</a> ()</td></tr>
+<tr class="memdesc:a28785b9d4a075ed236ae13f72031f404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable controls and camera calling the procedure _OnFocusOut for all controllable objects(including heroes)  <a href="#a28785b9d4a075ed236ae13f72031f404">More...</a><br /></td></tr>
+<tr class="separator:a28785b9d4a075ed236ae13f72031f404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff345ee3b5d2722418a897c50f57a0e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#aff345ee3b5d2722418a897c50f57a0e3">ChangeHero</a> ()</td></tr>
+<tr class="memdesc:aff345ee3b5d2722418a897c50f57a0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change to next <a class="el" href="a00034.html">Hero</a>.  <a href="#aff345ee3b5d2722418a897c50f57a0e3">More...</a><br /></td></tr>
+<tr class="separator:aff345ee3b5d2722418a897c50f57a0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef48b141543f4164b2d5b52df354d2a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#afef48b141543f4164b2d5b52df354d2a">ChangeToControllable</a> ()</td></tr>
+<tr class="memdesc:afef48b141543f4164b2d5b52df354d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change to <a class="el" href="a00022.html" title="Class for objects that receive focus of keyboard and camera ">Controllable</a> Object(non hero).  <a href="#afef48b141543f4164b2d5b52df354d2a">More...</a><br /></td></tr>
+<tr class="separator:afef48b141543f4164b2d5b52df354d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3945b7d27801bada62b18f0a52d9a78"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#ad3945b7d27801bada62b18f0a52d9a78">SetControllableObject</a> (<a class="el" href="a00022.html">Controllable</a> obj)</td></tr>
+<tr class="memdesc:ad3945b7d27801bada62b18f0a52d9a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="a00022.html" title="Class for objects that receive focus of keyboard and camera ">Controllable</a> Object.  <a href="#ad3945b7d27801bada62b18f0a52d9a78">More...</a><br /></td></tr>
+<tr class="separator:ad3945b7d27801bada62b18f0a52d9a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924e195c1dacee34580e1c0eb162259c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a924e195c1dacee34580e1c0eb162259c">ResetControllableObject</a> (<a class="el" href="a00022.html">Controllable</a> obj)</td></tr>
+<tr class="memdesc:a924e195c1dacee34580e1c0eb162259c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the <a class="el" href="a00022.html" title="Class for objects that receive focus of keyboard and camera ">Controllable</a> Object.  <a href="#a924e195c1dacee34580e1c0eb162259c">More...</a><br /></td></tr>
+<tr class="separator:a924e195c1dacee34580e1c0eb162259c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a68aaefad87af26dfc1872d7c0ed4e9a5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a00034.html">Hero</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a68aaefad87af26dfc1872d7c0ed4e9a5">GetActiveHero</a> ()</td></tr>
+<tr class="memdesc:a68aaefad87af26dfc1872d7c0ed4e9a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discover wich controllable is active right now, if any.  <a href="#a68aaefad87af26dfc1872d7c0ed4e9a5">More...</a><br /></td></tr>
+<tr class="separator:a68aaefad87af26dfc1872d7c0ed4e9a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a7301175ed66f83873dfe5787b317110b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a00034.html">Hero</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a7301175ed66f83873dfe5787b317110b">lastActiveHero</a> = null</td></tr>
+<tr class="memdesc:a7301175ed66f83873dfe5787b317110b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discover wich controllable is active right now, if any.  <a href="#a7301175ed66f83873dfe5787b317110b">More...</a><br /></td></tr>
+<tr class="separator:a7301175ed66f83873dfe5787b317110b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e27a9825ad6a66b86d5969c62548b5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a00022.html">Controllable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a76e27a9825ad6a66b86d5969c62548b5">controllableObject</a> = null</td></tr>
+<tr class="separator:a76e27a9825ad6a66b86d5969c62548b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="a00100_source.html#l00004">4</a> of file <a class="el" href="a00100_source.html">IHeroActionable.cs</a>.</p>
+<div class="textblock"><p><a class="el" href="a00034.html">Hero</a> Utilities class. </p>
+<p>This is utility class for heroes. Use wisely.</p>
+<p>Heroes are treated in a different way beacause they are special, and without them well... it is impossible to play the game. That´s the reason we must track them out and be careful to not lose control of them. </p>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00015">15</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a7af09344f73c56f453e50ff6ee98ee83"></a>
+<a class="anchor" id="aff345ee3b5d2722418a897c50f57a0e3"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void IHeroActionable.OnHeroActivate </td>
+          <td class="memname">static void HeroUtil.ChangeHero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="a00048.html#a1ea3371e3876f251eef68271ca3d6400">Lever</a>, and <a class="el" href="a00061.html#aa35f08301ed84849c1a18fb28d0b011c">Terminal</a>.</p>
+<p>Change to next <a class="el" href="a00034.html">Hero</a>. </p>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00054">54</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this interface was generated from the following file:<ul>
-<li>MuvucaGame01/Assets/Scripts/Elements/<a class="el" href="a00100_source.html">IHeroActionable.cs</a></li>
+<a class="anchor" id="afef48b141543f4164b2d5b52df354d2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void HeroUtil.ChangeToControllable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change to <a class="el" href="a00022.html" title="Class for objects that receive focus of keyboard and camera ">Controllable</a> Object(non hero). </p>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00089">89</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a28785b9d4a075ed236ae13f72031f404"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void HeroUtil.DisableControlAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Disable controls and camera calling the procedure _OnFocusOut for all controllable objects(including heroes) </p>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00044">44</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a68aaefad87af26dfc1872d7c0ed4e9a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="a00034.html">Hero</a> HeroUtil.GetActiveHero </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Discover wich controllable is active right now, if any. </p>
+<dl class="section return"><dt>Returns</dt><dd>Active <a class="el" href="a00034.html">Hero</a> </dd></dl>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00027">27</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a924e195c1dacee34580e1c0eb162259c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void HeroUtil.ResetControllableObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00022.html">Controllable</a>&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the <a class="el" href="a00022.html" title="Class for objects that receive focus of keyboard and camera ">Controllable</a> Object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>Reset object to be controlled when action happens. While reset, no object will receive keyboard or camera focus. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00124">124</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad3945b7d27801bada62b18f0a52d9a78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void HeroUtil.SetControllableObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00022.html">Controllable</a>&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="a00022.html" title="Class for objects that receive focus of keyboard and camera ">Controllable</a> Object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>Object to be set as the controllable that is activated when action happens(non hero). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00109">109</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a76e27a9825ad6a66b86d5969c62548b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00022.html">Controllable</a> HeroUtil.controllableObject = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00021">21</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7301175ed66f83873dfe5787b317110b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00034.html">Hero</a> HeroUtil.lastActiveHero = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Discover wich controllable is active right now, if any. </p>
+
+<p>Definition at line <a class="el" href="a00124_source.html#l00020">20</a> of file <a class="el" href="a00124_source.html">HeroUtil.cs</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>MuvucaGame01/Assets/Scripts/Hero/<a class="el" href="a00124_source.html">HeroUtil.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00040.html">IHeroActionable</a></li>
+    <li class="navelem"><a class="el" href="a00040.html">HeroUtil</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

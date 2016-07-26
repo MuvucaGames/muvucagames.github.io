@@ -6,73 +6,73 @@ var dir_6e84312333c5eef9d4b7965f8ced21be =
     [ "Colors Puzzle", "dir_74db7198fb2a70ade378df472061c69f.html", "dir_74db7198fb2a70ade378df472061c69f" ],
     [ "Dialog", "dir_a4de67e83692cd03381dcfbd45ea285c.html", "dir_a4de67e83692cd03381dcfbd45ea285c" ],
     [ "Ladder", "dir_dc33f2e6fa67d823770b3cb3789b98fa.html", "dir_dc33f2e6fa67d823770b3cb3789b98fa" ],
-    [ "ActionableElement.cs", "a00074.html", [
+    [ "ActionableElement.cs", "a00075.html", [
       [ "ActionableElement", "a00003.html", "a00003" ]
     ] ],
-    [ "ActionableElementBase.cs", "a00075.html", [
+    [ "ActionableElementBase.cs", "a00076.html", [
       [ "ActionableElementBase", "a00004.html", "a00004" ]
     ] ],
-    [ "Controllable.cs", "a00090.html", [
+    [ "Controllable.cs", "a00091.html", [
       [ "Controllable", "a00022.html", "a00022" ]
     ] ],
-    [ "DeathTrigger.cs", "a00091.html", [
+    [ "DeathTrigger.cs", "a00092.html", [
       [ "DeathTrigger", "a00024.html", "a00024" ]
     ] ],
-    [ "Door.cs", "a00095.html", [
+    [ "Door.cs", "a00096.html", [
       [ "Door", "a00027.html", "a00027" ]
     ] ],
-    [ "ElementActivator.cs", "a00096.html", [
+    [ "ElementActivator.cs", "a00097.html", [
       [ "ElementActivator", "a00028.html", "a00028" ]
     ] ],
-    [ "FallingParticleBehavior.cs", "a00097.html", [
+    [ "FallingParticleBehavior.cs", "a00098.html", [
       [ "FallingParticleBehavior", "a00029.html", "a00029" ]
     ] ],
-    [ "FliesControl.cs", "a00098.html", [
+    [ "FliesControl.cs", "a00099.html", [
       [ "FliesControl", "a00030.html", "a00030" ]
     ] ],
-    [ "ForceField.cs", "a00099.html", [
+    [ "ForceField.cs", "a00100.html", [
       [ "ForceField", "a00031.html", "a00031" ]
     ] ],
-    [ "IHeroActionable.cs", "a00100.html", [
-      [ "IHeroActionable", "a00040.html", "a00040" ]
+    [ "IHeroActionable.cs", "a00101.html", [
+      [ "IHeroActionable", "a00041.html", "a00041" ]
     ] ],
-    [ "InvisibleAreaTrigger.cs", "a00101.html", [
-      [ "InvisibleAreaTrigger", "a00045.html", "a00045" ]
+    [ "InvisibleAreaTrigger.cs", "a00102.html", [
+      [ "InvisibleAreaTrigger", "a00046.html", "a00046" ]
     ] ],
-    [ "Lever.cs", "a00105.html", [
-      [ "Lever", "a00048.html", "a00048" ]
+    [ "Lever.cs", "a00106.html", [
+      [ "Lever", "a00049.html", "a00049" ]
     ] ],
-    [ "MovableHorizontalPlatform.cs", "a00106.html", [
-      [ "MovableHorizontalPlatform", "a00052.html", "a00052" ]
+    [ "MovableHorizontalPlatform.cs", "a00107.html", [
+      [ "MovableHorizontalPlatform", "a00053.html", "a00053" ]
     ] ],
-    [ "MoveAtoB.cs", "a00107.html", [
-      [ "MoveAtoB", "a00053.html", "a00053" ]
+    [ "MoveAtoB.cs", "a00108.html", [
+      [ "MoveAtoB", "a00054.html", "a00054" ]
     ] ],
-    [ "RollingBall.cs", "a00108.html", [
-      [ "RollingBall", "a00056.html", "a00056" ]
+    [ "RollingBall.cs", "a00109.html", [
+      [ "RollingBall", "a00057.html", "a00057" ]
     ] ],
-    [ "Terminal.cs", "a00109.html", [
-      [ "Terminal", "a00061.html", "a00061" ]
+    [ "Terminal.cs", "a00110.html", [
+      [ "Terminal", "a00062.html", "a00062" ]
     ] ],
-    [ "Timer.cs", "a00110.html", [
-      [ "Timer", "a00062.html", "a00062" ]
+    [ "Timer.cs", "a00111.html", [
+      [ "Timer", "a00063.html", "a00063" ]
     ] ],
-    [ "TimerActivator.cs", "a00111.html", [
-      [ "TimerActivator", "a00063.html", "a00063" ]
+    [ "TimerActivator.cs", "a00112.html", [
+      [ "TimerActivator", "a00064.html", "a00064" ]
     ] ],
-    [ "Trampoline.cs", "a00112.html", [
-      [ "Trampoline", "a00064.html", "a00064" ]
+    [ "Trampoline.cs", "a00113.html", [
+      [ "Trampoline", "a00065.html", "a00065" ]
     ] ],
-    [ "Travelator.cs", "a00113.html", [
-      [ "Travelator", "a00066.html", null ]
+    [ "Travelator.cs", "a00114.html", [
+      [ "Travelator", "a00067.html", null ]
     ] ],
-    [ "TwoStatesActionablePlatform.cs", "a00114.html", [
-      [ "TwoStatesActionablePlatform", "a00067.html", "a00067" ]
+    [ "TwoStatesActionablePlatform.cs", "a00115.html", [
+      [ "TwoStatesActionablePlatform", "a00068.html", "a00068" ]
     ] ],
-    [ "WarpZoneDoor.cs", "a00115.html", [
-      [ "WarpZoneDoor", "a00068.html", "a00068" ]
+    [ "WarpZoneDoor.cs", "a00116.html", [
+      [ "WarpZoneDoor", "a00069.html", "a00069" ]
     ] ],
-    [ "WeigthButtonWithPhysics.cs", "a00116.html", [
-      [ "WeigthButtonWithPhysics", "a00069.html", "a00069" ]
+    [ "WeigthButtonWithPhysics.cs", "a00117.html", [
+      [ "WeigthButtonWithPhysics", "a00070.html", "a00070" ]
     ] ]
 ];
