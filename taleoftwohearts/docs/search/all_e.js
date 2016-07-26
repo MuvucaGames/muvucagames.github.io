@@ -1,22 +1,23 @@
 var searchData=
 [
-  ['offsetcarryobjhero',['offsetCarryObjHero',['../a00034.html#a8bc94698540504262b23186f66bc1190',1,'Hero']]],
-  ['onair',['OnAir',['../a00034.html#ae23edfd350b58c3840d8816ee311100a',1,'Hero']]],
+  ['objecttofollow',['objectToFollow',['../a00031.html#a83f5797fd9a5adb5cc3d536b42d5d50b',1,'Follower']]],
+  ['offsetcarryobjhero',['offsetCarryObjHero',['../a00035.html#a8bc94698540504262b23186f66bc1190',1,'Hero']]],
+  ['onair',['OnAir',['../a00035.html#ae23edfd350b58c3840d8816ee311100a',1,'Hero']]],
   ['ondestroy',['OnDestroy',['../a00006.html#abe342ea32aad2d428ff46f48d47a915b',1,'Balloon']]],
   ['ondrawgizmos',['OnDrawGizmos',['../a00015.html#afd23ab44e31a600afeadfd97c1ae9fe5',1,'ClawController.OnDrawGizmos()'],['../a00030.html#ac5af138561d283ba1ce084de9992a178',1,'FliesControl.OnDrawGizmos()']]],
   ['onecheckedrenderer',['oneCheckedRenderer',['../a00012.html#a174b0f5fd6db273fbb55da8b27f2e317',1,'Checkpoint']]],
   ['onfocus',['OnFocus',['../a00020.html#a2d77823712dbd30bf3f413379ea56eef',1,'ColorsPuzzle.OnFocus()'],['../a00022.html#ab72840db4251c20753642b995b623b9c',1,'Controllable.OnFocus()']]],
-  ['onfocusout',['OnFocusOut',['../a00020.html#a203b9cac068594b03594d98f7e506335',1,'ColorsPuzzle.OnFocusOut()'],['../a00022.html#aa30944868952566395b45fe986e56fb6',1,'Controllable.OnFocusOut()'],['../a00034.html#a2d18aed799e7817627ed33739a8d637e',1,'Hero.OnFocusOut()']]],
-  ['onheroactivate',['OnHeroActivate',['../a00041.html#a7af09344f73c56f453e50ff6ee98ee83',1,'IHeroActionable.OnHeroActivate()'],['../a00049.html#a1ea3371e3876f251eef68271ca3d6400',1,'Lever.OnHeroActivate()'],['../a00062.html#aa35f08301ed84849c1a18fb28d0b011c',1,'Terminal.OnHeroActivate()']]],
-  ['ontriggerenter2d',['OnTriggerEnter2D',['../a00012.html#a6ab1c65ac3333b3d99d4cf55d408ab88',1,'Checkpoint.OnTriggerEnter2D()'],['../a00016.html#a4b27616ef858701490f264d29f2d7517',1,'ClawMechanism.OnTriggerEnter2D()'],['../a00018.html#ac9104d6f45695b209e98dda37b9e9a31',1,'ClawPerSe.OnTriggerEnter2D()'],['../a00024.html#a5dea4f381bc29471c9f8007cc401ab81',1,'DeathTrigger.OnTriggerEnter2D()'],['../a00046.html#a9dfce328d18bd933e9df3b5852a81000',1,'InvisibleAreaTrigger.OnTriggerEnter2D()'],['../a00065.html#ac3f9cc29580f4a588ec56a5ff8a0e022',1,'Trampoline.OnTriggerEnter2D()'],['../a00069.html#aff90bd90c9a5843cde771411eda5c869',1,'WarpZoneDoor.OnTriggerEnter2D()'],['../a00037.html#a22a78f0979df1ea78dc06d95c710d9f4',1,'HeroInteractor.OnTriggerEnter2D()']]],
-  ['ontriggerexit2d',['OnTriggerExit2D',['../a00016.html#a53af814832c3d51363d6f34b2c3df5fd',1,'ClawMechanism.OnTriggerExit2D()'],['../a00018.html#a896c10a073a3dd390d8defbea09cafd0',1,'ClawPerSe.OnTriggerExit2D()'],['../a00046.html#a6d51f39a059cc616214cc28a619054b2',1,'InvisibleAreaTrigger.OnTriggerExit2D()'],['../a00069.html#ab5d39abac3406860342792d9c9f4b8a4',1,'WarpZoneDoor.OnTriggerExit2D()'],['../a00037.html#a6d934fd08746c21f4f39a6bacb7328fb',1,'HeroInteractor.OnTriggerExit2D()']]],
+  ['onfocusout',['OnFocusOut',['../a00020.html#a203b9cac068594b03594d98f7e506335',1,'ColorsPuzzle.OnFocusOut()'],['../a00022.html#aa30944868952566395b45fe986e56fb6',1,'Controllable.OnFocusOut()'],['../a00035.html#a2d18aed799e7817627ed33739a8d637e',1,'Hero.OnFocusOut()']]],
+  ['onheroactivate',['OnHeroActivate',['../a00042.html#a7af09344f73c56f453e50ff6ee98ee83',1,'IHeroActionable.OnHeroActivate()'],['../a00050.html#a1ea3371e3876f251eef68271ca3d6400',1,'Lever.OnHeroActivate()'],['../a00063.html#aa35f08301ed84849c1a18fb28d0b011c',1,'Terminal.OnHeroActivate()']]],
+  ['ontriggerenter2d',['OnTriggerEnter2D',['../a00012.html#a6ab1c65ac3333b3d99d4cf55d408ab88',1,'Checkpoint.OnTriggerEnter2D()'],['../a00016.html#a4b27616ef858701490f264d29f2d7517',1,'ClawMechanism.OnTriggerEnter2D()'],['../a00018.html#ac9104d6f45695b209e98dda37b9e9a31',1,'ClawPerSe.OnTriggerEnter2D()'],['../a00024.html#a5dea4f381bc29471c9f8007cc401ab81',1,'DeathTrigger.OnTriggerEnter2D()'],['../a00047.html#a9dfce328d18bd933e9df3b5852a81000',1,'InvisibleAreaTrigger.OnTriggerEnter2D()'],['../a00066.html#ac3f9cc29580f4a588ec56a5ff8a0e022',1,'Trampoline.OnTriggerEnter2D()'],['../a00070.html#aff90bd90c9a5843cde771411eda5c869',1,'WarpZoneDoor.OnTriggerEnter2D()'],['../a00038.html#a22a78f0979df1ea78dc06d95c710d9f4',1,'HeroInteractor.OnTriggerEnter2D()']]],
+  ['ontriggerexit2d',['OnTriggerExit2D',['../a00016.html#a53af814832c3d51363d6f34b2c3df5fd',1,'ClawMechanism.OnTriggerExit2D()'],['../a00018.html#a896c10a073a3dd390d8defbea09cafd0',1,'ClawPerSe.OnTriggerExit2D()'],['../a00047.html#a6d51f39a059cc616214cc28a619054b2',1,'InvisibleAreaTrigger.OnTriggerExit2D()'],['../a00070.html#ab5d39abac3406860342792d9c9f4b8a4',1,'WarpZoneDoor.OnTriggerExit2D()'],['../a00038.html#a6d934fd08746c21f4f39a6bacb7328fb',1,'HeroInteractor.OnTriggerExit2D()']]],
   ['ontriggerstay2d',['OnTriggerStay2D',['../a00018.html#a6bbf7f12d8873d0f2b0e0380a367ff74',1,'ClawPerSe']]],
   ['openedclaw',['openedClaw',['../a00018.html#aca3155514013f86e99d6fb6a35c0f405',1,'ClawPerSe']]],
   ['openedposition',['openedPosition',['../a00027.html#a9da896ffcf5756cc9dc4bad6c4129790',1,'Door']]],
-  ['options',['Options',['../a00055.html',1,'']]],
-  ['options_2ecs',['Options.cs',['../a00132.html',1,'']]],
-  ['optionsbutton',['OptionsButton',['../a00052.html#aa05912b4df62216eebbccc8c2b168ce4',1,'MainMenu']]],
+  ['options',['Options',['../a00056.html',1,'']]],
+  ['options_2ecs',['Options.cs',['../a00134.html',1,'']]],
+  ['optionsbutton',['OptionsButton',['../a00053.html#aa05912b4df62216eebbccc8c2b168ce4',1,'MainMenu']]],
   ['orange',['Orange',['../a00020.html#aa9e5972883ae3e851aa0b88461f1cf31',1,'ColorsPuzzle']]],
   ['originalgravityscale',['originalGravityScale',['../a00018.html#ae71bea8e5512506226526f6825795c70',1,'ClawPerSe']]],
-  ['originaltransform',['originalTransform',['../a00053.html#a6ee378d184b75d964b15c7561b87ecce',1,'MovableHorizontalPlatform']]]
+  ['originaltransform',['originalTransform',['../a00054.html#a6ee378d184b75d964b15c7561b87ecce',1,'MovableHorizontalPlatform']]]
 ];

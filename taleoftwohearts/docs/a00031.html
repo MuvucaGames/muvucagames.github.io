@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MuvucaGame01: ForceField Class Reference</title>
+<title>MuvucaGame01: Follower Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -110,35 +110,78 @@ $(document).ready(function(){initNavTree('a00031.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a00174.html">List of all members</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="a00176.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ForceField Class Reference</div>  </div>
+<div class="title">Follower Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Follows GameObject  
+ <a href="a00031.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for ForceField:</div>
+Inheritance diagram for Follower:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="a00031.png" usemap="#ForceField_map" alt=""/>
-  <map id="ForceField_map" name="ForceField_map">
-<area href="a00003.html" title="Actionable element. Extend this class to create a element that can be activated or deactivated by the..." alt="ActionableElement" shape="rect" coords="0,56,116,80"/>
+  <img src="a00031.png" usemap="#Follower_map" alt=""/>
+  <map id="Follower_map" name="Follower_map">
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a40e3f755169d07475c2b9802cd6429cc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a40e3f755169d07475c2b9802cd6429cc">Activate</a> ()</td></tr>
-<tr class="memdesc:a40e3f755169d07475c2b9802cd6429cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate this element  <a href="#a40e3f755169d07475c2b9802cd6429cc">More...</a><br /></td></tr>
-<tr class="separator:a40e3f755169d07475c2b9802cd6429cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82c1f130959b8450a5cac790e7afb54f"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a82c1f130959b8450a5cac790e7afb54f">Deactivate</a> ()</td></tr>
-<tr class="memdesc:a82c1f130959b8450a5cac790e7afb54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate this element.  <a href="#a82c1f130959b8450a5cac790e7afb54f">More...</a><br /></td></tr>
-<tr class="separator:a82c1f130959b8450a5cac790e7afb54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a53846d98ce52d9d0f131ce4cd05269"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a4a53846d98ce52d9d0f131ce4cd05269">FixedUpdate</a> ()</td></tr>
+<tr class="separator:a4a53846d98ce52d9d0f131ce4cd05269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed742d8c3c8cb36a973fe96586f4705"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a0ed742d8c3c8cb36a973fe96586f4705">MakePath</a> ()</td></tr>
+<tr class="separator:a0ed742d8c3c8cb36a973fe96586f4705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a003cb45378683d49b33929bf24f0305e"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a003cb45378683d49b33929bf24f0305e">body</a> = null</td></tr>
+<tr class="separator:a003cb45378683d49b33929bf24f0305e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f5797fd9a5adb5cc3d536b42d5d50b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a83f5797fd9a5adb5cc3d536b42d5d50b">objectToFollow</a></td></tr>
+<tr class="separator:a83f5797fd9a5adb5cc3d536b42d5d50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fe25204e0a6c3a876abda36c63643d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#af9fe25204e0a6c3a876abda36c63643d">radius</a> = 10f</td></tr>
+<tr class="separator:af9fe25204e0a6c3a876abda36c63643d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509608e6d1ac034dcd015c2bb272c29d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a509608e6d1ac034dcd015c2bb272c29d">velocity</a> = 2f</td></tr>
+<tr class="separator:a509608e6d1ac034dcd015c2bb272c29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a973da26f938f3ab51e4abc2dd5cb632a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a973da26f938f3ab51e4abc2dd5cb632a">FrameToMakePath</a> = 10</td></tr>
+<tr class="separator:a973da26f938f3ab51e4abc2dd5cb632a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da144df99cd83f1200190e2368f582e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a1da144df99cd83f1200190e2368f582e">bounceAmplitude</a> = 0.5f</td></tr>
+<tr class="separator:a1da144df99cd83f1200190e2368f582e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6ffa2cfccd04333147ad2167ca48bdf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#ae6ffa2cfccd04333147ad2167ca48bdf">minDistance</a> = 0.1f</td></tr>
+<tr class="separator:ae6ffa2cfccd04333147ad2167ca48bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa423c6987217d6c020f3c19b2c1e70c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#aa423c6987217d6c020f3c19b2c1e70c5">hasBounceEffect</a> = true</td></tr>
+<tr class="separator:aa423c6987217d6c020f3c19b2c1e70c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7941873ad7e7478561d2f1506efe19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a3e7941873ad7e7478561d2f1506efe19">isBouncing</a> = false</td></tr>
+<tr class="separator:a3e7941873ad7e7478561d2f1506efe19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b5431b9fa52206170f604bd5e7457f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a81b5431b9fa52206170f604bd5e7457f">t</a></td></tr>
+<tr class="separator:a81b5431b9fa52206170f604bd5e7457f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a479ddabbf1115ab9c307281c9699551a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a479ddabbf1115ab9c307281c9699551a">Start</a> ()</td></tr>
+<tr class="separator:a479ddabbf1115ab9c307281c9699551a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afcbc81650b1d29847d429529fb835262"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#afcbc81650b1d29847d429529fb835262">Timer</a></td></tr>
+<tr class="separator:afcbc81650b1d29847d429529fb835262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59bd464bf7dfe3511a3bab32ab89ffa5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a59bd464bf7dfe3511a3bab32ab89ffa5">pathIsPossible</a> = false</td></tr>
+<tr class="separator:a59bd464bf7dfe3511a3bab32ab89ffa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f46299697ba1829fece05bf7f074f93"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a2f46299697ba1829fece05bf7f074f93">lastPathDirection</a></td></tr>
+<tr class="separator:a2f46299697ba1829fece05bf7f074f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afde3103e96f99b3d6385d83493db86"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html#a3afde3103e96f99b3d6385d83493db86">distance</a></td></tr>
+<tr class="separator:a3afde3103e96f99b3d6385d83493db86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="a00100_source.html#l00004">4</a> of file <a class="el" href="a00100_source.html">ForceField.cs</a>.</p>
+<div class="textblock"><p>Follows GameObject </p>
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00008">8</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a40e3f755169d07475c2b9802cd6429cc"></a>
+<a class="anchor" id="a4a53846d98ce52d9d0f131ce4cd05269"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -146,7 +189,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void ForceField.Activate </td>
+          <td class="memname">void Follower.FixedUpdate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -154,20 +197,16 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Activate this element </p>
-
-<p>Implements <a class="el" href="a00003.html#a7632575a9e6ab37be4a6659cd9d82060">ActionableElement</a>.</p>
-
-<p>Definition at line <a class="el" href="a00100_source.html#l00006">6</a> of file <a class="el" href="a00100_source.html">ForceField.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00119_source.html#l00037">37</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a82c1f130959b8450a5cac790e7afb54f"></a>
+<a class="anchor" id="a0ed742d8c3c8cb36a973fe96586f4705"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -175,7 +214,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void ForceField.Deactivate </td>
+          <td class="memname">bool Follower.MakePath </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -183,28 +222,278 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Deactivate this element. </p>
+<p>Definition at line <a class="el" href="a00119_source.html#l00086">86</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
 
-<p>Implements <a class="el" href="a00003.html#ada6d16ac0c8c115fb10d193fda3974a2">ActionableElement</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a479ddabbf1115ab9c307281c9699551a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Follower.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00100_source.html#l00012">12</a> of file <a class="el" href="a00100_source.html">ForceField.cs</a>.</p>
+<p>Definition at line <a class="el" href="a00119_source.html#l00026">26</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a003cb45378683d49b33929bf24f0305e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody2D Follower.body = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00010">10</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1da144df99cd83f1200190e2368f582e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Follower.bounceAmplitude = 0.5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00015">15</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3afde3103e96f99b3d6385d83493db86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Follower.distance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00024">24</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a973da26f938f3ab51e4abc2dd5cb632a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Follower.FrameToMakePath = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00014">14</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa423c6987217d6c020f3c19b2c1e70c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Follower.hasBounceEffect = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00017">17</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e7941873ad7e7478561d2f1506efe19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Follower.isBouncing = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00018">18</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f46299697ba1829fece05bf7f074f93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Follower.lastPathDirection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00023">23</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6ffa2cfccd04333147ad2167ca48bdf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Follower.minDistance = 0.1f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00016">16</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83f5797fd9a5adb5cc3d536b42d5d50b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Follower.objectToFollow</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00011">11</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59bd464bf7dfe3511a3bab32ab89ffa5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Follower.pathIsPossible = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00022">22</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9fe25204e0a6c3a876abda36c63643d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Follower.radius = 10f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00012">12</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81b5431b9fa52206170f604bd5e7457f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Follower.t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00019">19</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afcbc81650b1d29847d429529fb835262"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Follower.Timer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00021">21</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a509608e6d1ac034dcd015c2bb272c29d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Follower.velocity = 2f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00119_source.html#l00013">13</a> of file <a class="el" href="a00119_source.html">Follower.cs</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>MuvucaGame01/Assets/Scripts/Elements/<a class="el" href="a00100_source.html">ForceField.cs</a></li>
+<li>MuvucaGame01/Assets/Scripts/<a class="el" href="a00119_source.html">Follower.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00031.html">ForceField</a></li>
+    <li class="navelem"><a class="el" href="a00031.html">Follower</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
